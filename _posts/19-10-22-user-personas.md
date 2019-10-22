@@ -14,7 +14,7 @@ INTRO:....
 3. [Fact gatherer](#fact-gatherer)
 5. [Involved analyst](#involved-analyst)
 
-## <a name="concernedcitizen">Concerned citizen</a>
+## Concerned citizen
 ### Who they are
 Someone who has an personal interest in SDGs or related topics but may also have a professional interest. <i>Might be someone who performs volunteer work or is retired.</i>
 
@@ -51,7 +51,7 @@ Concerned citizens might arrive to the site from other public facing websites an
 * expect them to go into individual indivators to get a view of performance
 * put lots of methodology and usage notes in their way
 
-## <a name="connectedinfluencer">Connected influencer</a>
+## Connected influencer
 ### Who they are
 Someone non-statistical working in the not-for-profit space or for a private sector organisation looking to make money around sustainable development activities. Might be an individual attempting to challenge or guide on government policy
 #### Likely to say
@@ -86,7 +86,7 @@ They have a good knowledge of the SDGs and use the SDGs to champion the themes t
 * expect them to get their answers through data manipulation
 * force them to approach each indicator separately
 
-## <a name="factgatherer">Fact gatherer</a>
+## Fact gatherer
 ### Who they are
 Policy advisers in government departments who have been tasked with reporting on SDG progress and VNR, non-governmental organisations looking to understand what is going on in the UK and think tanks wanting to understand what the UK is doing and hold the government to account.
 
@@ -122,7 +122,7 @@ They come to the website quite often  and may copy data for use in reports, whic
 * populate the website with out-of-date website
 * hide facts and figures under complex levels of navigation
 
-## <a name="involvedanalyst">Involved analyst</a>
+## Involved analyst
 ### Who they are
 Involved analysts can be a range of different people, who usually work with international data:
 
