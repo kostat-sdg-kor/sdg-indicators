@@ -148,7 +148,6 @@ Involved analysts want to:
 
 ### Behaviours and preferences
 They will often collaborate with others to produce analysis to inform or challenge policy and will share their reports with a wider audience. They will often copy the data directly from the tables rather than download it and will often transform the data for others.
-#### How they find information
 
 #### We must:
 
