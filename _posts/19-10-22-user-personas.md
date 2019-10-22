@@ -9,10 +9,10 @@ excerpt:
 INTRO:....
 
 ## Table of contents
-1. [Concerned citizen](#concernedcitizen)
-2. [Connected influencer](#connectedinfluencer)
-3. [Fact gatherer](#factgatherer)
-5. [Involved analyst](#involvedanalyst)
+1. [Concerned citizen](#concerned-citizen)
+2. [Connected influencer](#connected-influencer)
+3. [Fact gatherer](#fact-gatherer)
+5. [Involved analyst](#involved-analyst)
 
 ## <a name="concernedcitizen">Concerned citizen</a>
 ### Who they are
@@ -163,4 +163,7 @@ They will often collaborate with others to produce analysis to inform or challen
 * make it hard to get lots of data
 * expect them to navigate each indicator to geth the data they need
 * expect them to understand the difference between data on the UK NRP and the UN global database
+
+If you have any further questions about the user personas or our user research, please contact us at <i class="fa fa-envelope"></i> [SustainableDevelopment@ons.gov.uk](mailto:SustainableDevelopment@ons.gov.uk)
+
 
