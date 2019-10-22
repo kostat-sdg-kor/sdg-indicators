@@ -6,7 +6,9 @@ category: "User research"
 excerpt: 
 ---
 
-INTRO:....
+In order to understand the website's users and their needs, we have recently carried out research into who uses the website and what for. Research took place over the course of 12 weeks and over 50 people were involved from a variety of organisations e.g. universities, government departments, private sector and through a variety of activities e.g. phone interview, contextual interview, usability session.
+
+From this research, it was found that the site has 4 main user types. See below for more information about the user personas:
 
 ## Table of contents
 1. [Concerned citizen](#concerned-citizen)
@@ -19,7 +21,7 @@ INTRO:....
 Someone who has an personal interest in SDGs or related topics but may also have a professional interest. <i>Might be someone who performs volunteer work or is retired.</i>
 
 #### Likely to say
-"Tell me what the goals are and what is being done about them"
+"Tell me what the goals are and what is being done about them."
 
 ### What motivates them
 They have either a personal and/or political interest in the SDGS and want to know what they are about and whether they will make a difference.
@@ -55,7 +57,7 @@ Concerned citizens might arrive to the site from other public facing websites an
 ### Who they are
 Someone non-statistical working in the not-for-profit space or for a private sector organisation looking to make money around sustainable development activities. Might be an individual attempting to challenge or guide on government policy
 #### Likely to say
-"Give me a tool that will support my ambitions and give me a louder voice"
+"Give me a tool that will support my ambitions and give me a louder voice."
 
 ### What motivates them
 Connected influencers understand the SDGs but don't necessarily allign to them. The SDGs provide a higher framework for them to align their work to
@@ -91,7 +93,7 @@ They have a good knowledge of the SDGs and use the SDGs to champion the themes t
 Policy advisers in government departments who have been tasked with reporting on SDG progress and VNR, non-governmental organisations looking to understand what is going on in the UK and think tanks wanting to understand what the UK is doing and hold the government to account.
 
 #### Likely to say
-"I just need to quickly see what progress is being made and check the facts"
+"I just need to quickly see what progress is being made and check the facts."
 
 ### What motivates them
 They need somewhere that gives them a view of UK progress which doesn't involve hunting through lots of data.
@@ -133,7 +135,7 @@ Involved analysts can be a range of different people, who usually work with inte
 * Custodian ageny analysts
 
 #### Likely to say
-"I just want the data so I can do my own thing with it"
+"I just want the data so I can do my own thing with it."
 
 ### What motivates them
 They need somewhere to get some or all of the SDG data so they can answer questions for themselves or others.
