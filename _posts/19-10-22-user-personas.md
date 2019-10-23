@@ -10,7 +10,7 @@ In order to understand the website’s users and their needs, we carried out res
 
 From this research, it was found that the site has 4 main user types or personas. See below for more information about these user personas:
 
-<img src="https://sdg.mango-solutions.com/user_persona_post/public/blog/user_personas.png" alt="Diagram showing summary of user personas on scale of data type needed from visual data to raw data in the following order: concerned citizen, connected influencer, fact gatherer, involved analyst." height="300px">
+<img src="https://sustainabledevelopment-uk.github.io/public/blog/user_personas.png" alt="Diagram showing summary of user personas on scale of data type needed from visual data to raw data in the following order: concerned citizen, connected influencer, fact gatherer, involved analyst." height="300px">
 
 ### Table of contents
 1. [Concerned citizen](#concerned-citizen)
