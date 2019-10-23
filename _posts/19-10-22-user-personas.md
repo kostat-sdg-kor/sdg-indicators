@@ -19,7 +19,7 @@ From this research, it was found that the site has 4 main user types or personas
 
 ### Concerned citizen
 #### Who they are
-Someone who has an personal interest in SDGs or related topics but may also have a professional interest. <i>Might be someone who performs volunteer work or is retired.</i>
+Someone who has an personal interest in SDGs or related topics but may also have a professional interest.
 
 ##### Likely to say
 "Tell me what the goals are and what is being done about them."
@@ -181,7 +181,6 @@ As this was an initial phase of user research with a small number of participant
 If you have any further questions about the user personas or our user research, or if you want to be involved with future user research, please contact us at <i class="fa fa-envelope"></i> [SustainableDevelopment@ons.gov.uk](mailto:SustainableDevelopment@ons.gov.uk).
 
 Alternatively, please complete our short survey to give some feedback about the site.
-
 
 [Back to top](#table-of-contents)
 
