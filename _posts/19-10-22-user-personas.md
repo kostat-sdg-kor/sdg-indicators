@@ -10,7 +10,7 @@ In order to understand the website’s users and their needs, we carried out res
 
 From this research, it was found that the site has 4 main user types or personas. See below for more information about these user personas:
 
-## Table of contents
+### Table of contents
 1. [Concerned citizen](#concerned-citizen)
 2. [Connected influencer](#connected-influencer)
 3. [Fact gatherer](#fact-gatherer)
