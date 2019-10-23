@@ -56,7 +56,7 @@ Concerned citizens might arrive to the site from other public facing websites an
 * expect them to go into individual indivators to get a view of performance
 * put lots of methodology and usage notes in their way
 
-[Back to top](#user-personas)
+[Back to top](#table-of-contents)
 
 ### Connected influencer
 #### Who they are
