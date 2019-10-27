@@ -25,7 +25,7 @@
 var opensdg = {
 
   // A base URL for asynchronous calls to SDG data.
-  remoteDataBaseUrl: 'https://ONSdigital.github.io/sdg-data',
+  remoteDataBaseUrl: 'https://kostat-sdg-kor.github.io/sdg-data',
 
   // A hook which can be replaced to modify the configuration for Chart.js.
   // To see where this is used, see indicatorView.js createPlot() and updatePlot().
@@ -141,7 +141,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-indicators/assets/css/default.css?v=20191027063724">
+        <link rel="stylesheet" href="/sdg-indicators/assets/css/default.css?v=20191027064517">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -267,7 +267,7 @@ var translations = {
     <div class="row">
       <div class="col-xs-4 col-md-3 col-lg-2">
         <a href="/sdg-indicators/11" title="View this goal's indicator list">
-          <img src="https://open-sdg.github.io/sdg-translations/assets/img/goals/en/11.png" alt="Sustainable cities & communities - Goal 11" />
+          <img src="https://kostat-sdg-kor.github.io/sdg-translations/assets/img/goals/en/11.png" alt="Sustainable cities & communities - Goal 11" />
         </a>
       </div>
       <div class="col-xs-8 col-md-9 col-lg-10">
@@ -297,7 +297,7 @@ var translations = {
       
 
       <div id="page-content">
-  <p>Select the following link to download this indicator data in an accessible format:<br /><a href="https://sustainabledevelopment-uk.github.io/sdg-data/data/11-5-1.csv">11.5.1 Number of deaths, missing persons and directly affected persons attributed to disasters per 100,000 population (CSV 42.744 kB)</a></p>
+  
 
 </div>
 
@@ -315,9 +315,9 @@ var translations = {
 
   
 
-  <div class="row" id="indicatorData" data-indicatorid='indicator_11-5-1' data-id="11-5-1" data-country="England and Wales"
+  <div class="row" id="indicatorData" data-indicatorid='indicator_11-5-1' data-id="11-5-1" data-country="대한민국"
   data-charttitle="Deaths from exposure to natural forces per million population" data-measurementunit="Rate per 1,000,000 population" data-datasource="Office for National Statistics (ONS)" data-copyright=""
-  data-geographicalarea="England and Wales" data-footnote="" data-showdata="true" data-graphtype="line"
+  data-geographicalarea="대한민국" data-footnote="" data-showdata="true" data-graphtype="line"
   data-geocoderegex="" data-showmap="false" data-startvalues="">
     
     <div id="indicator-sidebar" class="col-md-3">
@@ -344,17 +344,61 @@ var translations = {
 
   <div id="datatables">
 
-    <a href="https://ONSdigital.github.io/sdg-data/headline/11-5-1.csv" class="btn btn-primary btn-download" download="indicator_11-5-1.csv" tabindex="0" role="button">Download Headline CSV</a>
+    <a href="https://kostat-sdg-kor.github.io/sdg-data/headline/11-5-1.csv" class="btn btn-primary btn-download" download="indicator_11-5-1.csv" tabindex="0" role="button">Download Headline CSV</a>
 
-    <a href="https://ONSdigital.github.io/sdg-data/data/11-5-1.csv" class="btn btn-primary btn-download" style='float:left;margin-right:1em' download='indicator_11-5-1.csv' tabindex='0' role='button'>Download Source CSV</a>
+    <a href="https://kostat-sdg-kor.github.io/sdg-data/data/11-5-1.csv" class="btn btn-primary btn-download" style='float:left;margin-right:1em' download='indicator_11-5-1.csv' tabindex='0' role='button'>Download Source CSV</a>
 
     <h3>Headline data</h3>
     <table class="table-responsive table table-hover dataTable no-footer" role="grid">
       <caption></caption>
       <thead>
         
+        
+        <th scope="col">Year</th>
+        
+        
+        
+        <th scope="col" class="table-value">Value</th>
+        
+        
       </thead>
       <tbody>
+        
+        <tr>
+          
+          
+          <td>2015</td>
+          
+          
+          
+          <td class="table-value">0.131</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2016</td>
+          
+          
+          
+          <td class="table-value">0.051</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2017</td>
+          
+          
+          
+          <td class="table-value">0.14</td>
+          
+          
+        </tr>
         
       </tbody>
     </table>
@@ -505,7 +549,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Indicator available </th>
         <td>
           
-            <p>Number of deaths attributed to disasters per 1,000,000 population</p>
+            
 
           
         </td>
@@ -531,7 +575,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Geographical coverage </th>
         <td>
           
-            <p>England and Wales</p>
+            <p>대한민국</p>
 
           
         </td>
@@ -557,7 +601,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Definitions </th>
         <td>
           
-            <p>Data is provided by the Nomis Mortality Statistics dataset. This dataset provides mortality statistics for England and Wales, broken down by calendar year of registration, age, sex, underlying cause of death  (classified using ICD10, the International Classification of Diseases, 10th revision) and area of usual residence of the deceased. Death statistics are compiled from information supplied when deaths are certified and registered as part of civil registration, a legal requirement. Figures represent the number of deaths registered in the calendar year. Figures represent deaths which occurred in England and Wales - these include the deaths of individuals whose usual residence was outside England and Wales.</p>
+            
 
           
         </td>
@@ -570,7 +614,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Calculations </th>
         <td>
           
-            <p>(Number of deaths from exposure to natural forces in sex and geography grouping / Population in sex and geography grouping) * 1,000,000</p>
+            
 
           
         </td>
@@ -583,7 +627,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Other information </th>
         <td>
           
-            <p>For more information please see Mortality Statistics Quality and Methodology Information @ http://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/deaths/qmis/mortalitystatisticsinenglandandwalesqmi This document contains important information on - the strengths and limitations of the data; the quality of the output, including the accuracy of the data, how it compares with related data; uses and users; how the output was created. This indicator is being used as an approximation of the UN SDG Indicator. Where possible, we will work to identify or develop UK data to meet the global indicator specification. This indicator has not been identified in collaboration with topic experts.</p>
+            
 
           
         </td>
@@ -602,8 +646,8 @@ data-event-label="Change to Sources tab"
             
 
             
-              <a href="https://github.com/ONSdigital/sdg-data/commit/0ea7b57d89e1e0bfe023f86529cb98330e1d5e3e" target="_blank">
-                2019-04-26: see changes on GitHub <span class="visuallyhidden">opens in a new window</span>
+              <a href="https://github.com/kostat-sdg-kor/sdg-data/commit/301b4daa5d61a5e8c8843faafd068f2e96374688" target="_blank">
+                2019-09-29: see changes on GitHub <span class="visuallyhidden">opens in a new window</span>
               </a>
             
 
@@ -627,8 +671,8 @@ data-event-label="Change to Sources tab"
             
 
             
-              <a href="https://github.com/ONSdigital/sdg-data/commit/3526c333c881d53245541263fefbf1d8c8712550" target="_blank">
-                2019-08-06: see changes on GitHub <span class="visuallyhidden">opens in a new window</span>
+              <a href="https://github.com/kostat-sdg-kor/sdg-data/commit/d91ac6d74b147a1976de6792dc42c67bff81d2db" target="_blank">
+                2019-10-24: see changes on GitHub <span class="visuallyhidden">opens in a new window</span>
               </a>
             
 
@@ -779,7 +823,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Indicator name </th>
         <td>
           
-            <p>11.5.1 Number of deaths, missing persons and directly affected persons attributed to disasters per 100,000 population</p>
+            <p>11.5.1 인구 100,000 명당 재난으로 인해 사망, 실종, 직접적 피해를 입은 인구 수</p>
 
           
         </td>
@@ -818,7 +862,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Target name </th>
         <td>
           
-            <p>11.5 By 2030, significantly reduce the number of deaths and the number of people affected and substantially decrease the direct economic losses relative to global gross domestic product caused by disasters, including water-related disasters, with a focus on protecting the poor and people in vulnerable situations</p>
+            <p>11.5 2030년까지, 빈곤층과 취약계층 보호에 초점을 맞추어, 수해 등 재난으로 인한 사망자 및 피해자수를 대폭 줄이고 세계 총 GDP대비 직접적인 경제적 손실을 대폭 감소</p>
 
           
         </td>
@@ -857,7 +901,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">UN designated tier </th>
         <td>
           
-            <p>Tier II</p>
+            <p>II</p>
 
           
         </td>
@@ -890,7 +934,7 @@ data-event-label="Change to Sources tab"
 
             
               <a href="https://unstats.un.org/sdgs/metadata/files/Metadata-11-05-01.pdf" target="_blank">
-                United Nations Sustainable Development Goals Metadata (PDF 224 KB) <span class="visuallyhidden">opens in a new window</span>
+                https://unstats.un.org/sdgs/metadata/files/Metadata-11-05-01.pdf <span class="visuallyhidden">opens in a new window</span>
               </a>
             
 
@@ -1674,7 +1718,7 @@ data-event-label="Change to Sources tab"
 <script src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.3/dist/html2canvas.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/file-saver@2.0.2/dist/FileSaver.min.js"></script>
-<script src='/sdg-indicators/assets/js/sdg.js?v=20191027063724'></script><script src="/sdg-indicators/assets/js/custom.js?v=20191027063724"></script><script>
+<script src='/sdg-indicators/assets/js/sdg.js?v=20191027064517'></script><script src="/sdg-indicators/assets/js/custom.js?v=20191027064517"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();

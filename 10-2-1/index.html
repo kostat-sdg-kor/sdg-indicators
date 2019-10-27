@@ -25,7 +25,7 @@
 var opensdg = {
 
   // A base URL for asynchronous calls to SDG data.
-  remoteDataBaseUrl: 'https://ONSdigital.github.io/sdg-data',
+  remoteDataBaseUrl: 'https://kostat-sdg-kor.github.io/sdg-data',
 
   // A hook which can be replaced to modify the configuration for Chart.js.
   // To see where this is used, see indicatorView.js createPlot() and updatePlot().
@@ -141,7 +141,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-indicators/assets/css/default.css?v=20191027063724">
+        <link rel="stylesheet" href="/sdg-indicators/assets/css/default.css?v=20191027064517">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -267,7 +267,7 @@ var translations = {
     <div class="row">
       <div class="col-xs-4 col-md-3 col-lg-2">
         <a href="/sdg-indicators/10" title="View this goal's indicator list">
-          <img src="https://open-sdg.github.io/sdg-translations/assets/img/goals/en/10.png" alt="Reduced inequalities - Goal 10" />
+          <img src="https://kostat-sdg-kor.github.io/sdg-translations/assets/img/goals/en/10.png" alt="Reduced inequalities - Goal 10" />
         </a>
       </div>
       <div class="col-xs-8 col-md-9 col-lg-10">
@@ -297,7 +297,7 @@ var translations = {
       
 
       <div id="page-content">
-  <p>Select the following link to download this indicator data in an accessible format:<br /><a href="https://sustainabledevelopment-uk.github.io/sdg-data/data/10-2-1.csv">10.2.1 Proportion of people living below 50 per cent of median income, by sex, age and persons with disabilities (CSV 11.872 kB)</a></p>
+  
 
 </div>
 
@@ -315,131 +315,18 @@ var translations = {
 
   
 
-  <div class="row" id="indicatorData" data-indicatorid='indicator_10-2-1' data-id="10-2-1" data-country="United Kingdom"
-  data-charttitle="Percentage of people in households at risk of poverty (below 50% of median UK household income)" data-measurementunit="Percentage (%)" data-datasource="Eurostat" data-copyright=""
-  data-geographicalarea="United Kingdom" data-footnote="" data-showdata="true" data-graphtype="line"
+  <div class="row" id="indicatorData" data-indicatorid='indicator_10-2-1' data-id="10-2-1" data-country="대한민국"
+  data-charttitle="Percentage of people in households at risk of poverty (below 50% of median UK household income)" data-measurementunit="퍼센트 (%)" data-datasource="" data-copyright=""
+  data-geographicalarea="대한민국" data-footnote="" data-showdata="false" data-graphtype="line"
   data-geocoderegex="" data-showmap="false" data-startvalues="">
     
-    <div id="indicator-sidebar" class="col-md-3">
-      <div id="toolbar">
-        <span id="series-help">
-          <h4>Sub-categories</h4>
-          <p>Choose categories from the dropdowns below to see different breakdowns of the data. Some will not be available until a higher level is chosen.</p>
-        </span>
-        <p>Click on the legend to remove individual lines from the chart.</p>
-        <div id="fields">
-          <p class="async-loading" data-img="/sdg-indicators/assets/img/loading-small.gif"></p>
-        </div>
-      </div>
-      <div id="units"></div>
-    </div>
-    <div id="indicator-main" class="col-md-9">
+    <div id="indicator-main" class="col-md-12">
     
-
-      
-      
-
-
-<div id="headlineTable">
-
-  <div id="datatables">
-
-    <a href="https://ONSdigital.github.io/sdg-data/headline/10-2-1.csv" class="btn btn-primary btn-download" download="indicator_10-2-1.csv" tabindex="0" role="button">Download Headline CSV</a>
-
-    <a href="https://ONSdigital.github.io/sdg-data/data/10-2-1.csv" class="btn btn-primary btn-download" style='float:left;margin-right:1em' download='indicator_10-2-1.csv' tabindex='0' role='button'>Download Source CSV</a>
-
-    <h3>Headline data</h3>
-    <table class="table-responsive table table-hover dataTable no-footer" role="grid">
-      <caption></caption>
-      <thead>
-        
-      </thead>
-      <tbody>
-        
-      </tbody>
-    </table>
-  </div>
-
-  <div id="datatableFooter">
-    
-    
-    
-    
-  </div>
-
-</div>
 
       
 
       <section>
 
-        
-        <p class="async-loading" data-img="/sdg-indicators/assets/img/loading-small.gif"></p>
-        <div class="async-loaded" style="display:none">
-          <ul class="nav nav-tabs data-view" role="tablist">
-            <li role="presentation" class="nav-item active">
-              <a class="nav-link" data-toggle="tab" href="#chartview" aria-controls="chartview" role="tab" data-on="click"
-data-event-category="Tab change"
-data-event-action="Change data view"
-data-event-label="Change to Chart tab"
->Chart</a>
-            </li>
-            <li role="presentation" class="nav-item">
-              <a class="nav-link" data-toggle="tab" href="#tableview" aria-controls="tableview" role="tab" data-on="click"
-data-event-category="Tab change"
-data-event-action="Change data view"
-data-event-label="Change to Table tab"
->Table</a>
-            </li>
-            <li role="presentation" class="nav-item map" style="display:none">
-              <a data-no-disagg="true" class="nav-link" data-toggle="tab" href="#mapview" aria-controls="mapview" role="tab" data-on="click"
-data-event-category="Tab change"
-data-event-action="Change data view"
-data-event-label="Change to Map tab"
->Map</a>
-            </li></ul>
-
-          <!-- Tab panes -->
-          <div class="tab-content data-view">
-            <div role="tabpanel" class="tab-pane active" id="chartview">
-              
-
-    <div id="dataset-size-warning" style="display:none">
-      <i class="fa fa-bolt"></i> There are too many datasets to show on the chart. Not all will be shown until you remove some selections.
-    </div>
-
-    
-    <div id="selectionsChart">
-      <div id="chart-canvas">
-        <h3 class="chart-title">Percentage of people in households at risk of poverty (below 50% of median UK household income)</h3>
-        <div id="chart" class="plot-container">
-          
-<canvas></canvas>
-
-
-        </div>
-        <div id="plotLegend"></div>
-      </div>
-      <button id="btnSave" title="Download chart as image" class='btn btn-primary btn-download'>
-        Download Chart Image
-      </button>
-    </div>
-    <div id="chartSelectionDownload"></div>
-
-
-
-            </div>
-            <div role="tabpanel" class="tab-pane" id="tableview">
-              <div id="selectionsTable"></div>
-            </div>
-            <div role="tabpanel" class="tab-pane" id="mapview" class="map">
-              <div id="map">
-                <img src="/sdg-indicators/assets/img/loading.gif" alt="Loading map" />
-              </div>
-            </div>
-            
-          </div>
-        </div>
         
 
         <!-- Nav tabs -->
@@ -505,7 +392,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Indicator available </th>
         <td>
           
-            <p>Proportion of people living below 50 per cent of median income, by age and sex</p>
+            
 
           
         </td>
@@ -518,7 +405,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Indicator description </th>
         <td>
           
-            <p>This indicator is a measure of relative income poverty at the national level. It measures how far individuals are from the median standard of living, approximating a measure of social exclusion. Persons living in relative poverty often experience many other forms of social and economic disadvantage through unemployment, poor housing, inadequate health care and barriers in accessing education and economic, social, political and cultural activities, which can result from social stigmatisation.</p>
+            
 
           
         </td>
@@ -531,7 +418,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Geographical coverage </th>
         <td>
           
-            <p>United Kingdom</p>
+            <p>대한민국</p>
 
           
         </td>
@@ -544,7 +431,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Unit of measurement </th>
         <td>
           
-            <p>Percentage (%)</p>
+            <p>퍼센트 (%)</p>
 
           
         </td>
@@ -557,7 +444,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Definitions </th>
         <td>
           
-            <p>Income - The total disposable income of a household is calculated by adding together the personal income received by all of household members plus income received at household level. Missing income information is imputed. Disposable household income includes - all income from work (employee wages and self-employment earnings); private income from investment and property; transfers between households; all social transfers received in cash including old-age pensions. Note - Some of the income components are mandatory only from 2007 - Imputed rent, Interest paid on mortgage, Employer’s social insurance contributions. From the 2007 year on, all countries have to supply gross income information. The current definition of total household disposable income used for the calculation of EU-SILC based indicators excludes - imputed rent (i.e. money that one saves on full [market] rent by living in one’s own accommodation or in accommodation rented at a price that is lower than the market rent); non monetary income components, in particular value of goods produced for own consumption, social transfers in kind and non-cash employee income except company cars. At risk of poverty rate is defined at cut-off point - 50% of median equivalised income. Equivalence scale - to take into account the impact of differences in household size and composition, the total disposable household income is “equivalised”. The equivalised income attributed to each member of the household is calculated by dividing the total disposable income of the household by the equivalisation factor. Equivalisation factors can be determined in various ways. Eurostat applies an equivalisation factor calculated according to the OECD- modified scale first proposed in 1994 - which gives a weight of 1.0 to the first person aged 14 or more, a weight of 0.5 to other persons aged 14 or more and a weight of 0.3 to persons aged 0-13. Household definition - A ‘private household’ means “a person living alone or a group of people who live together in the same private dwelling and share expenditures, including the joint provision of the essentials of living”. EU-SILC implementing regulation number 1983/2003 on updated definitions, defines households in terms of sharing household expenses and (for non- permanent members) in terms of duration of stay and (for temporarily absent members) in terms of duration of absence.</p>
+            
 
           
         </td>
@@ -570,7 +457,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Calculations </th>
         <td>
           
-            <p>Calculated figures provided by source.</p>
+            
 
           
         </td>
@@ -583,7 +470,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Other information </th>
         <td>
           
-            <p>For further information please see eurostat Income and living conditions (ilc) @ http://ec.europa.eu/eurostat/cache/metadata/en/ilc_esms.htm Data follows the UN specification for this indicator. This indicator has been identified in collaboration with topic experts.</p>
+            
 
           
         </td>
@@ -602,7 +489,7 @@ data-event-label="Change to Sources tab"
             
 
             
-              <a href="https://github.com/ONSdigital/sdg-data/commit/671c6b88847fd68b3b210ead78b552deb84f59ab" target="_blank">
+              <a href="https://github.com/kostat-sdg-kor/sdg-data/commit/671c6b88847fd68b3b210ead78b552deb84f59ab" target="_blank">
                 2019-04-24: see changes on GitHub <span class="visuallyhidden">opens in a new window</span>
               </a>
             
@@ -627,8 +514,8 @@ data-event-label="Change to Sources tab"
             
 
             
-              <a href="https://github.com/ONSdigital/sdg-data/commit/68f5866db2e88545e652f0b803b776d67b20fd0e" target="_blank">
-                2019-08-06: see changes on GitHub <span class="visuallyhidden">opens in a new window</span>
+              <a href="https://github.com/kostat-sdg-kor/sdg-data/commit/7552b8eab04501020b0ebed6bb0b2e0ef0c53b17" target="_blank">
+                2019-10-24: see changes on GitHub <span class="visuallyhidden">opens in a new window</span>
               </a>
             
 
@@ -779,7 +666,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Indicator name </th>
         <td>
           
-            <p>10.2.1 Proportion of people living below 50 per cent of median income, by sex, age and persons with disabilities</p>
+            <p>10.2.1 중위소득 50% 미만 인구의 성, 연령 및 장애별 비율</p>
 
           
         </td>
@@ -818,7 +705,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Target name </th>
         <td>
           
-            <p>10.2 By 2030, empower and promote the social, economic and political inclusion of all, irrespective of age, sex, disability, race, ethnicity, origin, religion or economic or other status</p>
+            <p>10.2 2030년까지 연령, 성, 장애, 인종, 종교, 기타 사회경제적 지위를 막론하고 사회, 경제, 정치적 참여 권한 확대 및 촉진</p>
 
           
         </td>
@@ -857,7 +744,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">UN designated tier </th>
         <td>
           
-            <p>Tier II</p>
+            <p>II</p>
 
           
         </td>
@@ -890,7 +777,7 @@ data-event-label="Change to Sources tab"
 
             
               <a href="https://unstats.un.org/sdgs/tierIII-indicators/" target="_blank">
-                United Nations Sustainable Development Goals Metadata (PDF 4.0 MB) <span class="visuallyhidden">opens in a new window</span>
+                https://unstats.un.org/sdgs/tierIII-indicators/ <span class="visuallyhidden">opens in a new window</span>
               </a>
             
 
@@ -1041,292 +928,6 @@ data-event-label="Change to Sources tab"
 
 
 
-  <div class="row no-gutters">
-  
-   
-    
-    <div class="col-md-6">
-      
-      <table class="table table-hover">
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-      
-      <tr>
-        <th scope="row">Organisation </th>
-        <td>
-          
-            <p>Eurostat</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      <tr>
-        <th scope="row">Periodicity </th>
-        <td>
-          
-            <p>Annual</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      <tr>
-        <th scope="row">Earliest available data </th>
-        <td>
-          
-            <p>2005</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      <tr>
-        <th scope="row">Geographical coverage </th>
-        <td>
-          
-            <p>United Kingdom</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      <tr>
-        <th scope="row">Link to data source </th>
-        <td>
-          
-            
-            
-            
-            
-
-            
-              <a href="http://ec.europa.eu/eurostat/en/web/products-datasets/-/ILC_LI02" target="_blank">
-                At-risk-of-poverty rate by poverty threshold, age and sex - EU-SILC survey <span class="visuallyhidden">opens in a new window</span>
-              </a>
-            
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      
-  
-      
-      <tr>
-        <th scope="row">Release date </th>
-        <td>
-          
-            <p>12/12/2017</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      <tr>
-        <th scope="row">Next release </th>
-        <td>
-          
-            <p>TBC</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      <tr>
-        <th scope="row">Statistical classification </th>
-        <td>
-          
-            <p>Non-Official</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      <tr>
-        <th scope="row">Contact details </th>
-        <td>
-          
-            <p>http://ec.europa.eu/eurostat/help/support</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      <tr>
-        <th scope="row">Other information </th>
-        <td>
-          
-            
-
-          
-        </td>
-        </tr>
-        
-      
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-</table>
-
-    </div>
-    
-  </div>
-
 
           </div>
           
@@ -1388,7 +989,7 @@ data-event-label="Change to Sources tab"
 <script src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.3/dist/html2canvas.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/file-saver@2.0.2/dist/FileSaver.min.js"></script>
-<script src='/sdg-indicators/assets/js/sdg.js?v=20191027063724'></script><script src="/sdg-indicators/assets/js/custom.js?v=20191027063724"></script><script>
+<script src='/sdg-indicators/assets/js/sdg.js?v=20191027064517'></script><script src="/sdg-indicators/assets/js/custom.js?v=20191027064517"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();

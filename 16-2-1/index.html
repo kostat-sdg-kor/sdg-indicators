@@ -25,7 +25,7 @@
 var opensdg = {
 
   // A base URL for asynchronous calls to SDG data.
-  remoteDataBaseUrl: 'https://ONSdigital.github.io/sdg-data',
+  remoteDataBaseUrl: 'https://kostat-sdg-kor.github.io/sdg-data',
 
   // A hook which can be replaced to modify the configuration for Chart.js.
   // To see where this is used, see indicatorView.js createPlot() and updatePlot().
@@ -141,7 +141,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-indicators/assets/css/default.css?v=20191027063724">
+        <link rel="stylesheet" href="/sdg-indicators/assets/css/default.css?v=20191027064517">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -267,7 +267,7 @@ var translations = {
     <div class="row">
       <div class="col-xs-4 col-md-3 col-lg-2">
         <a href="/sdg-indicators/16" title="View this goal's indicator list">
-          <img src="https://open-sdg.github.io/sdg-translations/assets/img/goals/en/16.png" alt="Peace and justice - strong institutions - Goal 16" />
+          <img src="https://kostat-sdg-kor.github.io/sdg-translations/assets/img/goals/en/16.png" alt="Peace and justice - strong institutions - Goal 16" />
         </a>
       </div>
       <div class="col-xs-8 col-md-9 col-lg-10">
@@ -315,10 +315,10 @@ var translations = {
 
   
 
-  <div class="row" id="indicatorData" data-indicatorid='indicator_16-2-1' data-id="16-2-1" data-country=""
+  <div class="row" id="indicatorData" data-indicatorid='indicator_16-2-1' data-id="16-2-1" data-country="대한민국"
   data-charttitle="" data-measurementunit="" data-datasource="" data-copyright=""
-  data-geographicalarea="" data-footnote="" data-showdata="false" data-graphtype="line"
-  data-geocoderegex="" data-showmap="" data-startvalues="">
+  data-geographicalarea="대한민국" data-footnote="" data-showdata="false" data-graphtype="line"
+  data-geocoderegex="" data-showmap="false" data-startvalues="">
     
     <div id="indicator-main" class="col-md-12">
     
@@ -418,7 +418,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Geographical coverage </th>
         <td>
           
-            
+            <p>대한민국</p>
 
           
         </td>
@@ -489,7 +489,7 @@ data-event-label="Change to Sources tab"
             
 
             
-              <a href="https://github.com/ONSdigital/sdg-data/commit/52ff5f156ed0f753b76b67c055181531ace76a96" target="_blank">
+              <a href="https://github.com/kostat-sdg-kor/sdg-data/commit/52ff5f156ed0f753b76b67c055181531ace76a96" target="_blank">
                 2019-04-18: see changes on GitHub <span class="visuallyhidden">opens in a new window</span>
               </a>
             
@@ -514,8 +514,8 @@ data-event-label="Change to Sources tab"
             
 
             
-              <a href="https://github.com/ONSdigital/sdg-data/commit/b001471cce33d99af30d9e8477342142ad7c702e" target="_blank">
-                2019-08-06: see changes on GitHub <span class="visuallyhidden">opens in a new window</span>
+              <a href="https://github.com/kostat-sdg-kor/sdg-data/commit/4ab179f4dced654ec004e6cc3f23127d838506c1" target="_blank">
+                2019-10-25: see changes on GitHub <span class="visuallyhidden">opens in a new window</span>
               </a>
             
 
@@ -666,7 +666,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Indicator name </th>
         <td>
           
-            <p>16.2.1 Proportion of children aged 1-17 years who experienced any physical punishment and/or psychological aggression by caregivers in the past month</p>
+            <p>지난 1개월간 보호자로부터 체벌이나 심리적 위협을 경험한 적이 있는 1-17세 아동 비율</p>
 
           
         </td>
@@ -705,7 +705,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Target name </th>
         <td>
           
-            <p>16.2 End abuse, exploitation, trafficking and all forms of violence against and torture of children</p>
+            <p>아동에 대한 학대, 착취, 인신매매 및 모든 형태의 폭력과 고문 종식</p>
 
           
         </td>
@@ -744,7 +744,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">UN designated tier </th>
         <td>
           
-            <p>Tier II</p>
+            <p>II</p>
 
           
         </td>
@@ -777,7 +777,7 @@ data-event-label="Change to Sources tab"
 
             
               <a href="https://unstats.un.org/sdgs/metadata/files/Metadata-16-02-01.pdf" target="_blank">
-                United Nations Sustainable Development Goals Metadata (PDF 209 KB) <span class="visuallyhidden">opens in a new window</span>
+                https://unstats.un.org/sdgs/metadata/files/Metadata-16-02-01.pdf <span class="visuallyhidden">opens in a new window</span>
               </a>
             
 
@@ -989,7 +989,7 @@ data-event-label="Change to Sources tab"
 <script src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.3/dist/html2canvas.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/file-saver@2.0.2/dist/FileSaver.min.js"></script>
-<script src='/sdg-indicators/assets/js/sdg.js?v=20191027063724'></script><script src="/sdg-indicators/assets/js/custom.js?v=20191027063724"></script><script>
+<script src='/sdg-indicators/assets/js/sdg.js?v=20191027064517'></script><script src="/sdg-indicators/assets/js/custom.js?v=20191027064517"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();

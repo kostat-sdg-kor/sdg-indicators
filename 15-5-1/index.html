@@ -25,7 +25,7 @@
 var opensdg = {
 
   // A base URL for asynchronous calls to SDG data.
-  remoteDataBaseUrl: 'https://ONSdigital.github.io/sdg-data',
+  remoteDataBaseUrl: 'https://kostat-sdg-kor.github.io/sdg-data',
 
   // A hook which can be replaced to modify the configuration for Chart.js.
   // To see where this is used, see indicatorView.js createPlot() and updatePlot().
@@ -141,7 +141,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-indicators/assets/css/default.css?v=20191027063724">
+        <link rel="stylesheet" href="/sdg-indicators/assets/css/default.css?v=20191027064517">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -267,7 +267,7 @@ var translations = {
     <div class="row">
       <div class="col-xs-4 col-md-3 col-lg-2">
         <a href="/sdg-indicators/15" title="View this goal's indicator list">
-          <img src="https://open-sdg.github.io/sdg-translations/assets/img/goals/en/15.png" alt="Life on land - Goal 15" />
+          <img src="https://kostat-sdg-kor.github.io/sdg-translations/assets/img/goals/en/15.png" alt="Life on land - Goal 15" />
         </a>
       </div>
       <div class="col-xs-8 col-md-9 col-lg-10">
@@ -297,7 +297,7 @@ var translations = {
       
 
       <div id="page-content">
-  <p>Select the following link to download this indicator data in an accessible format:<br /><a href="https://sustainabledevelopment-uk.github.io/sdg-data/data/15-5-1.csv">15.5.1 Red List Index (CSV 0.106 kB)</a></p>
+  
 
 </div>
 
@@ -315,9 +315,9 @@ var translations = {
 
   
 
-  <div class="row" id="indicatorData" data-indicatorid='indicator_15-5-1' data-id="15-5-1" data-country="United Kingdom"
+  <div class="row" id="indicatorData" data-indicatorid='indicator_15-5-1' data-id="15-5-1" data-country="대한민국"
   data-charttitle="Red List Index" data-measurementunit="Red List Index" data-datasource="Department for Environment, Food & Rural Affairs (Defra)" data-copyright=""
-  data-geographicalarea="United Kingdom" data-footnote="" data-showdata="true" data-graphtype="bar"
+  data-geographicalarea="대한민국" data-footnote="" data-showdata="true" data-graphtype="bar"
   data-geocoderegex="" data-showmap="false" data-startvalues="">
     
     <div id="indicator-sidebar" class="col-md-3">
@@ -344,9 +344,9 @@ var translations = {
 
   <div id="datatables">
 
-    <a href="https://ONSdigital.github.io/sdg-data/headline/15-5-1.csv" class="btn btn-primary btn-download" download="indicator_15-5-1.csv" tabindex="0" role="button">Download Headline CSV</a>
+    <a href="https://kostat-sdg-kor.github.io/sdg-data/headline/15-5-1.csv" class="btn btn-primary btn-download" download="indicator_15-5-1.csv" tabindex="0" role="button">Download Headline CSV</a>
 
-    <a href="https://ONSdigital.github.io/sdg-data/data/15-5-1.csv" class="btn btn-primary btn-download" style='float:left;margin-right:1em' download='indicator_15-5-1.csv' tabindex='0' role='button'>Download Source CSV</a>
+    <a href="https://kostat-sdg-kor.github.io/sdg-data/data/15-5-1.csv" class="btn btn-primary btn-download" style='float:left;margin-right:1em' download='indicator_15-5-1.csv' tabindex='0' role='button'>Download Source CSV</a>
 
     <h3>Headline data</h3>
     <table class="table-responsive table table-hover dataTable no-footer" role="grid">
@@ -505,7 +505,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Indicator available </th>
         <td>
           
-            <p>Red List Index</p>
+            
 
           
         </td>
@@ -531,7 +531,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Geographical coverage </th>
         <td>
           
-            <p>United Kingdom</p>
+            <p>대한민국</p>
 
           
         </td>
@@ -557,7 +557,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Definitions </th>
         <td>
           
-            <p>The Red List Index measures change in aggregate extinction risk across groups of species. It is based on genuine changes in the number of species in each category of extinction risk on The IUCN Red List of Threatened Species (IUCN 2015) is expressed as changes in an index ranging from 0 to 1.</p>
+            
 
           
         </td>
@@ -570,7 +570,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Calculations </th>
         <td>
           
-            <p>The Red List Index is calculated at a point in time by first multiplying the number of species in each Red List Category by a weight (ranging from 1 for ‘Near Threatened’ to 5 for ‘Extinct’ and ‘Extinct in the Wild’) and summing these values. This is then divided by a maximum threat score which is the total number of species multiplied by the weight assigned to the ‘Extinct’ category. This final value is subtracted from 1 to give the Red List Index value. Mathematically this calculation is expressed as - RLIt = 1 – [(Ss Wc(t,s) / (WEX * N)], where Wc(t,s) is the weight for category (c) at time (t) for species (s) (the weight for ‘Critically Endangered’ = 4, ‘Endangered’ = 3, ‘Vulnerable’ = 2, ‘Near Threatened’ = 1, ‘Least Concern’ = 0. ‘Critically Endangered’ species tagged as ‘Possibly Extinct’ or ‘Possibly Extinct in the Wild’ are assigned a weight of 5); WEX = 5, the weight assigned to ‘Extinct’ or ‘Extinct in the Wild’ species; and N is the total number of assessed species, excluding those assessed as Data Deficient in the current time period, and those considered to be ‘Extinct’ in the year the set of species was first assessed.</p>
+            
 
           
         </td>
@@ -583,7 +583,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Other information </th>
         <td>
           
-            <p>The Red List Index formula requires that exactly the same set of species is included in all time periods, the only Red List Category changes are those resulting from genuine improvement or deterioration in status (i.e., excluding changes resulting from improved knowledge or taxonomic revisions), and Data Deficient species are excluded. In many cases, species lists will change slightly from one assessment to the next (e.g., owing to taxonomic revisions). The conditions can therefore be met by retrospectively adjusting earlier Red List categorizations using current information and taxonomy. This is achieved by assuming that the current Red List Categories for the taxa have applied since the set of species was first assessed for the Red List, unless there is information to the contrary that genuine status changes have occurred. Such information is often contextual (e.g., relating to the known history of habitat loss within the range of the species). If there is insufficient information available for a newly added species, it is not incorporated into the Red List Index until it is assessed for a second time, at which point earlier assessments are retrospectively corrected by extrapolating recent trends in population, range, habitat and threats, supported by additional information. To avoid spurious results from biased selection of species, Red List Indices are typically calculated only for taxonomic groups in which all species worldwide have been assessed for the Red List, or for samples of species that have been systematically or randomly selected. The methods and scientific basis for the Red List Index were described by Butchart et al. (2004, 2005, 2007, 2010). For further information, please refer to <a href="https://unstats.un.org/sdgs/metadata/files/Metadata-15-05-01.pdf">global metadata</a>. Over the past thirty years, numerous lists of conservation status have been produced - Red Lists, Biodiversity Action Plan Priority Lists, species listed on European Directives, species listed on the Schedules of the Wildlife &amp; Countryside Act, together with lists of rare and scarce species. There is considerable overlap between these and some species appear on several of them. For example, the otter Lutra lutra, and the marsh saxifrage Saxifraga hirculus have as many as six “badges”. JNCC has attempted to collate many of the current lists into one place and make this available to users as a <a href="http://jncc.defra.gov.uk/page-3408">downloadable spreadsheet of species designations</a>. JNCC will incorporate updates and corrections as necessary. If a source list, for example a red data book, has been reviewed in whole or in part, JNCC has had to decide whether or not to archive some or all of the content of the previous list. This has not always been straightforward, particularly in the case of some of the invertebrate red listings where some, but not all of the previously published list, have been reviewed and the status of the review is regarded by many as being “provisional”. Nevertheless, we wanted to avoid the confusing situation where, for example, a species was listed as being “vulnerable” on one listing and “critically endangered” on another listing with the same geographical focus. Re-use of information in the Conservation Designations Spreadsheet is subject to the terms of the Open Government Licence, which means it may be used and distributed freely with only a few conditions. If you re-use this information you must acknowledge the source of the information in your product or application by including or linking to the following attribution statement - “Contains JNCC/NE/NRW/SNH/NIEA data © copyright and database right 2017”. Data follows the UN specification for this indicator. This indicator has not been identified in collaboration with topic experts.</p>
+            
 
           
         </td>
@@ -602,8 +602,8 @@ data-event-label="Change to Sources tab"
             
 
             
-              <a href="https://github.com/ONSdigital/sdg-data/commit/254e81089efc9cb9c06405cd895afb3e1fe191b6" target="_blank">
-                2019-04-29: see changes on GitHub <span class="visuallyhidden">opens in a new window</span>
+              <a href="https://github.com/kostat-sdg-kor/sdg-data/commit/301b4daa5d61a5e8c8843faafd068f2e96374688" target="_blank">
+                2019-09-29: see changes on GitHub <span class="visuallyhidden">opens in a new window</span>
               </a>
             
 
@@ -627,8 +627,8 @@ data-event-label="Change to Sources tab"
             
 
             
-              <a href="https://github.com/ONSdigital/sdg-data/commit/998327e87fda17b335e19bd2473e77a1173f6d41" target="_blank">
-                2019-08-06: see changes on GitHub <span class="visuallyhidden">opens in a new window</span>
+              <a href="https://github.com/kostat-sdg-kor/sdg-data/commit/530ff51a3a373d95452c3c02a9b4f079e7371e89" target="_blank">
+                2019-10-25: see changes on GitHub <span class="visuallyhidden">opens in a new window</span>
               </a>
             
 
@@ -779,7 +779,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Indicator name </th>
         <td>
           
-            <p>15.5.1 Red List Index</p>
+            <p>적색목록지수(Red list Index)</p>
 
           
         </td>
@@ -818,7 +818,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Target name </th>
         <td>
           
-            <p>15.5 Take urgent and significant action to reduce the degradation of natural habitats, halt the loss of biodiversity and, by 2020, protect and prevent the extinction of threatened species</p>
+            <p>자연 서식지의 황폐화를 감소시키고 생물다양성의 손실을 중단시키기 위해 시급하고 대대적인 조치를 취하고 2020년까지 멸종위기 종을 보호하고 멸종을 예방</p>
 
           
         </td>
@@ -857,7 +857,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">UN designated tier </th>
         <td>
           
-            <p>Tier I</p>
+            <p>I</p>
 
           
         </td>
@@ -890,7 +890,7 @@ data-event-label="Change to Sources tab"
 
             
               <a href="https://unstats.un.org/sdgs/metadata/files/Metadata-15-05-01.pdf" target="_blank">
-                United Nations Sustainable Development Goals Metadata (PDF 440 KB) <span class="visuallyhidden">opens in a new window</span>
+                https://unstats.un.org/sdgs/metadata/files/Metadata-15-05-01.pdf <span class="visuallyhidden">opens in a new window</span>
               </a>
             
 
@@ -1388,7 +1388,7 @@ data-event-label="Change to Sources tab"
 <script src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.3/dist/html2canvas.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/file-saver@2.0.2/dist/FileSaver.min.js"></script>
-<script src='/sdg-indicators/assets/js/sdg.js?v=20191027063724'></script><script src="/sdg-indicators/assets/js/custom.js?v=20191027063724"></script><script>
+<script src='/sdg-indicators/assets/js/sdg.js?v=20191027064517'></script><script src="/sdg-indicators/assets/js/custom.js?v=20191027064517"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();

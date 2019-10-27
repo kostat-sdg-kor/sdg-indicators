@@ -25,7 +25,7 @@
 var opensdg = {
 
   // A base URL for asynchronous calls to SDG data.
-  remoteDataBaseUrl: 'https://ONSdigital.github.io/sdg-data',
+  remoteDataBaseUrl: 'https://kostat-sdg-kor.github.io/sdg-data',
 
   // A hook which can be replaced to modify the configuration for Chart.js.
   // To see where this is used, see indicatorView.js createPlot() and updatePlot().
@@ -141,7 +141,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-indicators/assets/css/default.css?v=20191027063724">
+        <link rel="stylesheet" href="/sdg-indicators/assets/css/default.css?v=20191027064517">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -267,7 +267,7 @@ var translations = {
     <div class="row">
       <div class="col-xs-4 col-md-3 col-lg-2">
         <a href="/sdg-indicators/11" title="View this goal's indicator list">
-          <img src="https://open-sdg.github.io/sdg-translations/assets/img/goals/en/11.png" alt="Sustainable cities & communities - Goal 11" />
+          <img src="https://kostat-sdg-kor.github.io/sdg-translations/assets/img/goals/en/11.png" alt="Sustainable cities & communities - Goal 11" />
         </a>
       </div>
       <div class="col-xs-8 col-md-9 col-lg-10">
@@ -297,7 +297,7 @@ var translations = {
       
 
       <div id="page-content">
-  <p>Select the following link to download this indicator data in an accessible format:<br /><a href="https://sustainabledevelopment-uk.github.io/sdg-data/data/11-3-1.csv">11.3.1 Ratio of land consumption rate to population growth rate (CSV 2114.318 kB)</a></p>
+  
 
 </div>
 
@@ -315,151 +315,18 @@ var translations = {
 
   
 
-  <div class="row" id="indicatorData" data-indicatorid='indicator_11-3-1' data-id="11-3-1" data-country="Great Britain"
-  data-charttitle="Ratio of land consumption rate to population growth rate" data-measurementunit="" data-datasource="Ordinance Survey, ONS, National Records of Scotland" data-copyright=""
-  data-geographicalarea="Great Britain" data-footnote="" data-showdata="true" data-graphtype="bar"
+  <div class="row" id="indicatorData" data-indicatorid='indicator_11-3-1' data-id="11-3-1" data-country="대한민국"
+  data-charttitle="Ratio of land consumption rate to population growth rate" data-measurementunit="" data-datasource="" data-copyright=""
+  data-geographicalarea="대한민국" data-footnote="" data-showdata="false" data-graphtype="bar"
   data-geocoderegex="" data-showmap="true" data-startvalues="">
     
-    <div id="indicator-sidebar" class="col-md-3">
-      <div id="toolbar">
-        <span id="series-help">
-          <h4>Sub-categories</h4>
-          <p>Choose categories from the dropdowns below to see different breakdowns of the data. Some will not be available until a higher level is chosen.</p>
-        </span>
-        <p>Click on the legend to remove individual lines from the chart.</p>
-        <div id="fields">
-          <p class="async-loading" data-img="/sdg-indicators/assets/img/loading-small.gif"></p>
-        </div>
-      </div>
-      <div id="units"></div>
-    </div>
-    <div id="indicator-main" class="col-md-9">
+    <div id="indicator-main" class="col-md-12">
     
-
-      
-      
-
-
-<div id="headlineTable">
-
-  <div id="datatables">
-
-    <a href="https://ONSdigital.github.io/sdg-data/headline/11-3-1.csv" class="btn btn-primary btn-download" download="indicator_11-3-1.csv" tabindex="0" role="button">Download Headline CSV</a>
-
-    <a href="https://ONSdigital.github.io/sdg-data/data/11-3-1.csv" class="btn btn-primary btn-download" style='float:left;margin-right:1em' download='indicator_11-3-1.csv' tabindex='0' role='button'>Download Source CSV</a>
-
-    <h3>Headline data</h3>
-    <table class="table-responsive table table-hover dataTable no-footer" role="grid">
-      <caption></caption>
-      <thead>
-        
-        
-        <th scope="col">Year</th>
-        
-        
-        
-        <th scope="col" class="table-value">Value</th>
-        
-        
-      </thead>
-      <tbody>
-        
-        <tr>
-          
-          
-          <td>2016</td>
-          
-          
-          
-          <td class="table-value">3.758553079</td>
-          
-          
-        </tr>
-        
-      </tbody>
-    </table>
-  </div>
-
-  <div id="datatableFooter">
-    
-    
-    
-    
-  </div>
-
-</div>
 
       
 
       <section>
 
-        
-        <p class="async-loading" data-img="/sdg-indicators/assets/img/loading-small.gif"></p>
-        <div class="async-loaded" style="display:none">
-          <ul class="nav nav-tabs data-view" role="tablist">
-            <li role="presentation" class="nav-item active">
-              <a class="nav-link" data-toggle="tab" href="#chartview" aria-controls="chartview" role="tab" data-on="click"
-data-event-category="Tab change"
-data-event-action="Change data view"
-data-event-label="Change to Chart tab"
->Chart</a>
-            </li>
-            <li role="presentation" class="nav-item">
-              <a class="nav-link" data-toggle="tab" href="#tableview" aria-controls="tableview" role="tab" data-on="click"
-data-event-category="Tab change"
-data-event-action="Change data view"
-data-event-label="Change to Table tab"
->Table</a>
-            </li>
-            <li role="presentation" class="nav-item map" style="display:none">
-              <a data-no-disagg="true" class="nav-link" data-toggle="tab" href="#mapview" aria-controls="mapview" role="tab" data-on="click"
-data-event-category="Tab change"
-data-event-action="Change data view"
-data-event-label="Change to Map tab"
->Map</a>
-            </li></ul>
-
-          <!-- Tab panes -->
-          <div class="tab-content data-view">
-            <div role="tabpanel" class="tab-pane active" id="chartview">
-              
-
-    <div id="dataset-size-warning" style="display:none">
-      <i class="fa fa-bolt"></i> There are too many datasets to show on the chart. Not all will be shown until you remove some selections.
-    </div>
-
-    
-    <div id="selectionsChart">
-      <div id="chart-canvas">
-        <h3 class="chart-title">Ratio of land consumption rate to population growth rate</h3>
-        <div id="chart" class="plot-container">
-          
-<canvas></canvas>
-
-
-        </div>
-        <div id="plotLegend"></div>
-      </div>
-      <button id="btnSave" title="Download chart as image" class='btn btn-primary btn-download'>
-        Download Chart Image
-      </button>
-    </div>
-    <div id="chartSelectionDownload"></div>
-
-
-
-            </div>
-            <div role="tabpanel" class="tab-pane" id="tableview">
-              <div id="selectionsTable"></div>
-            </div>
-            <div role="tabpanel" class="tab-pane" id="mapview" class="map">
-              <div id="map">
-                <img src="/sdg-indicators/assets/img/loading.gif" alt="Loading map" />
-              </div>
-            </div>
-            
-          </div>
-        </div>
         
 
         <!-- Nav tabs -->
@@ -525,7 +392,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Indicator available </th>
         <td>
           
-            <p>Ratio of land consumption rate to population growth rate</p>
+            
 
           
         </td>
@@ -538,7 +405,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Indicator description </th>
         <td>
           
-            <p>Ratio of land consumption rate to population growth rate</p>
+            
 
           
         </td>
@@ -551,7 +418,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Geographical coverage </th>
         <td>
           
-            <p>Great Britain</p>
+            <p>대한민국</p>
 
           
         </td>
@@ -590,7 +457,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Calculations </th>
         <td>
           
-            <p>Population growth rate = Natural logarithm ( Measurement year population / Previous population ) / Time between the measurement periods <br /> <br /> Land consumption rate = Natural logarithm ( Measurement year manmade land area / Previous manmade land area ) / Time between the measurement periods <br /> <br /> Ratio of land consumption rate to population growth rate = Land consumption rate / Population growth rate</p>
+            
 
           
         </td>
@@ -603,7 +470,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Other information </th>
         <td>
           
-            <p>The indicator is a comparison between 2013 and 2016 data on land consumption.  Data follows the UN specification for this indicator. This indicator has not been identified in collaboration with topic experts.</p>
+            
 
           
         </td>
@@ -622,7 +489,7 @@ data-event-label="Change to Sources tab"
             
 
             
-              <a href="https://github.com/ONSdigital/sdg-data/commit/ccbd24d3521f9e3e0192479c34a03e8e7d7e12e5" target="_blank">
+              <a href="https://github.com/kostat-sdg-kor/sdg-data/commit/ccbd24d3521f9e3e0192479c34a03e8e7d7e12e5" target="_blank">
                 2018-10-29: see changes on GitHub <span class="visuallyhidden">opens in a new window</span>
               </a>
             
@@ -647,8 +514,8 @@ data-event-label="Change to Sources tab"
             
 
             
-              <a href="https://github.com/ONSdigital/sdg-data/commit/c838d79b8140684e42080f66f7186ce56156719b" target="_blank">
-                2019-08-28: see changes on GitHub <span class="visuallyhidden">opens in a new window</span>
+              <a href="https://github.com/kostat-sdg-kor/sdg-data/commit/d67a7b7138e86b2b597ea9807b42eea84528a442" target="_blank">
+                2019-10-24: see changes on GitHub <span class="visuallyhidden">opens in a new window</span>
               </a>
             
 
@@ -799,7 +666,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Indicator name </th>
         <td>
           
-            <p>11.3.1 Ratio of land consumption rate to population growth rate</p>
+            <p>11.3.1 인구성장률 대비 토지소모 비율</p>
 
           
         </td>
@@ -838,7 +705,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Target name </th>
         <td>
           
-            <p>11.3 By 2030, enhance inclusive and sustainable urbanization and capacity for participatory, integrated and sustainable human settlement planning and management in all countries</p>
+            <p>11.3 2030년까지 포괄적이고 지속가능한 도시화와, 참여, 통합 및 지속가능한 거주지 계획 및 관리 역량 강화</p>
 
           
         </td>
@@ -877,7 +744,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">UN designated tier </th>
         <td>
           
-            <p>Tier II</p>
+            <p>II</p>
 
           
         </td>
@@ -910,7 +777,7 @@ data-event-label="Change to Sources tab"
 
             
               <a href="https://unstats.un.org/sdgs/metadata/files/Metadata-11-03-01.pdf" target="_blank">
-                United Nations Sustainable Development Goals Metadata (PDF 245 KB) <span class="visuallyhidden">opens in a new window</span>
+                https://unstats.un.org/sdgs/metadata/files/Metadata-11-03-01.pdf <span class="visuallyhidden">opens in a new window</span>
               </a>
             
 
@@ -1061,1142 +928,6 @@ data-event-label="Change to Sources tab"
 
 
 
-  <div class="row no-gutters">
-  
-   
-    
-    <div class="col-md-6">
-      
-        <h4>Source 1</h4>
-      
-      <table class="table table-hover">
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-      
-      <tr>
-        <th scope="row">Organisation </th>
-        <td>
-          
-            <p>Ordinance Survey</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      <tr>
-        <th scope="row">Periodicity </th>
-        <td>
-          
-            <p>N/A</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      <tr>
-        <th scope="row">Earliest available data </th>
-        <td>
-          
-            <p>2013</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      <tr>
-        <th scope="row">Geographical coverage </th>
-        <td>
-          
-            <p>Great Britain</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      <tr>
-        <th scope="row">Link to data source </th>
-        <td>
-          
-            
-            
-            
-            
-
-            
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      
-  
-      
-      <tr>
-        <th scope="row">Release date </th>
-        <td>
-          
-            
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      <tr>
-        <th scope="row">Next release </th>
-        <td>
-          
-            
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      <tr>
-        <th scope="row">Statistical classification </th>
-        <td>
-          
-            <p>Official</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      <tr>
-        <th scope="row">Contact details </th>
-        <td>
-          
-            
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      <tr>
-        <th scope="row">Other information </th>
-        <td>
-          
-            <p>The data was provided under the MUO in place between ONS and OS</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-</table>
-
-    </div>
-    
-   
-    
-    <div class="col-md-6">
-      
-        <h4>Source 2</h4>
-      
-      <table class="table table-hover">
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-      
-      <tr>
-        <th scope="row">Organisation </th>
-        <td>
-          
-            <p>ONS</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      <tr>
-        <th scope="row">Periodicity </th>
-        <td>
-          
-            <p>Annual</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      <tr>
-        <th scope="row">Earliest available data </th>
-        <td>
-          
-            <p>2002</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      <tr>
-        <th scope="row">Geographical coverage </th>
-        <td>
-          
-            <p>England and Wales</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      <tr>
-        <th scope="row">Link to data source </th>
-        <td>
-          
-            
-            
-            
-            
-
-            
-              <a href="https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/datasets/lowersuperoutputareamidyearpopulationestimates" target="_blank">
-                Mid year Population Estimates <span class="visuallyhidden">opens in a new window</span>
-              </a>
-            
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      
-  
-      
-      <tr>
-        <th scope="row">Release date </th>
-        <td>
-          
-            <p>26/10/2017</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      <tr>
-        <th scope="row">Next release </th>
-        <td>
-          
-            <p>01/10/2018</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      <tr>
-        <th scope="row">Statistical classification </th>
-        <td>
-          
-            <p>Official</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      <tr>
-        <th scope="row">Contact details </th>
-        <td>
-          
-            
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      <tr>
-        <th scope="row">Other information </th>
-        <td>
-          
-            
-
-          
-        </td>
-        </tr>
-        
-      
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-</table>
-
-    </div>
-    
-   
-    
-    <div class="col-md-6">
-      
-        <h4>Source 3</h4>
-      
-      <table class="table table-hover">
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-      
-      <tr>
-        <th scope="row">Organisation </th>
-        <td>
-          
-            <p>National Records of Scotland</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      <tr>
-        <th scope="row">Periodicity </th>
-        <td>
-          
-            <p>Annual</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      <tr>
-        <th scope="row">Earliest available data </th>
-        <td>
-          
-            <p>1999</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      <tr>
-        <th scope="row">Geographical coverage </th>
-        <td>
-          
-            <p>Scotland</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      <tr>
-        <th scope="row">Link to data source </th>
-        <td>
-          
-            
-            
-            
-            
-
-            
-              <a href="https://www.nrscotland.gov.uk/statistics-and-data/statistics/statistics-by-theme/population/population-estimates/special-area-population-estimates/small-area-population-estimates/mid-2013/detailed-data-zone-tables" target="_blank">
-                Mid-year population Estimates <span class="visuallyhidden">opens in a new window</span>
-              </a>
-            
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      
-  
-      
-      <tr>
-        <th scope="row">Release date </th>
-        <td>
-          
-            <p>30/06/2014</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      <tr>
-        <th scope="row">Next release </th>
-        <td>
-          
-            
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      <tr>
-        <th scope="row">Statistical classification </th>
-        <td>
-          
-            <p>Official</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      <tr>
-        <th scope="row">Contact details </th>
-        <td>
-          
-            
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      <tr>
-        <th scope="row">Other information </th>
-        <td>
-          
-            
-
-          
-        </td>
-        </tr>
-        
-      
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-</table>
-
-    </div>
-    
-   
-    
-    <div class="col-md-6">
-      
-        <h4>Source 4</h4>
-      
-      <table class="table table-hover">
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-      
-      <tr>
-        <th scope="row">Organisation </th>
-        <td>
-          
-            <p>National Records of Scotland</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      <tr>
-        <th scope="row">Periodicity </th>
-        <td>
-          
-            <p>Annual</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      <tr>
-        <th scope="row">Earliest available data </th>
-        <td>
-          
-            <p>2011</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      <tr>
-        <th scope="row">Geographical coverage </th>
-        <td>
-          
-            <p>Council area</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      <tr>
-        <th scope="row">Link to data source </th>
-        <td>
-          
-            
-            
-            
-            
-
-            
-              <a href="https://www.nrscotland.gov.uk/statistics-and-data/statistics/statistics-by-theme/population/population-estimates/2011-based-special-area-population-estimates/small-area-population-estimates/mid-2016" target="_blank">
-                Detailed population estimates by datazone, 2016 <span class="visuallyhidden">opens in a new window</span>
-              </a>
-            
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      
-  
-      
-      <tr>
-        <th scope="row">Release date </th>
-        <td>
-          
-            <p>24/08/2017</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      <tr>
-        <th scope="row">Next release </th>
-        <td>
-          
-            
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      <tr>
-        <th scope="row">Statistical classification </th>
-        <td>
-          
-            <p>Official</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      <tr>
-        <th scope="row">Contact details </th>
-        <td>
-          
-            <p>kirsty.maclachlan@nrscotland.gov.uk</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      <tr>
-        <th scope="row">Other information </th>
-        <td>
-          
-            
-
-          
-        </td>
-        </tr>
-        
-      
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-</table>
-
-    </div>
-    
-  </div>
-
 
           </div>
           
@@ -2258,7 +989,7 @@ data-event-label="Change to Sources tab"
 <script src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.3/dist/html2canvas.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/file-saver@2.0.2/dist/FileSaver.min.js"></script>
-<script src='/sdg-indicators/assets/js/sdg.js?v=20191027063724'></script><script src="/sdg-indicators/assets/js/custom.js?v=20191027063724"></script><script>
+<script src='/sdg-indicators/assets/js/sdg.js?v=20191027064517'></script><script src="/sdg-indicators/assets/js/custom.js?v=20191027064517"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();

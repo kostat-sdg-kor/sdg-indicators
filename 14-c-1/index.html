@@ -25,7 +25,7 @@
 var opensdg = {
 
   // A base URL for asynchronous calls to SDG data.
-  remoteDataBaseUrl: 'https://ONSdigital.github.io/sdg-data',
+  remoteDataBaseUrl: 'https://kostat-sdg-kor.github.io/sdg-data',
 
   // A hook which can be replaced to modify the configuration for Chart.js.
   // To see where this is used, see indicatorView.js createPlot() and updatePlot().
@@ -141,7 +141,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-indicators/assets/css/default.css?v=20191027063724">
+        <link rel="stylesheet" href="/sdg-indicators/assets/css/default.css?v=20191027064517">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -267,7 +267,7 @@ var translations = {
     <div class="row">
       <div class="col-xs-4 col-md-3 col-lg-2">
         <a href="/sdg-indicators/14" title="View this goal's indicator list">
-          <img src="https://open-sdg.github.io/sdg-translations/assets/img/goals/en/14.png" alt="Life below water - Goal 14" />
+          <img src="https://kostat-sdg-kor.github.io/sdg-translations/assets/img/goals/en/14.png" alt="Life below water - Goal 14" />
         </a>
       </div>
       <div class="col-xs-8 col-md-9 col-lg-10">
@@ -299,8 +299,6 @@ var translations = {
       <div id="page-content">
   <p><strong>Non-statistical indicator</strong></p>
 
-<p>This is not a statistical indicator. However, we will collaborate with the policy lead in the UK so that we are able to link to the relevant legislative framework.<br /><br /></p>
-
 </div>
 
     </div>
@@ -317,10 +315,10 @@ var translations = {
 
   
 
-  <div class="row" id="indicatorData" data-indicatorid='indicator_14-c-1' data-id="14-c-1" data-country=""
+  <div class="row" id="indicatorData" data-indicatorid='indicator_14-c-1' data-id="14-c-1" data-country="대한민국"
   data-charttitle="" data-measurementunit="" data-datasource="" data-copyright=""
-  data-geographicalarea="" data-footnote="" data-showdata="false" data-graphtype=""
-  data-geocoderegex="" data-showmap="" data-startvalues="">
+  data-geographicalarea="대한민국" data-footnote="" data-showdata="false" data-graphtype="line"
+  data-geocoderegex="" data-showmap="false" data-startvalues="">
     
     <div id="indicator-main" class="col-md-12">
     
@@ -420,7 +418,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Geographical coverage </th>
         <td>
           
-            
+            <p>대한민국</p>
 
           
         </td>
@@ -472,7 +470,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Other information </th>
         <td>
           
-            <p>This, or part of this, indicator is awaiting the development of internationally established methodology and standards (classified by the UN as tier 3). Data follows the UN specification for this indicator.</p>
+            
 
           
         </td>
@@ -491,7 +489,7 @@ data-event-label="Change to Sources tab"
             
 
             
-              <a href="https://github.com/ONSdigital/sdg-data/commit/77a099638bd28ba70bc4e740070950de9a36283e" target="_blank">
+              <a href="https://github.com/kostat-sdg-kor/sdg-data/commit/77a099638bd28ba70bc4e740070950de9a36283e" target="_blank">
                 2019-04-18: see changes on GitHub <span class="visuallyhidden">opens in a new window</span>
               </a>
             
@@ -516,8 +514,8 @@ data-event-label="Change to Sources tab"
             
 
             
-              <a href="https://github.com/ONSdigital/sdg-data/commit/f91576c010377d2552a67146aad90c478a449cc6" target="_blank">
-                2019-08-06: see changes on GitHub <span class="visuallyhidden">opens in a new window</span>
+              <a href="https://github.com/kostat-sdg-kor/sdg-data/commit/b08970aea73a98de2d896ffc41bfbf60ed608d31" target="_blank">
+                2019-10-25: see changes on GitHub <span class="visuallyhidden">opens in a new window</span>
               </a>
             
 
@@ -668,7 +666,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Indicator name </th>
         <td>
           
-            <p>14.c.1 Number of countries making progress in ratifying, accepting and implementing through legal, policy and institutional frameworks, ocean-related instruments that implement international law, as reflected in the United Nation Convention on the Law of the Sea, for the conservation and sustainable use of the oceans and their resources</p>
+            <p>14.c.1 대양과 그 자원의 보존 및 지속가능한 이용을 위해 법, 정책, 제도를 통해 유엔해양법협약에 반영되어 있는 것과 같이 국제법을 이행하기 위한 대양관련 장치를  비준, 적용하고 이행하는 과정에서 진전을 보이는 국가의 수</p>
 
           
         </td>
@@ -707,7 +705,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Target name </th>
         <td>
           
-            <p>14.c Enhance the conservation and sustainable use of oceans and their resources by implementing international law as reflected in the United Nations Convention on the Law of the Sea, which provides the legal framework for the conservation and sustainable use of oceans and their resources, as recalled in paragraph 158 of “The future we want”</p>
+            <p>14.c 우리가 원하는 미래 (The Future We Want) 보고서의 158번째 단락에서 상기된 대양 및 대양자원의 보전 및 지속가능한 이용을 위한 법적기반을 제시하는 UNCLOS에 반영된 국제법 이행을 통해 대양 및 대양 자원의 보전 및 지속가능한 이용을 개선</p>
 
           
         </td>
@@ -746,7 +744,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">UN designated tier </th>
         <td>
           
-            <p>Tier III</p>
+            <p>III</p>
 
           
         </td>
@@ -779,7 +777,7 @@ data-event-label="Change to Sources tab"
 
             
               <a href="https://unstats.un.org/sdgs/tierIII-indicators/files/Tier3-14-c-01.pdf" target="_blank">
-                United Nations Sustainable Development Goals Metadata (PDF 4.0 MB) <span class="visuallyhidden">opens in a new window</span>
+                https://unstats.un.org/sdgs/tierIII-indicators/files/Tier3-14-c-01.pdf <span class="visuallyhidden">opens in a new window</span>
               </a>
             
 
@@ -991,7 +989,7 @@ data-event-label="Change to Sources tab"
 <script src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.3/dist/html2canvas.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/file-saver@2.0.2/dist/FileSaver.min.js"></script>
-<script src='/sdg-indicators/assets/js/sdg.js?v=20191027063724'></script><script src="/sdg-indicators/assets/js/custom.js?v=20191027063724"></script><script>
+<script src='/sdg-indicators/assets/js/sdg.js?v=20191027064517'></script><script src="/sdg-indicators/assets/js/custom.js?v=20191027064517"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
