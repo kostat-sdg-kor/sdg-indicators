@@ -2209,9 +2209,9 @@ $(function() {
       $(this).toggleClass('open');
       
       if($(this).hasClass('open') || !wasVisible) {
-        $(this).text('Hide');
+        $(this).text('숨기기');
       } else {
-        $(this).text('Search');
+        $(this).text('검색');
       }
     } else {
       // menu click, always hide search:
