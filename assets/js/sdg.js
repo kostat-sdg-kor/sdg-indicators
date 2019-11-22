@@ -2196,7 +2196,7 @@ $(function() {
     var target = $(this).data('target');
 
     $('.top-level li').removeClass('active');
-    topLevelSearchLink.text('Search');
+    topLevelSearchLink.text('검색');
 
     var targetEl = $('#' + target);
     var wasVisible = targetEl.is(':visible');
@@ -2216,7 +2216,7 @@ $(function() {
     } else {
       // menu click, always hide search:
       topLevelSearchLink.removeClass('open');
-      topLevelSearchLink.text('Search');
+      topLevelSearchLink.text('검색');
     }
 
     if(!wasVisible) {
