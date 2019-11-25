@@ -112,7 +112,7 @@
           "description": "",
           "keywords": "ONS, CPI",
           "href": "/sdg-indicators/2-c-1",
-          "status": "complete"
+          "status": "notstarted"
         },{
           "id": "2-2-1",
           "title": "5세 미만의 발육부진비율(연령대비 신장이 WHO 아동성장표준에서 해당 연령 아동신장 중위값으로부터 표준편차가 <–2 인 경우)",
@@ -168,7 +168,7 @@
           "description": "",
           "keywords": "DEFRA",
           "href": "/sdg-indicators/2-3-2",
-          "status": "complete"
+          "status": "notstarted"
         },{
           "id": "2-b-1",
           "title": "농업수출보조금",
@@ -189,7 +189,7 @@
           "description": "",
           "keywords": "DEFRA, agriculture, productivity",
           "href": "/sdg-indicators/2-3-1",
-          "status": "complete"
+          "status": "notstarted"
         },{
           "id": "2-a-1",
           "title": "정부지출 대비 농업관련 지출 지수",
@@ -354,7 +354,7 @@
           "id": "3-3-1",
           "title": "비감염인구 1천명당 인체면역결핍바이러스(HIV) 감염자의 성·연령 및 주요 특성별 현황",
           "description": "",
-          "keywords": "HIV, Infections, mortality",
+          "keywords": "면역, 바이러스, 감염, 사망, HIV, Infections, mortality",
           "href": "/sdg-indicators/3-3-1",
           "status": "notstarted"
         },{
@@ -409,7 +409,7 @@
           "id": "4-b-1",
           "title": "장학금의 공적개발원조(ODA) 금액의 연구부문 및 연구유형별 규모",
           "description": "",
-          "keywords": "ODA",
+          "keywords": "공적개발원조, ODA",
           "href": "/sdg-indicators/4-b-1",
           "status": "notstarted"
         },{
@@ -444,7 +444,7 @@
           "id": "4-7-1",
           "title": "성평등과 인권 등 (i) 세계시민교육 (ii)지속가능발전교육이 (a)국가교육정책 (b) 교육과정 (c) 교사교육 그리고 (d) 학생평가 등 모든 영역에서 주류화 정도",
           "description": "",
-          "keywords": "Non-statistical, legislation, policy",
+          "keywords": "규제, 정책, Non-statistical, legislation, policy",
           "href": "/sdg-indicators/4-7-1",
           "status": "notstarted"
         },{
@@ -485,14 +485,14 @@
           "id": "5-c-1",
           "title": "성평등과 여성의 권한강화를 위해 공공자원을 할당하고 추적하는 시스템을 갖춘 국가의 비율",
           "description": "",
-          "keywords": "Non-statistical, legislation, policy",
+          "keywords": "규제, 정책, Non-statistical, legislation, policy",
           "href": "/sdg-indicators/5-c-1",
           "status": "notstarted"
         },{
           "id": "5-a-2",
           "title": "토지소유나 통제에 대한 여성의 평등한 권리를 보장하는 법률적 기반(관습법을 포함)을 갖춘 국가의 비율",
           "description": "",
-          "keywords": "Non-statistical, legislation, policy",
+          "keywords": "규제, 정책, Non-statistical, legislation, policy",
           "href": "/sdg-indicators/5-a-2",
           "status": "notstarted"
         },{
@@ -520,7 +520,7 @@
           "id": "5-1-1",
           "title": "성에 근거한 비차별과 평등을 증진, 집행 그리고 추적할 수 있는 법적체계 존재여부",
           "description": "",
-          "keywords": "Non-statistical, legislation, policy",
+          "keywords": "규제, 정책, Non-statistical, legislation, policy",
           "href": "/sdg-indicators/5-1-1",
           "status": "notstarted"
         },{
@@ -541,28 +541,28 @@
           "id": "5-2-1",
           "title": "파트너가 있(었)던 15세 이상의 여성과 여아  중 지난 12개월 동안 (현재 혹은 과거의) 친밀한 파트너로 부터 신체적, 성적, 정서적인 폭력을 당한 경험이 있는 인구의 연령별 및 폭력형태별 비율",
           "description": "",
-          "keywords": "Crime, violence",
+          "keywords": "범죄, 폭력, 폭행, Crime, violence",
           "href": "/sdg-indicators/5-2-1",
           "status": "notstarted"
         },{
           "id": "5-3-1",
           "title": "20~24세 여성 중 15세 이전과 18세 이전에 결혼 또는 동거를 했던 비율",
           "description": "",
-          "keywords": "Demography, Marriage",
+          "keywords": "인구, 결혼, Demography, Marriage",
           "href": "/sdg-indicators/5-3-1",
           "status": "notstarted"
         },{
           "id": "5-a-1",
           "title": "(a) 농경지에 대한 소유권 또는 확실한 권리를 가진 전체 농업인구의 비율 (성별) (b)농경지 소유자 또는 토지 관리권을 가진 사람 중 여성의 비율 (보유기간별)",
           "description": "",
-          "keywords": "Labour Force",
+          "keywords": "노동, 노동력, Labour Force",
           "href": "/sdg-indicators/5-a-1",
           "status": "notstarted"
         },{
           "id": "5-3-2",
           "title": "15~49세 여아와 여성 중 여성성기절제(FGM/C)를 한 인구의 연령별 비율",
           "description": "",
-          "keywords": "Population",
+          "keywords": "인구, Population",
           "href": "/sdg-indicators/5-3-2",
           "status": "notstarted"
         },{
@@ -576,7 +576,7 @@
           "id": "5-2-2",
           "title": "15세 이상의 여성과 여아 중에서 지난 12개월 동안 친밀한 파트너 이외에 다른 사람들로부터 성적 폭력을 당한 경험이 있는 인구의 연령별 및 사건발생장소별 비율",
           "description": "",
-          "keywords": "Crime, violence",
+          "keywords": "범죄, 폭력, 폭행, Crime, violence",
           "href": "/sdg-indicators/5-2-2",
           "status": "notstarted"
         }]
@@ -589,7 +589,7 @@
           "id": "6-b-1",
           "title": "물 및 위생관리에 대한 지방 커뮤니티의  참여를 위한 확립된 행정적 정책과 절차를 갖추고 있는 지방행정단위의 비율",
           "description": "",
-          "keywords": "Non-statistical, legislation, policy",
+          "keywords": "규제, 정책, Non-statistical, legislation, policy",
           "href": "/sdg-indicators/6-b-1",
           "status": "notstarted"
         },{
@@ -624,7 +624,7 @@
           "id": "6-a-1",
           "title": "정부의 지출계획에 포함되어 있는 물과 위생분야 관련 ODA 금액",
           "description": "",
-          "keywords": "ODA",
+          "keywords": "공적개발원조, ODA",
           "href": "/sdg-indicators/6-a-1",
           "status": "notstarted"
         },{
@@ -672,14 +672,14 @@
           "id": "7-a-1",
           "title": "개도국의 하이브리드 시스템을 포함한 재생 에너지 및 청정에너지 연구 개발과 재생에너지생산을 지원하는 국제 자금 흐름",
           "description": "",
-          "keywords": "ODA",
+          "keywords": "공적개발원조, ODA",
           "href": "/sdg-indicators/7-a-1",
           "status": "notstarted"
         },{
           "id": "7-b-1",
           "title": "지속가능한 발전 서비스 인프라와 기술에 대한 재정이전 분야에서의 해외 직접투자 금액과 에너지 효율성에 대한 투자 금액이 GDP에서 차지하는 비율",
           "description": "",
-          "keywords": "Energy, Renewable, Low carbon, Exports, GDP, Environmental Accounts, Environment, Sustainable Development",
+          "keywords": "에너지, 저탄소, 수출, 환경, Energy, Renewable, Low carbon, Exports, GDP, Environmental Accounts, Environment, Sustainable Development",
           "href": "/sdg-indicators/7-b-1",
           "status": "notstarted"
         },{
@@ -727,14 +727,14 @@
           "id": "8-6-1",
           "title": "교육, 취업, 혹은 훈련 상태에 있지 않은 청소년(15-24세)의 비율",
           "description": "",
-          "keywords": "Labour Force",
+          "keywords": "노동, 노동력, Labour Force",
           "href": "/sdg-indicators/8-6-1",
           "status": "notstarted"
         },{
           "id": "8-9-1",
           "title": "전체 GDP 및 성장률에 관광분야가 직접적으로 기여하는 GDP 비율",
           "description": "",
-          "keywords": "GDP, Tourism",
+          "keywords": "관광, GDP, Tourism",
           "href": "/sdg-indicators/8-9-1",
           "status": "notstarted"
         },{
@@ -762,7 +762,7 @@
           "id": "8-3-1",
           "title": "비농업부문에서 비공식 고용율 (성별)",
           "description": "",
-          "keywords": "Labour Force",
+          "keywords": "노동, 노동력, Labour Force",
           "href": "/sdg-indicators/8-3-1",
           "status": "notstarted"
         },{
@@ -783,7 +783,7 @@
           "id": "8-4-1",
           "title": "총 및 1인당 물질발자국, GDP 대비 물질발자국",
           "description": "",
-          "keywords": "GDP, Population",
+          "keywords": "인구, GDP, Population",
           "href": "/sdg-indicators/8-4-1",
           "status": "notstarted"
         },{
@@ -832,7 +832,7 @@
           "id": "8-b-1",
           "title": "청년층 고용에 대한 국가 계획 개발 및 운영여부 – 별도 계획 혹은 국가 계획의 일부 인지 여부",
           "description": "",
-          "keywords": "Non-statistical, legislation, policy, Education, Employment, skills",
+          "keywords": "규제, 정책, 교육, 고용, Non-statistical, legislation, policy, Education, Employment, skills",
           "href": "/sdg-indicators/8-b-1",
           "status": "notstarted"
         }]
@@ -901,7 +901,7 @@
           "id": "9-a-1",
           "title": "인프라분야에 대한 국제사회의 총공적지원(ODA+기타공적자금)",
           "description": "",
-          "keywords": "ODA",
+          "keywords": "공적개발원조, ODA",
           "href": "/sdg-indicators/9-a-1",
           "status": "notstarted"
         },{
@@ -956,7 +956,7 @@
           "id": "10-3-1",
           "title": "국제인권법 차별금지기준으로 지난 12개월 동안 차별 또는 괴롭힘을 당했다고 느꼈음을 보고한 인구의 비율",
           "description": "",
-          "keywords": "Crime",
+          "keywords": "범죄, Crime",
           "href": "/sdg-indicators/10-3-1",
           "status": "notstarted"
         },{
@@ -970,7 +970,7 @@
           "id": "10-7-2",
           "title": "잘 관리되는 이주정책을 이행하고 있는 국가의 수",
           "description": "",
-          "keywords": "Non-statistical, legislation, policy",
+          "keywords": "규제, 정책, Non-statistical, legislation, policy",
           "href": "/sdg-indicators/10-7-2",
           "status": "notstarted"
         },{
@@ -1025,7 +1025,7 @@
           "id": "11-7-2",
           "title": "지난 12개월 동안 신체적 혹은 성적 괴롭힘을 당한 인구의 성, 연령, 장애, 발생장소별 비율",
           "description": "",
-          "keywords": "Crime",
+          "keywords": "범죄, Crime",
           "href": "/sdg-indicators/11-7-2",
           "status": "notstarted"
         },{
@@ -1088,7 +1088,7 @@
           "id": "11-c-1",
           "title": "최빈개도국 내 현지 자원을 이용하여 지속가능하고 회복력 있으며 자원효율적인 건물을 짓고 재건축하는데 소요되는 최빈개도국 재정지원비율",
           "description": "",
-          "keywords": "ODA",
+          "keywords": "공적개발원조, ODA",
           "href": "/sdg-indicators/11-c-1",
           "status": "notstarted"
         },{
@@ -1157,7 +1157,7 @@
           "id": "12-b-1",
           "title": "합의된 모니터링과  평가수단을 가진 지속가능한 관광 전략이나 정책 그리고 이행을 위한 실행계획의 수",
           "description": "",
-          "keywords": "Non-statistical, legislation, policy",
+          "keywords": "규제, 정책, Non-statistical, legislation, policy",
           "href": "/sdg-indicators/12-b-1",
           "status": "notstarted"
         },{
@@ -1171,14 +1171,14 @@
           "id": "12-5-1",
           "title": "국가 재활용 비율, 물질재활용 톤",
           "description": "",
-          "keywords": "Recycling, Waste, Environment",
+          "keywords": "재활용, 폐기물, 환경, Recycling, Waste, Environment",
           "href": "/sdg-indicators/12-5-1",
           "status": "notstarted"
         },{
           "id": "12-a-1",
           "title": "지속가능한 생산소비 및 환경 친화적인 기술분야 연구개발을 위해 개발도상국에 지원되는 금액",
           "description": "",
-          "keywords": "ODA",
+          "keywords": "공적개발원조, ODA",
           "href": "/sdg-indicators/12-a-1",
           "status": "notstarted"
         },{
@@ -1206,14 +1206,14 @@
           "id": "12-7-1",
           "title": "지속 가능한 공공 조달 정책들과 실행 계획들을 이행하는 국가들의 수",
           "description": "",
-          "keywords": "Non-statistical, legislation, policy",
+          "keywords": "규제, 정책, Non-statistical, legislation, policy",
           "href": "/sdg-indicators/12-7-1",
           "status": "notstarted"
         },{
           "id": "12-8-1",
           "title": "(i) 세계시민교육 (ii)지속가능발전교육(기후변화교육포함)이 (a)국가교육정책 (b) 교육과정 (c) 교사교육 그리고 (d) 학생평가 등 모든 영역에서 주류화 정도",
           "description": "",
-          "keywords": "Non-statistical, legislation, policy",
+          "keywords": "규제, 정책, Non-statistical, legislation, policy",
           "href": "/sdg-indicators/12-8-1",
           "status": "notstarted"
         }]
@@ -1226,14 +1226,14 @@
           "id": "13-3-1",
           "title": "완화, 적응, 영향 저감, 조기 경보를 초중고등 교육과정에 포함시킨 국가들의 수",
           "description": "",
-          "keywords": "Non-statistical, legislation, policy",
+          "keywords": "규제, 정책, Non-statistical, legislation, policy",
           "href": "/sdg-indicators/13-3-1",
           "status": "notstarted"
         },{
           "id": "13-b-1",
           "title": "여성, 청소년, 지역 및 소외 공동체에 초점을 맞추는 것을 포함하여, 효과적인 기후변화 관련 계획과 관리 역량을 제고하기 위한 매커니즘 개발을 위해 금융, 기술, 역량배양을 비롯한 특별지원과 지원금을 받고 있는 최빈 개도국과 군소 도서개발국의 수",
           "description": "",
-          "keywords": "climate change",
+          "keywords": "기후변화, climate change",
           "href": "/sdg-indicators/13-b-1",
           "status": "notstarted"
         },{
@@ -1247,14 +1247,14 @@
           "id": "13-1-2",
           "title": "재난위험감축을 위한 센다이프레임워크(2015-2030)에 따라 국가적인 재난위험감축전략을 채택하고 이행하는 국가의 수",
           "description": "",
-          "keywords": "Non-statistical, legislation, policy",
+          "keywords": "규제, 정책, Non-statistical, legislation, policy",
           "href": "/sdg-indicators/13-1-2",
           "status": "notstarted"
         },{
           "id": "13-2-1",
           "title": "식량 생산을 위협하지 않는 방식으로 기후변화의 부정적인 영향에 적응하고, 기후회복력을 배양하고 온실가스배출을 줄일 수 있는 통합된 정책, 전략, 계획을 수립하거나 운영하는 것을 논의해 온 국가의 수(국가 적응계획, 국가 온실가스 감축 기여방안, 국가보고서, 격년별로 갱신되는 보고서 등을 포함)",
           "description": "",
-          "keywords": "Non-statistical, legislation, policy, Sexual Health, Education",
+          "keywords": "규제, 정책, Non-statistical, legislation, policy, Sexual Health, Education",
           "href": "/sdg-indicators/13-2-1",
           "status": "notstarted"
         },{
@@ -1268,14 +1268,14 @@
           "id": "13-3-2",
           "title": "적응, 완화, 그리고 기술 이전 및 개발 이행을 위한 기관, 시스템, 그리고 개인의 역량 강화를 논의해온 국가의 수",
           "description": "",
-          "keywords": "Non-statistical, legislation, policy, Sexual Health, Education",
+          "keywords": "규제, 정책, Non-statistical, legislation, policy, Sexual Health, Education",
           "href": "/sdg-indicators/13-3-2",
           "status": "notstarted"
         },{
           "id": "13-a-1",
           "title": "약속된 1천 억 달러 재원 조성에 대해 2020~2025년 실제 모금되는 연도별 금액",
           "description": "",
-          "keywords": "Non-statistical, legislation, policy",
+          "keywords": "규제, 정책, Non-statistical, legislation, policy",
           "href": "/sdg-indicators/13-a-1",
           "status": "notstarted"
         }]
@@ -1316,7 +1316,7 @@
           "id": "14-c-1",
           "title": "대양과 그 자원의 보존 및 지속가능한 이용을 위해 법, 정책, 제도를 통해 유엔해양법협약에 반영되어 있는 것과 같이 국제법을 이행하기 위한 대양관련 장치를  비준, 적용하고 이행하는 과정에서 진전을 보이는 국가의 수",
           "description": "",
-          "keywords": "Non-statistical, legislation, policy",
+          "keywords": "규제, 정책, Non-statistical, legislation, policy",
           "href": "/sdg-indicators/14-c-1",
           "status": "notstarted"
         },{
@@ -1385,14 +1385,14 @@
           "id": "15-c-1",
           "title": "불법적으로 거래되거나 밀렵된 야생생물의 거래 비율",
           "description": "",
-          "keywords": "CITES, UNODC",
+          "keywords": "교육, CITES, UNODC",
           "href": "/sdg-indicators/15-c-1",
           "status": "notstarted"
         },{
           "id": "15-9-1",
           "title": "「생물다양성 전략계획2011-2020」의 Aichi 타겟2에 따라 수립된 국가 목표의 진전도",
           "description": "",
-          "keywords": "Non-statistical, legislation, policy",
+          "keywords": "규제, 정책, Non-statistical, legislation, policy",
           "href": "/sdg-indicators/15-9-1",
           "status": "notstarted"
         },{
@@ -1415,7 +1415,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-indicators/15-3-1",
-          "status": "complete"
+          "status": "notstarted"
         },{
           "id": "15-4-2",
           "title": "산림피복 지수(Mountain Green Cover Index)",
@@ -1427,14 +1427,14 @@
           "id": "15-8-1",
           "title": "외래칩입종의 유입 예방과 통제를 위해 국가 차원의 법률과 적당한 수단을 채택하고 있는 국가의 비율",
           "description": "",
-          "keywords": "Non-statistical, legislation, policy",
+          "keywords": "규제, 정책, Non-statistical, legislation, policy",
           "href": "/sdg-indicators/15-8-1",
           "status": "notstarted"
         },{
           "id": "15-7-1",
           "title": "불법적으로 거래되거나 밀렵된 야생생물의 거래 비율",
           "description": "",
-          "keywords": "CITES, UNODC",
+          "keywords": "도시, CITES, UNODC",
           "href": "/sdg-indicators/15-7-1",
           "status": "notstarted"
         },{
@@ -1482,7 +1482,7 @@
           "id": "16-6-2",
           "title": "가장 최근에 경험한 공공서비스에 대해 만족하는 인구비율",
           "description": "",
-          "keywords": "public services",
+          "keywords": "공공서비스, public services",
           "href": "/sdg-indicators/16-6-2",
           "status": "notstarted"
         },{
@@ -1531,14 +1531,14 @@
           "id": "16-2-1",
           "title": "지난 1개월간 보호자로부터 체벌이나 심리적 위협을 경험한 적이 있는 1-17세 아동 비율",
           "description": "",
-          "keywords": "Crime",
+          "keywords": "범죄, Crime",
           "href": "/sdg-indicators/16-2-1",
           "status": "notstarted"
         },{
           "id": "16-b-1",
           "title": "국제인권법 차별금지기준으로 지난 12개월 동안 차별 또는 괴롭힘을 당했다고 느꼈음을 보고한 인구의 비율",
           "description": "",
-          "keywords": "Crime",
+          "keywords": "범죄, Crime",
           "href": "/sdg-indicators/16-b-1",
           "status": "notstarted"
         },{
@@ -1552,14 +1552,14 @@
           "id": "16-2-3",
           "title": "18-29세 성인 중 18세 이전에 성폭력을 당한 적이 있는 인구비율",
           "description": "",
-          "keywords": "Crime",
+          "keywords": "범죄, Crime",
           "href": "/sdg-indicators/16-2-3",
           "status": "notstarted"
         },{
           "id": "16-7-1",
           "title": "국가전체 대비 공공기관(국가 및 지방 입법부, 행정부, 사법부) 내 성별, 연령, 장애여부 등 인구집단별 보직분포 비율",
           "description": "",
-          "keywords": "Labour Force",
+          "keywords": "노동, 노동력, Labour Force",
           "href": "/sdg-indicators/16-7-1",
           "status": "notstarted"
         },{
@@ -1573,7 +1573,7 @@
           "id": "16-2-2",
           "title": "인구 10만명당 인신매매 피해자수의 성, 연령, 착취형태별 현황",
           "description": "",
-          "keywords": "Modern slavery and Human Trafficing",
+          "keywords": "노예, 인신매매, Modern slavery and Human Trafficing",
           "href": "/sdg-indicators/16-2-2",
           "status": "notstarted"
         },{
@@ -1587,7 +1587,7 @@
           "id": "16-9-1",
           "title": "5세미만 중 행정 당국에 출생 신고된 자의 연령별 비율",
           "description": "",
-          "keywords": "Births, registrations",
+          "keywords": "출생, 신고, 등록,  Births, registrations",
           "href": "/sdg-indicators/16-9-1",
           "status": "notstarted"
         },{
@@ -1608,14 +1608,14 @@
           "id": "16-1-2",
           "title": "인구 10만명당 분쟁관련 사망자수의 성, 연령 및 사유별 현황",
           "description": "",
-          "keywords": "Crime, conflict, armed forces",
+          "keywords": "범죄, 분쟁, 무장, Crime, conflict, armed forces",
           "href": "/sdg-indicators/16-1-2",
           "status": "notstarted"
         },{
           "id": "16-5-2",
           "title": "지난 12개월 동안 공무원을 최소한 1회 이상 접촉하여 뇌물을 주었거나 공무원으로부터 뇌물을 요구받았던 기업의 비율",
           "description": "",
-          "keywords": "crime, bribery, corruption, business",
+          "keywords": "범죄, 뇌물, 부패, 기업, crime, bribery, corruption, business",
           "href": "/sdg-indicators/16-5-2",
           "status": "notstarted"
         },{
@@ -1635,14 +1635,14 @@
           "id": "17-6-1",
           "title": "국가간 과학기술 협력을 위한 협정과 프로그램의 수 (협력 형태별)",
           "description": "",
-          "keywords": "Non-statistical, legislation, policy",
+          "keywords": "규제, 정책, Non-statistical, legislation, policy",
           "href": "/sdg-indicators/17-6-1",
           "status": "notstarted"
         },{
           "id": "17-9-1",
           "title": "개발도상국에 지원하는 (남북, 남남, 삼각협력 포함) 재정 및 기술지원금액 (달러기준)",
           "description": "",
-          "keywords": "ODA",
+          "keywords": "공적개발원조, ODA",
           "href": "/sdg-indicators/17-9-1",
           "status": "notstarted"
         },{
@@ -1691,7 +1691,7 @@
           "id": "17-19-1",
           "title": "개발도상국에서 통계역량 강화에 사용되는 모든 자원의 달러가치",
           "description": "",
-          "keywords": "ODA",
+          "keywords": "공적개발원조, ODA",
           "href": "/sdg-indicators/17-19-1",
           "status": "notstarted"
         },{
@@ -1726,7 +1726,7 @@
           "id": "17-7-1",
           "title": "개도국에 친환경 기술의 개발과 이전, 보급 및 확산을 촉진하기 위해 지원하는 총 승인 금액",
           "description": "",
-          "keywords": "ODA",
+          "keywords": "공적개발원조, ODA",
           "href": "/sdg-indicators/17-7-1",
           "status": "notstarted"
         },{
@@ -1747,7 +1747,7 @@
           "id": "17-16-1",
           "title": "SDGs 달성을 지원하기 위한 다자간 개발효과성 모니터링 프레임워크에서 진전을 보고한 국가의수",
           "description": "",
-          "keywords": "Non-statistical, legislation, policy",
+          "keywords": "규제, 정책, Non-statistical, legislation, policy",
           "href": "/sdg-indicators/17-16-1",
           "status": "notstarted"
         },{
@@ -1789,7 +1789,7 @@
           "id": "17-5-1",
           "title": "최빈개도국을 위한 투자촉진제도를 채택하고 이행하는 국가의 수",
           "description": "",
-          "keywords": "Non-statistical, legislation, policy",
+          "keywords": "규제, 정책, Non-statistical, legislation, policy",
           "href": "/sdg-indicators/17-5-1",
           "status": "notstarted"
         },{
@@ -1803,7 +1803,7 @@
           "id": "17-14-1",
           "title": "지속가능발전의 정책일관성을 증진하기 위해 메커니즘을 갖춘 국가의 수",
           "description": "",
-          "keywords": "Non-statistical, legislation, policy",
+          "keywords": "규제, 정책, Non-statistical, legislation, policy",
           "href": "/sdg-indicators/17-14-1",
           "status": "notstarted"
         }]
