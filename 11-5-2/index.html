@@ -149,7 +149,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-indicators/assets/css/default.css?v=20191202040246">
+        <link rel="stylesheet" href="/sdg-indicators/assets/css/default.css?v=20191202054932">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -163,14 +163,14 @@ var translations = {
 <body class="language-kr layout-indicator">
 <!-- <div class="container"> -->
 
-<script>translations['header'] = {"alpha":"Alpha","default_contrast":"ABC","disable_high_contrast":"고대비 불가","disclaimer":"This is a development website. We welcome your <a href=\"mailto:%email_address\">feedback</a>.","enable_high_contrast":"고대비 가능","high_contrast":"ABC","skip_link":"Skip to main content","tag_line":"17 Goals to Transform our World"};</script>
+<script>translations['header'] = {"alpha":"Alpha version","default_contrast":"원래대로","disable_high_contrast":"고대비 불가","disclaimer":"현재 개발중인 웹사이트 입니다. 문의사항은 <a href=\"mailto:%email_address\">이메일</a> 부탁 드립니다. 감사합니다.","enable_high_contrast":"고대비 가능","high_contrast":"고대비","skip_link":"Skip to main content","tag_line":"17 Goals to Transform our World"};</script>
 
 <a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Skip to main content</a>
 <div id="disclaimer">
   <div class="container">
   <div class="alert alert-danger" role="alert">
-    <strong class="phase-tag">Alpha</strong>
-    This is a development website. We welcome your <a href="mailto:insang1@korea.kr">feedback</a>.
+    <strong class="phase-tag">Alpha version</strong>
+    현재 개발중인 웹사이트 입니다. 문의사항은 <a href="mailto:insang1@korea.kr">이메일</a> 부탁 드립니다. 감사합니다.
   </div>
 </div>
 
@@ -338,7 +338,7 @@ var translations = {
 
   <div class="row">
     <div class="col-xs-12">
-      <h2>Direct economic loss attributed to disasters relative to GDP</h2>
+      <h2>GDP 대비 직접적인 경제적 손실</h2>
     </div>
   </div>
 
@@ -348,7 +348,7 @@ var translations = {
   
 
   <div class="row" id="indicatorData" data-indicatorid='indicator_11-5-2' data-id="11-5-2" data-country="전국"
-  data-charttitle="Direct economic loss attributed to disasters relative to GDP" data-measurementunit="" data-datasource="" data-copyright=""
+  data-charttitle="GDP 대비 직접적인 경제적 손실" data-measurementunit="퍼센트 (%)" data-datasource="" data-copyright=""
   data-geographicalarea="전국" data-footnote="" data-showdata="true" data-graphtype="line"
   data-geocoderegex="" data-showmap="false" data-startvalues="">
     
@@ -487,7 +487,7 @@ data-event-label="Change to Map tab"
     
     <div id="selectionsChart">
       <div id="chart-canvas">
-        <h3 class="chart-title">Direct economic loss attributed to disasters relative to GDP</h3>
+        <h3 class="chart-title">GDP 대비 직접적인 경제적 손실</h3>
         <div id="chart" class="plot-container">
           
 <canvas></canvas>
@@ -600,7 +600,20 @@ data-event-label="Change to Sources tab"
   
       
         
+      
+      
+      <tr>
+        <th scope="row">단위 </th>
+        <td>
           
+            <p>퍼센트 (%)</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
           
@@ -655,8 +668,8 @@ data-event-label="Change to Sources tab"
             
 
             
-              <a href="https://github.com/kostat-sdg-kor/sdg-data/commit/a6b113e526ee1798b556d4f5f33c821232d8254c" target="_blank">
-                2019-11-28: see changes on GitHub <span class="visuallyhidden">새 창에서 열기</span>
+              <a href="https://github.com/kostat-sdg-kor/sdg-data/commit/ef9b3b6333d3c99e8f54dafeba90095eeff0bc22" target="_blank">
+                2019-12-02: see changes on GitHub <span class="visuallyhidden">새 창에서 열기</span>
               </a>
             
 
@@ -1135,7 +1148,7 @@ data-event-label="Change to Sources tab"
 <script src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.3/dist/html2canvas.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/file-saver@2.0.2/dist/FileSaver.min.js"></script>
-<script src='/sdg-indicators/assets/js/sdg.js?v=20191202040246'></script><script src="/sdg-indicators/assets/js/custom.js?v=20191202040246"></script><script>
+<script src='/sdg-indicators/assets/js/sdg.js?v=20191202054932'></script><script src="/sdg-indicators/assets/js/custom.js?v=20191202054932"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
