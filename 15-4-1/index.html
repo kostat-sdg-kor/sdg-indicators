@@ -149,7 +149,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-indicators/assets/css/default.css?v=20191202054932">
+        <link rel="stylesheet" href="/sdg-indicators/assets/css/default.css?v=20191202083904">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -338,7 +338,7 @@ var translations = {
 
   <div class="row">
     <div class="col-xs-12">
-      <h2>Average proportion of Mountain Key Biodiversity Areas (KBAs) covered by protected areas</h2>
+      <h2>생태계 보호 지역에서 생물 다양성 지역의 평균 비율</h2>
     </div>
   </div>
 
@@ -348,7 +348,7 @@ var translations = {
   
 
   <div class="row" id="indicatorData" data-indicatorid='indicator_15-4-1' data-id="15-4-1" data-country="전국"
-  data-charttitle="Average proportion of Mountain Key Biodiversity Areas (KBAs) covered by protected areas" data-measurementunit="" data-datasource="" data-copyright=""
+  data-charttitle="생태계 보호 지역에서 생물 다양성 지역의 평균 비율" data-measurementunit="퍼센트 (%)" data-datasource="" data-copyright=""
   data-geographicalarea="전국" data-footnote="" data-showdata="true" data-graphtype="line"
   data-geocoderegex="" data-showmap="false" data-startvalues="">
     
@@ -679,7 +679,7 @@ data-event-label="Change to Map tab"
     
     <div id="selectionsChart">
       <div id="chart-canvas">
-        <h3 class="chart-title">Average proportion of Mountain Key Biodiversity Areas (KBAs) covered by protected areas</h3>
+        <h3 class="chart-title">생태계 보호 지역에서 생물 다양성 지역의 평균 비율</h3>
         <div id="chart" class="plot-container">
           
 <canvas></canvas>
@@ -792,7 +792,20 @@ data-event-label="Change to Sources tab"
   
       
         
+      
+      
+      <tr>
+        <th scope="row">단위 </th>
+        <td>
           
+            <p>퍼센트 (%)</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
           
@@ -847,8 +860,8 @@ data-event-label="Change to Sources tab"
             
 
             
-              <a href="https://github.com/kostat-sdg-kor/sdg-data/commit/41bd79909da39a51e8c9a30e1df204ca5e89b3e3" target="_blank">
-                2019-11-28: see changes on GitHub <span class="visuallyhidden">새 창에서 열기</span>
+              <a href="https://github.com/kostat-sdg-kor/sdg-data/commit/3cb713d83d9513e93e936797e7e5437891f03792" target="_blank">
+                2019-12-02: see changes on GitHub <span class="visuallyhidden">새 창에서 열기</span>
               </a>
             
 
@@ -1005,7 +1018,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">지표명 </th>
         <td>
           
-            <p>국토면적 대비 황폐화 지역 비율</p>
+            <p>산지생물 다양성 관련 중요 보호지역 면적</p>
 
           
         </td>
@@ -1038,7 +1051,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">세부목표명 </th>
         <td>
           
-            <p>2030년까지 사막화 퇴치와 사막화, 가뭄, 홍수로 영향을 받은 토지를 포함하여, 황폐화된 토지 및 토양 복원, 그리고 토지 황폐화 가 없는 세계 달성을 위해 노력</p>
+            <p>2030년까지 지속가능발전에 필수적인 이익을 주는 산림생태계의 수용력을 증진하기 위해, 생물다양성을 포함한 산림 생태계 보존을 보장</p>
 
           
         </td>
@@ -1327,7 +1340,7 @@ data-event-label="Change to Sources tab"
 <script src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.3/dist/html2canvas.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/file-saver@2.0.2/dist/FileSaver.min.js"></script>
-<script src='/sdg-indicators/assets/js/sdg.js?v=20191202054932'></script><script src="/sdg-indicators/assets/js/custom.js?v=20191202054932"></script><script>
+<script src='/sdg-indicators/assets/js/sdg.js?v=20191202083904'></script><script src="/sdg-indicators/assets/js/custom.js?v=20191202083904"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
