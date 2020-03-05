@@ -944,8 +944,7 @@ h5 + .btn-download {
     border-bottom: none; }
   #main-content.goal-indicators.goal-by-target .indicator-cards a {
     padding: 0;
-    margin-bottom: 1.5rem;
-    font-weight: bold; }
+    margin-bottom: 1.5rem; }
   #main-content.goal-indicators.goal-by-target .indicator-cards.target {
     margin-bottom: 1.5rem;
     font-weight: bold;
