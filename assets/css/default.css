@@ -76,7 +76,7 @@ header {
   padding: 5px 0; }
   .results .indicator-cards span.status {
     color: black;
-    font-weight: normal;
+    font-weight: bold;
     border: none;
     padding: 4px;
     position: absolute;
@@ -922,7 +922,7 @@ h5 + .btn-download {
     padding: 5px 0; }
     #main-content.goal-indicators .indicator-cards span.status {
       color: black;
-      font-weight: normal;
+      font-weight: bold;
       border: none;
       padding: 4px;
       position: absolute;
