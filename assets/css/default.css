@@ -144,7 +144,9 @@ header {
 .navbar {
   margin-bottom: 32px; }
   .navbar li {
-    text-transform: uppercase; }
+      /*
+    text-transform: uppercase;
+	*/ }
   .navbar ul.navbar-nav {
     float: right;
     margin-top: 12px; }
