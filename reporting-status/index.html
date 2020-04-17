@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en" class="no-js">
     <head>
@@ -134,7 +133,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-indicators/assets/css/default.css?v=20200417005130">
+        <link rel="stylesheet" href="/sdg-indicators/assets/css/default.css?v=20200417013905">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -145,17 +144,17 @@ var translations = {
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" crossorigin=""><!-- ShareThis BEGIN --><!-- ShareThis END -->
 
     </head>
-<body class="language-kr layout-reportingstatus">
+<body class="language- layout-reportingstatus">
 <!-- <div class="container"> -->
 
-<script>translations['header'] = {"alpha":"Alpha version","default_contrast":"원래대로","disable_high_contrast":"고대비 불가","disclaimer":"현재 개발중인 웹사이트 입니다. 문의사항은 <a href=\"mailto:%email_address\">이메일</a> 부탁 드립니다.","enable_high_contrast":"고대비 가능","high_contrast":"고대비","skip_link":"Skip to main content","tag_line":"17 Goals to Transform our World"};</script>
+<script>translations['header'] = null;</script>
 
-<a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Skip to main content</a>
+<a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0"></a>
 <div id="disclaimer">
   <div class="container">
   <div class="alert alert-danger" role="alert">
-    <strong class="phase-tag">Alpha version</strong>
-    현재 개발중인 웹사이트 입니다. 문의사항은 <a href="mailto:sjkwon910@korea.kr">이메일</a> 부탁 드립니다.
+    <strong class="phase-tag"></strong>
+    
   </div>
 </div>
 
@@ -165,7 +164,7 @@ var translations = {
   <div class="container">
 
     <a class="navbar-brand" href="/sdg-indicators/" id="home">
-      <img src="/sdg-indicators/assets/img/SDG_logo.png" alt="지속가능발전목표 - 17 Goals to Transform our World" />
+      <img src="/sdg-indicators/assets/img/SDG_logo.png" alt=" - " />
     </a>
 
   <div class='hidden visible-xs float-right'>
@@ -191,9 +190,9 @@ var translations = {
             aria-haspopup="true"
             aria-expanded="false">
           <span data-target="menu" tabindex="0"
-          role="navigation">메뉴</span>
+          role="navigation"></span>
         </li>
-        <li><span data-target="search">검색</span></li>
+        <li><span data-target="search"></span></li>
       </ul>
 
       <ul class="nav navbar-nav menu-target contrast-switcher" id="menu"><li class="nav-link ">
@@ -219,9 +218,9 @@ var translations = {
         </li></ul>
 
       <div id="search" class="menu-target">
-  <input id="indicator_search" title="검색어를 입력해 주시기 바랍니다." placeholder="검색어를 입력해 주시기 바랍니다." data-url="/sdg-indicators/indicators.json" data-pageurl="/sdg-indicators/search/?q=" />
+  <input id="indicator_search" title="" placeholder="" data-url="/sdg-indicators/indicators.json" data-pageurl="/sdg-indicators/search/?q=" />
   <label for="indicator_search">
-    <button id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false" aria-label=검색어를 입력해 주시기 바랍니다.></i></button><span>검색:</span>
+    <button id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false" aria-label=></i></button><span>:</span>
   </label>
 </div>
 
@@ -230,456 +229,30 @@ var translations = {
   </div>
 
 </header>
-
-
 <div id="main-content" class="container reportingstatus">
-
-  <h1>데이터 현황</h1><div class="goal goal-overall">
+  <h1>test</h1>
+   <div class="goal goal-overall">
       <div class="details">
         <h2 class="status-goal">
-            총괄 현황 - <span class="total"><span>244</span> 지표</span>
+           test
         </h2>
         <div class="summary">
-          <div class="statuses"><div>
-              <span class="status complete">128</span><strong>이용가능</strong><span class="value">53%</span>
-            </div><div>
-              <span class="status notstarted">116</span><strong>작업중</strong><span class="value">48%</span>
-            </div><br style="clear:both;">
+          <div class="statuses">
+ 
+            <div>
+              test
+            </div>
+ 
+
+            <br style="clear:both;">
           </div>
         </div>
-        <div class="goal-stats"><span class="complete" style="width:52.5%" title="이용가능: 53%"></span><span class="notstarted" style="width:47.5%" title="작업중: 48%"></span></div>
 
       </div>
-    <!--</li>-->
     <br style="clear:both;">
   </div>
 
-  <h2>목표별 현황</h2><div class="goal">
-        <div class="frame">
-          <a href="/sdg-indicators/1/">
-            <img src="https://kostat-sdg-kor.github.io/sdg-translations/assets/img/goals/kr/1.png" alt="빈곤퇴치 - 목표 1" width="100" height="100" />
-          </a>
-        </div>
-        <div class="details">
-          <h3 class="status-goal">
-            <a href="/sdg-indicators/1/">빈곤퇴치</a>
-            <span class="total">14<span></span> 지표</span>
-          </h3>
-          <div class="summary">
-            <div class="statuses"><div>
-                <span class="status complete">7</span><strong>이용가능</strong><span class="value">50%</span>
-              </div><div>
-                <span class="status notstarted">7</span><strong>작업중</strong><span class="value">50%</span>
-              </div><br style="clear:both;">
-            </div>
-          </div>
-          <div class="goal-stats"><span class="complete" style="width:50.0%" title="이용가능: 50%"></span><span class="notstarted" style="width:50.0%" title="작업중: 50%"></span></div>
-          <div class="divider">
-          </div>
-        </div>
-      <!--</li>-->
-      <br style="clear:both;">
-    </div><div class="goal">
-        <div class="frame">
-          <a href="/sdg-indicators/2/">
-            <img src="https://kostat-sdg-kor.github.io/sdg-translations/assets/img/goals/kr/2.png" alt="기아종식 - 목표 2" width="100" height="100" />
-          </a>
-        </div>
-        <div class="details">
-          <h3 class="status-goal">
-            <a href="/sdg-indicators/2/">기아종식</a>
-            <span class="total">13<span></span> 지표</span>
-          </h3>
-          <div class="summary">
-            <div class="statuses"><div>
-                <span class="status complete">7</span><strong>이용가능</strong><span class="value">54%</span>
-              </div><div>
-                <span class="status notstarted">6</span><strong>작업중</strong><span class="value">46%</span>
-              </div><br style="clear:both;">
-            </div>
-          </div>
-          <div class="goal-stats"><span class="complete" style="width:53.8%" title="이용가능: 54%"></span><span class="notstarted" style="width:46.2%" title="작업중: 46%"></span></div>
-          <div class="divider">
-          </div>
-        </div>
-      <!--</li>-->
-      <br style="clear:both;">
-    </div><div class="goal">
-        <div class="frame">
-          <a href="/sdg-indicators/3/">
-            <img src="https://kostat-sdg-kor.github.io/sdg-translations/assets/img/goals/kr/3.png" alt="건강과 웰빙 - 목표 3" width="100" height="100" />
-          </a>
-        </div>
-        <div class="details">
-          <h3 class="status-goal">
-            <a href="/sdg-indicators/3/">건강과 웰빙</a>
-            <span class="total">27<span></span> 지표</span>
-          </h3>
-          <div class="summary">
-            <div class="statuses"><div>
-                <span class="status complete">22</span><strong>이용가능</strong><span class="value">82%</span>
-              </div><div>
-                <span class="status notstarted">5</span><strong>작업중</strong><span class="value">19%</span>
-              </div><br style="clear:both;">
-            </div>
-          </div>
-          <div class="goal-stats"><span class="complete" style="width:81.5%" title="이용가능: 82%"></span><span class="notstarted" style="width:18.5%" title="작업중: 19%"></span></div>
-          <div class="divider">
-          </div>
-        </div>
-      <!--</li>-->
-      <br style="clear:both;">
-    </div><div class="goal">
-        <div class="frame">
-          <a href="/sdg-indicators/4/">
-            <img src="https://kostat-sdg-kor.github.io/sdg-translations/assets/img/goals/kr/4.png" alt="양질의 교육 - 목표 4" width="100" height="100" />
-          </a>
-        </div>
-        <div class="details">
-          <h3 class="status-goal">
-            <a href="/sdg-indicators/4/">양질의 교육</a>
-            <span class="total">11<span></span> 지표</span>
-          </h3>
-          <div class="summary">
-            <div class="statuses"><div>
-                <span class="status complete">7</span><strong>이용가능</strong><span class="value">64%</span>
-              </div><div>
-                <span class="status notstarted">4</span><strong>작업중</strong><span class="value">36%</span>
-              </div><br style="clear:both;">
-            </div>
-          </div>
-          <div class="goal-stats"><span class="complete" style="width:63.6%" title="이용가능: 64%"></span><span class="notstarted" style="width:36.4%" title="작업중: 36%"></span></div>
-          <div class="divider">
-          </div>
-        </div>
-      <!--</li>-->
-      <br style="clear:both;">
-    </div><div class="goal">
-        <div class="frame">
-          <a href="/sdg-indicators/5/">
-            <img src="https://kostat-sdg-kor.github.io/sdg-translations/assets/img/goals/kr/5.png" alt="양성평등 - 목표 5" width="100" height="100" />
-          </a>
-        </div>
-        <div class="details">
-          <h3 class="status-goal">
-            <a href="/sdg-indicators/5/">양성평등</a>
-            <span class="total">14<span></span> 지표</span>
-          </h3>
-          <div class="summary">
-            <div class="statuses"><div>
-                <span class="status complete">4</span><strong>이용가능</strong><span class="value">29%</span>
-              </div><div>
-                <span class="status notstarted">10</span><strong>작업중</strong><span class="value">71%</span>
-              </div><br style="clear:both;">
-            </div>
-          </div>
-          <div class="goal-stats"><span class="complete" style="width:28.6%" title="이용가능: 29%"></span><span class="notstarted" style="width:71.4%" title="작업중: 71%"></span></div>
-          <div class="divider">
-          </div>
-        </div>
-      <!--</li>-->
-      <br style="clear:both;">
-    </div><div class="goal">
-        <div class="frame">
-          <a href="/sdg-indicators/6/">
-            <img src="https://kostat-sdg-kor.github.io/sdg-translations/assets/img/goals/kr/6.png" alt="물과 위생 - 목표 6" width="100" height="100" />
-          </a>
-        </div>
-        <div class="details">
-          <h3 class="status-goal">
-            <a href="/sdg-indicators/6/">물과 위생</a>
-            <span class="total">11<span></span> 지표</span>
-          </h3>
-          <div class="summary">
-            <div class="statuses"><div>
-                <span class="status complete">9</span><strong>이용가능</strong><span class="value">82%</span>
-              </div><div>
-                <span class="status notstarted">2</span><strong>작업중</strong><span class="value">18%</span>
-              </div><br style="clear:both;">
-            </div>
-          </div>
-          <div class="goal-stats"><span class="complete" style="width:81.8%" title="이용가능: 82%"></span><span class="notstarted" style="width:18.2%" title="작업중: 18%"></span></div>
-          <div class="divider">
-          </div>
-        </div>
-      <!--</li>-->
-      <br style="clear:both;">
-    </div><div class="goal">
-        <div class="frame">
-          <a href="/sdg-indicators/7/">
-            <img src="https://kostat-sdg-kor.github.io/sdg-translations/assets/img/goals/kr/7.png" alt="깨끗한 에너지 - 목표 7" width="100" height="100" />
-          </a>
-        </div>
-        <div class="details">
-          <h3 class="status-goal">
-            <a href="/sdg-indicators/7/">깨끗한 에너지</a>
-            <span class="total">6<span></span> 지표</span>
-          </h3>
-          <div class="summary">
-            <div class="statuses"><div>
-                <span class="status complete">4</span><strong>이용가능</strong><span class="value">67%</span>
-              </div><div>
-                <span class="status notstarted">2</span><strong>작업중</strong><span class="value">33%</span>
-              </div><br style="clear:both;">
-            </div>
-          </div>
-          <div class="goal-stats"><span class="complete" style="width:66.7%" title="이용가능: 67%"></span><span class="notstarted" style="width:33.3%" title="작업중: 33%"></span></div>
-          <div class="divider">
-          </div>
-        </div>
-      <!--</li>-->
-      <br style="clear:both;">
-    </div><div class="goal">
-        <div class="frame">
-          <a href="/sdg-indicators/8/">
-            <img src="https://kostat-sdg-kor.github.io/sdg-translations/assets/img/goals/kr/8.png" alt="양질의 일자리와 경제성장 - 목표 8" width="100" height="100" />
-          </a>
-        </div>
-        <div class="details">
-          <h3 class="status-goal">
-            <a href="/sdg-indicators/8/">양질의 일자리와 경제성장</a>
-            <span class="total">17<span></span> 지표</span>
-          </h3>
-          <div class="summary">
-            <div class="statuses"><div>
-                <span class="status complete">9</span><strong>이용가능</strong><span class="value">53%</span>
-              </div><div>
-                <span class="status notstarted">8</span><strong>작업중</strong><span class="value">47%</span>
-              </div><br style="clear:both;">
-            </div>
-          </div>
-          <div class="goal-stats"><span class="complete" style="width:52.9%" title="이용가능: 53%"></span><span class="notstarted" style="width:47.1%" title="작업중: 47%"></span></div>
-          <div class="divider">
-          </div>
-        </div>
-      <!--</li>-->
-      <br style="clear:both;">
-    </div><div class="goal">
-        <div class="frame">
-          <a href="/sdg-indicators/9/">
-            <img src="https://kostat-sdg-kor.github.io/sdg-translations/assets/img/goals/kr/9.png" alt="산업, 혁신과 사회기반시설 - 목표 9" width="100" height="100" />
-          </a>
-        </div>
-        <div class="details">
-          <h3 class="status-goal">
-            <a href="/sdg-indicators/9/">산업, 혁신과 사회기반시설</a>
-            <span class="total">12<span></span> 지표</span>
-          </h3>
-          <div class="summary">
-            <div class="statuses"><div>
-                <span class="status complete">9</span><strong>이용가능</strong><span class="value">75%</span>
-              </div><div>
-                <span class="status notstarted">3</span><strong>작업중</strong><span class="value">25%</span>
-              </div><br style="clear:both;">
-            </div>
-          </div>
-          <div class="goal-stats"><span class="complete" style="width:75.0%" title="이용가능: 75%"></span><span class="notstarted" style="width:25.0%" title="작업중: 25%"></span></div>
-          <div class="divider">
-          </div>
-        </div>
-      <!--</li>-->
-      <br style="clear:both;">
-    </div><div class="goal">
-        <div class="frame">
-          <a href="/sdg-indicators/10/">
-            <img src="https://kostat-sdg-kor.github.io/sdg-translations/assets/img/goals/kr/10.png" alt="불평등 완화 - 목표 10" width="100" height="100" />
-          </a>
-        </div>
-        <div class="details">
-          <h3 class="status-goal">
-            <a href="/sdg-indicators/10/">불평등 완화</a>
-            <span class="total">11<span></span> 지표</span>
-          </h3>
-          <div class="summary">
-            <div class="statuses"><div>
-                <span class="status complete">5</span><strong>이용가능</strong><span class="value">46%</span>
-              </div><div>
-                <span class="status notstarted">6</span><strong>작업중</strong><span class="value">55%</span>
-              </div><br style="clear:both;">
-            </div>
-          </div>
-          <div class="goal-stats"><span class="complete" style="width:45.5%" title="이용가능: 46%"></span><span class="notstarted" style="width:54.5%" title="작업중: 55%"></span></div>
-          <div class="divider">
-          </div>
-        </div>
-      <!--</li>-->
-      <br style="clear:both;">
-    </div><div class="goal">
-        <div class="frame">
-          <a href="/sdg-indicators/11/">
-            <img src="https://kostat-sdg-kor.github.io/sdg-translations/assets/img/goals/kr/11.png" alt="지속가능한 도시와 공동체 - 목표 11" width="100" height="100" />
-          </a>
-        </div>
-        <div class="details">
-          <h3 class="status-goal">
-            <a href="/sdg-indicators/11/">지속가능한 도시와 공동체</a>
-            <span class="total">15<span></span> 지표</span>
-          </h3>
-          <div class="summary">
-            <div class="statuses"><div>
-                <span class="status complete">5</span><strong>이용가능</strong><span class="value">33%</span>
-              </div><div>
-                <span class="status notstarted">10</span><strong>작업중</strong><span class="value">67%</span>
-              </div><br style="clear:both;">
-            </div>
-          </div>
-          <div class="goal-stats"><span class="complete" style="width:33.3%" title="이용가능: 33%"></span><span class="notstarted" style="width:66.7%" title="작업중: 67%"></span></div>
-          <div class="divider">
-          </div>
-        </div>
-      <!--</li>-->
-      <br style="clear:both;">
-    </div><div class="goal">
-        <div class="frame">
-          <a href="/sdg-indicators/12/">
-            <img src="https://kostat-sdg-kor.github.io/sdg-translations/assets/img/goals/kr/12.png" alt="책임감 있는 소비와 생산 - 목표 12" width="100" height="100" />
-          </a>
-        </div>
-        <div class="details">
-          <h3 class="status-goal">
-            <a href="/sdg-indicators/12/">책임감 있는 소비와 생산</a>
-            <span class="total">13<span></span> 지표</span>
-          </h3>
-          <div class="summary">
-            <div class="statuses"><div>
-                <span class="status complete">4</span><strong>이용가능</strong><span class="value">31%</span>
-              </div><div>
-                <span class="status notstarted">9</span><strong>작업중</strong><span class="value">69%</span>
-              </div><br style="clear:both;">
-            </div>
-          </div>
-          <div class="goal-stats"><span class="complete" style="width:30.8%" title="이용가능: 31%"></span><span class="notstarted" style="width:69.2%" title="작업중: 69%"></span></div>
-          <div class="divider">
-          </div>
-        </div>
-      <!--</li>-->
-      <br style="clear:both;">
-    </div><div class="goal">
-        <div class="frame">
-          <a href="/sdg-indicators/13/">
-            <img src="https://kostat-sdg-kor.github.io/sdg-translations/assets/img/goals/kr/13.png" alt="기후변화 대응 - 목표 13" width="100" height="100" />
-          </a>
-        </div>
-        <div class="details">
-          <h3 class="status-goal">
-            <a href="/sdg-indicators/13/">기후변화 대응</a>
-            <span class="total">8<span></span> 지표</span>
-          </h3>
-          <div class="summary">
-            <div class="statuses"><div>
-                <span class="status complete">3</span><strong>이용가능</strong><span class="value">38%</span>
-              </div><div>
-                <span class="status notstarted">5</span><strong>작업중</strong><span class="value">63%</span>
-              </div><br style="clear:both;">
-            </div>
-          </div>
-          <div class="goal-stats"><span class="complete" style="width:37.5%" title="이용가능: 38%"></span><span class="notstarted" style="width:62.5%" title="작업중: 63%"></span></div>
-          <div class="divider">
-          </div>
-        </div>
-      <!--</li>-->
-      <br style="clear:both;">
-    </div><div class="goal">
-        <div class="frame">
-          <a href="/sdg-indicators/14/">
-            <img src="https://kostat-sdg-kor.github.io/sdg-translations/assets/img/goals/kr/14.png" alt="해양 생태계 - 목표 14" width="100" height="100" />
-          </a>
-        </div>
-        <div class="details">
-          <h3 class="status-goal">
-            <a href="/sdg-indicators/14/">해양 생태계</a>
-            <span class="total">10<span></span> 지표</span>
-          </h3>
-          <div class="summary">
-            <div class="statuses"><div>
-                <span class="status complete">4</span><strong>이용가능</strong><span class="value">40%</span>
-              </div><div>
-                <span class="status notstarted">6</span><strong>작업중</strong><span class="value">60%</span>
-              </div><br style="clear:both;">
-            </div>
-          </div>
-          <div class="goal-stats"><span class="complete" style="width:40.0%" title="이용가능: 40%"></span><span class="notstarted" style="width:60.0%" title="작업중: 60%"></span></div>
-          <div class="divider">
-          </div>
-        </div>
-      <!--</li>-->
-      <br style="clear:both;">
-    </div><div class="goal">
-        <div class="frame">
-          <a href="/sdg-indicators/15/">
-            <img src="https://kostat-sdg-kor.github.io/sdg-translations/assets/img/goals/kr/15.png" alt="육상 생태계 - 목표 15" width="100" height="100" />
-          </a>
-        </div>
-        <div class="details">
-          <h3 class="status-goal">
-            <a href="/sdg-indicators/15/">육상 생태계</a>
-            <span class="total">14<span></span> 지표</span>
-          </h3>
-          <div class="summary">
-            <div class="statuses"><div>
-                <span class="status complete">9</span><strong>이용가능</strong><span class="value">64%</span>
-              </div><div>
-                <span class="status notstarted">5</span><strong>작업중</strong><span class="value">36%</span>
-              </div><br style="clear:both;">
-            </div>
-          </div>
-          <div class="goal-stats"><span class="complete" style="width:64.3%" title="이용가능: 64%"></span><span class="notstarted" style="width:35.7%" title="작업중: 36%"></span></div>
-          <div class="divider">
-          </div>
-        </div>
-      <!--</li>-->
-      <br style="clear:both;">
-    </div><div class="goal">
-        <div class="frame">
-          <a href="/sdg-indicators/16/">
-            <img src="https://kostat-sdg-kor.github.io/sdg-translations/assets/img/goals/kr/16.png" alt="평화와 정의 - 목표 16" width="100" height="100" />
-          </a>
-        </div>
-        <div class="details">
-          <h3 class="status-goal">
-            <a href="/sdg-indicators/16/">평화와 정의</a>
-            <span class="total">23<span></span> 지표</span>
-          </h3>
-          <div class="summary">
-            <div class="statuses"><div>
-                <span class="status complete">9</span><strong>이용가능</strong><span class="value">39%</span>
-              </div><div>
-                <span class="status notstarted">14</span><strong>작업중</strong><span class="value">61%</span>
-              </div><br style="clear:both;">
-            </div>
-          </div>
-          <div class="goal-stats"><span class="complete" style="width:39.1%" title="이용가능: 39%"></span><span class="notstarted" style="width:60.9%" title="작업중: 61%"></span></div>
-          <div class="divider">
-          </div>
-        </div>
-      <!--</li>-->
-      <br style="clear:both;">
-    </div><div class="goal">
-        <div class="frame">
-          <a href="/sdg-indicators/17/">
-            <img src="https://kostat-sdg-kor.github.io/sdg-translations/assets/img/goals/kr/17.png" alt="SDGs를 위한 파트너십 - 목표 17" width="100" height="100" />
-          </a>
-        </div>
-        <div class="details">
-          <h3 class="status-goal">
-            <a href="/sdg-indicators/17/">SDGs를 위한 파트너십</a>
-            <span class="total">25<span></span> 지표</span>
-          </h3>
-          <div class="summary">
-            <div class="statuses"><div>
-                <span class="status complete">11</span><strong>이용가능</strong><span class="value">44%</span>
-              </div><div>
-                <span class="status notstarted">14</span><strong>작업중</strong><span class="value">56%</span>
-              </div><br style="clear:both;">
-            </div>
-          </div>
-          <div class="goal-stats"><span class="complete" style="width:44.0%" title="이용가능: 44%"></span><span class="notstarted" style="width:56.0%" title="작업중: 56%"></span></div>
-          <div class="divider">
-          </div>
-        </div>
-      <!--</li>-->
-      <br style="clear:both;">
-    </div><!---->
+  <!---->
 
 </div>
 <footer role="contentinfo">
@@ -688,23 +261,23 @@ var translations = {
         <div class="col-xs-12">
           <div id="footerLinks">
             <ul>
-              <li><a href="mailto:sjkwon910@korea.kr">Contact us</a></li>
+              <li><a href="mailto:sjkwon910@korea.kr"></a></li>
               
 			  
-              <li style ="display:none"><a class="twitter-follow-button" href="https://twitter.com/kostatin" data-show-count="false"></a></li><!--Twitter: @kostatin-->
-              
-			  
-			  
+              <li style ="display:none"><a class="twitter-follow-button" href="https://twitter.com/kostatin" data-show-count="false"></a></li><!--: @kostatin-->
               
 			  
 			  
-              <li  style ="display:none"><a href="/sdg-indicators/faq/"></a></li><!--FAQ-->
+              
 			  
-              <li><a href="/sdg-indicators/about/cookies-and-privacy/">Cookies</a></li>
+			  
+              <li  style ="display:none"><a href="/sdg-indicators/faq/"></a></li><!---->
+			  
+              <li><a href="/sdg-indicators/about/cookies-and-privacy/"></a></li>
 			  
               <li><a href="/sdg-indicators/accessibility-statement/"></a></li><!--Accessibility statement-->
 			  <li><a href="/sdg-indicators/accessibility-statement/"></a></li><!--Accessibility statement-->
-    	      <li><a href="/sdg-indicators/guidance/">매뉴얼</a></li><!--Space-->	  
+    	      <li><a href="/sdg-indicators/guidance/"></a></li><!--Space-->	  
 
 
 
@@ -754,7 +327,7 @@ var translations = {
 <script src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.3/dist/html2canvas.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/file-saver@2.0.2/dist/FileSaver.min.js"></script>
-<script src='/sdg-indicators/assets/js/sdg.js?v=20200417005130'></script><script src="/sdg-indicators/assets/js/custom.js?v=20200417005130"></script><script>
+<script src='/sdg-indicators/assets/js/sdg.js?v=20200417013905'></script><script src="/sdg-indicators/assets/js/custom.js?v=20200417013905"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
