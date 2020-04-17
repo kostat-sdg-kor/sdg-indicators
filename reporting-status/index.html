@@ -1,3 +1,17 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <!DOCTYPE html>
 <html lang="en" class="no-js">
     <head>
@@ -133,7 +147,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-indicators/assets/css/default.css?v=20200417014557">
+        <link rel="stylesheet" href="/sdg-indicators/assets/css/default.css?v=20200417020408">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -144,17 +158,17 @@ var translations = {
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" crossorigin=""><!-- ShareThis BEGIN --><!-- ShareThis END -->
 
     </head>
-<body class="language- layout-reportingstatus">
+<body class="language-kr layout-reportingstatus">
 <!-- <div class="container"> -->
 
-<script>translations['header'] = null;</script>
+<script>translations['header'] = {"alpha":"Alpha version","default_contrast":"원래대로","disable_high_contrast":"고대비 불가","disclaimer":"현재 개발중인 웹사이트 입니다. 문의사항은 <a href=\"mailto:%email_address\">이메일</a> 부탁 드립니다.","enable_high_contrast":"고대비 가능","high_contrast":"고대비","skip_link":"Skip to main content","tag_line":"17 Goals to Transform our World"};</script>
 
-<a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0"></a>
+<a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Skip to main content</a>
 <div id="disclaimer">
   <div class="container">
   <div class="alert alert-danger" role="alert">
-    <strong class="phase-tag"></strong>
-    
+    <strong class="phase-tag">Alpha version</strong>
+    현재 개발중인 웹사이트 입니다. 문의사항은 <a href="mailto:sjkwon910@korea.kr">이메일</a> 부탁 드립니다.
   </div>
 </div>
 
@@ -164,7 +178,7 @@ var translations = {
   <div class="container">
 
     <a class="navbar-brand" href="/sdg-indicators/" id="home">
-      <img src="/sdg-indicators/assets/img/SDG_logo.png" alt=" - " />
+      <img src="/sdg-indicators/assets/img/SDG_logo.png" alt="지속가능발전목표 - 17 Goals to Transform our World" />
     </a>
 
   <div class='hidden visible-xs float-right'>
@@ -190,9 +204,9 @@ var translations = {
             aria-haspopup="true"
             aria-expanded="false">
           <span data-target="menu" tabindex="0"
-          role="navigation"></span>
+          role="navigation">메뉴</span>
         </li>
-        <li><span data-target="search"></span></li>
+        <li><span data-target="search">검색</span></li>
       </ul>
 
       <ul class="nav navbar-nav menu-target contrast-switcher" id="menu"><li class="nav-link ">
@@ -218,9 +232,9 @@ var translations = {
         </li></ul>
 
       <div id="search" class="menu-target">
-  <input id="indicator_search" title="" placeholder="" data-url="/sdg-indicators/indicators.json" data-pageurl="/sdg-indicators/search/?q=" />
+  <input id="indicator_search" title="검색어를 입력해 주시기 바랍니다." placeholder="검색어를 입력해 주시기 바랍니다." data-url="/sdg-indicators/indicators.json" data-pageurl="/sdg-indicators/search/?q=" />
   <label for="indicator_search">
-    <button id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false" aria-label=></i></button><span>:</span>
+    <button id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false" aria-label=검색어를 입력해 주시기 바랍니다.></i></button><span>검색:</span>
   </label>
 </div>
 
@@ -229,49 +243,668 @@ var translations = {
   </div>
 
 </header>
-<div id="main-content" >
-  <h1>test</h1>
-   <div class="goal goal-overall">
-      <div class="details">
-        <h2 class="status-goal">
-           test
-        </h2>
-        <div class="summary">
-          <div class="statuses">
-         
-          </div>
-        </div>
 
+<script type="text/template" id="item_template">
+  <% _.each(series, function(seriesItem) { %>
+    <div class="variable-selector<% if(allowedFields.indexOf(seriesItem.field) == -1) { %> disallowed child<% }%>" data-field="<%=seriesItem.field%>">
+      <button class='accessBtn' tabindex='0' aria-expanded='false'><h5><%=translations.t(seriesItem.field)%><i class="fa fa-chevron-down"></i></h5></button>
+      <div class="bar">
+        <div class="selected"></div>
       </div>
-    <br style="clear:both;">
-  </div>
+      <div class="variable-options">
+        <div>
+          <button data-type="select">모두 선택</button>
+          <button data-type="clear">모두 취소</button>
+        </div>
+        <% _.each(seriesItem.values, function(item) { %>
+          <label><input type="checkbox" value="<%=item.value%>" data-field="<%=seriesItem.field%>" /><%=translations.t(item.value)%></label>
+        <% }); %>
+      </div>
 
-  <!---->
+      <% if(allowedFields.indexOf(seriesItem.field) == -1) { %>
+        <div class="variable-hint">먼저 '<%= translations.t(_.findWhere(edges, { To: seriesItem.field }).From) %>' 항목을 선택해 주시기 바랍니다.
+        </div>
+        <div class="no-data-hint">
+          No options available because of filters above
+        </div>
+      <% }%>
+
+    </div>
+  <% }); %>
+</script>
+
+<script type="text/template" id="units_template">
+  <% if(units.length) { %>
+    <h5>구분</h5>
+    <% _.each(units, function(unitsItem, index) { %>
+      <% var checked = (selectedUnit) ? (selectedUnit==unitsItem) : (index==0); %>
+      <label><input type="radio" name="unit" value="<%=unitsItem%>" tabindex=0 <%=checked ? 'checked' : ''%> /> <%=translations.t(unitsItem)%></label>
+    <% }); %>
+  <% } %>
+</script>
+
+<script>translations['indicator'] = {"chart":"그래프","clear_all":"모두 취소","clear_selections":"초기화","dataset_size_warning":"너무 많은 항목이 선택되었습니다. 선택을 취소해 주시기 바랍니다.","download_chart":"그래프 CSV 내려받기","download_chart_image":"그래프 이미지 내려받기","download_chart_image_title":"그래프 이미지 내려받기","download_csv":"CSV 내려받기","download_csv_title":"CSV 내려받기","download_headline":"Download Headline CSV","download_headline_title":"Download headline data as CSV","download_source":"원본 CSV 내려받기","download_source_title":"원본 CSV 내려받기","download_table":"표 CSV 내려받기","edit":"자료 수정","edit_data":"데이터 수정","edit_metadata":"메타데이터 수정","footnote":"주석","geographical_area":"지역","global_metadata":"UN 메타데이터","global_metadata_blurb":null,"legend_help":"범례의 개별 항목을 클릭하면 해당 항목을 그래프에서 삭제하실 수 있습니다.","loading_map":"지도를 불어오고 있습니다.","map":"지도","national_metadata":"통계설명자료","national_metadata_blurb":null,"no_data_hint":"No options available because of filters above","select_all":"모두 선택","series_help":"상세한 정보를 원하시는 세부 항목을 아래에서 선택해 주시기 바랍니다.","source":"출처","sources":"출처 정보","sub_categories":"세부 항목","table":"표","unit_of_measurement":"단위","units_type":"구분","variable_hint":"먼저 '%field' 항목을 선택해 주시기 바랍니다.","view_indicator_list":"View this goal's indicator list"};</script>
+
+<script>translations['data'] = null;</script>
+
+
+<div class="heading indicator goal-">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-4 col-md-3 col-lg-2">
+        <a href="/sdg-indicators/" title="View this goal's indicator list">
+          <img src="https://kostat-sdg-kor.github.io/sdg-translations/assets/img/goals/kr/.png" alt=" - 목표 " />
+        </a>
+      </div>
+      <div class="col-xs-8 col-md-9 col-lg-10">
+        <h1>
+          <a href="/sdg-indicators/">
+            <span class="hidden-sm hidden-md hidden-lg">목표 : </span>
+          </a>
+        </h1>
+        <h2>지표 : </h2>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="main-content" class="container goal-">
+  <ol class="breadcrumb">
+  <li><a href="/sdg-indicators/">Home</a></li>
+  
+      <li><a href="/sdg-indicators/" title="">목표 </a></li>
+      <li class="active">지표 </li>
+  
+</ol>
+
+
+  <div class="row" id="page-content-row">
+    <div class="col-xs-12">
+      
+
+      <div id="page-content">
+  
 
 </div>
+
+    </div>
+  </div>
+
+
+  <div class="row">
+    <div class="col-xs-12" style="display:none">
+      <h2></h2>
+    </div>
+  </div>
+
+
+  
+  
+
+  
+
+  <div class="row" id="indicatorData" data-indicatorid='indicator_' data-id="" data-country=""
+  data-charttitle="" data-measurementunit="" data-datasource="" data-copyright=""
+  data-geographicalarea="" data-footnote="" data-showdata="false" data-graphtype=""
+  data-geocoderegex="" data-showmap="" data-startvalues="">
+    
+    <div id="indicator-main" class="col-md-12">
+    
+
+      
+
+      <section>
+
+        
+
+        <!-- Nav tabs -->
+        <ul class="nav nav-tabs" role="tablist">
+          <li role="presentation" class="nav-item active">
+            <a class="nav-link" data-toggle="tab" href="#metadata" aria-controls="metadata" role="tab" data-on="click"
+data-event-category="Tab change"
+data-event-action="Change metadata view"
+data-event-label="Change to National Metadata tab"
+>통계설명자료</a>
+          </li>
+          <li role="presentation" class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#globalmetadata" aria-controls="globalmetadata" role="tab" data-on="click"
+data-event-category="Tab change"
+data-event-action="Change metadata view"
+data-event-label="Change to Global Metadata tab"
+>UN 메타데이터</a>
+          </li>
+          <li role="presentation" class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#sources" aria-controls="sources" role="tab" data-on="click"
+data-event-category="Tab change"
+data-event-action="Change metadata view"
+data-event-label="Change to Sources tab"
+>출처 정보</a>
+          </li>
+        </ul>
+
+        <!-- Tab panes -->
+        <div class="tab-content">
+          <div role="tabpanel" class="tab-pane active" id="metadata">
+            <!-- National Metadata -->
+            <div > <!-- formerly class="collapsible expanded" -->
+              <!-- <h3 tabindex='0'>National Metadata</h3> -->
+              <article>
+                <p>
+                  
+                  
+                  
+                </p>
+                <table class="table table-hover">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+      
+      
+      <tr>
+        <th scope="row" class="col-xs-3 col-sm-3 col-md-2">지표 상세 설명 </th>
+        <td>
+          
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row" class="col-xs-3 col-sm-3 col-md-2">지역적 범위 </th>
+        <td>
+          
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row" class="col-xs-3 col-sm-3 col-md-2">단위 </th>
+        <td>
+          
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row" class="col-xs-3 col-sm-3 col-md-2">정의 </th>
+        <td>
+          
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row" class="col-xs-3 col-sm-3 col-md-2">계산방법 </th>
+        <td>
+          
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row" class="col-xs-3 col-sm-3 col-md-2">비고 </th>
+        <td>
+          
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row" class="col-xs-3 col-sm-3 col-md-2">데이터 갱신 이력 </th>
+        <td>
+          
+            
+            
+            
+            
+
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+  
+      
+      
+      <tr>
+        <th scope="row" class="col-xs-3 col-sm-3 col-md-2">메타데이터 갱신 이력 </th>
+        <td>
+          
+            
+            
+            
+            
+
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</table>
+
+              </article>
+            </div>
+          </div>
+          <div role="tabpanel" class="tab-pane" id="globalmetadata">
+            <!-- Global Metadata -->
+            <div> <!-- formerly <div class="collapsible expanded"> -->
+              <!-- <h3 tabindex='0'>Global Metadata</h3> -->
+              <article>
+                <p></p>
+                <table class="table table-hover">
+  
+  
+  
+  
+  
+      
+      
+      <tr>
+        <th scope="row" class="col-xs-3 col-sm-3 col-md-2">지표 번호 </th>
+        <td>
+          
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+  
+      
+      
+      <tr>
+        <th scope="row" class="col-xs-3 col-sm-3 col-md-2">지표명 </th>
+        <td>
+          
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row" class="col-xs-3 col-sm-3 col-md-2">세부목표 번호 </th>
+        <td>
+          
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row" class="col-xs-3 col-sm-3 col-md-2">세부목표명 </th>
+        <td>
+          
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row" class="col-xs-3 col-sm-3 col-md-2">지표 상세 설명 </th>
+        <td>
+          
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row" class="col-xs-3 col-sm-3 col-md-2">티어(Tier) </th>
+        <td>
+          
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row" class="col-xs-3 col-sm-3 col-md-2">소관 국제기구 </th>
+        <td>
+          
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row" class="col-xs-3 col-sm-3 col-md-2">UN 메타데이터 </th>
+        <td>
+          
+            
+            
+            
+            
+
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</table>
+
+              </article>
+            </div>
+          </div>
+          <div role="tabpanel" class="tab-pane" id="sources">
+            <!-- Count the non-empty sources (up to 5) -->
+
+
+
+
+
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+</div>
+
 <footer role="contentinfo">
     <div class="container">
       <div class="row">
         <div class="col-xs-12">
           <div id="footerLinks">
             <ul>
-              <li><a href="mailto:sjkwon910@korea.kr"></a></li>
+              <li><a href="mailto:sjkwon910@korea.kr">Contact us</a></li>
               
 			  
-              <li style ="display:none"><a class="twitter-follow-button" href="https://twitter.com/kostatin" data-show-count="false"></a></li><!--: @kostatin-->
-              
-			  
-			  
+              <li style ="display:none"><a class="twitter-follow-button" href="https://twitter.com/kostatin" data-show-count="false"></a></li><!--Twitter: @kostatin-->
               
 			  
 			  
-              <li  style ="display:none"><a href="/sdg-indicators/faq/"></a></li><!---->
+              
 			  
-              <li><a href="/sdg-indicators/about/cookies-and-privacy/"></a></li>
+			  
+              <li  style ="display:none"><a href="/sdg-indicators/faq/"></a></li><!--FAQ-->
+			  
+              <li><a href="/sdg-indicators/about/cookies-and-privacy/">Cookies</a></li>
 			  
               <li><a href="/sdg-indicators/accessibility-statement/"></a></li><!--Accessibility statement-->
 			  <li><a href="/sdg-indicators/accessibility-statement/"></a></li><!--Accessibility statement-->
-    	      <li><a href="/sdg-indicators/guidance/"></a></li><!--Space-->	  
+    	      <li><a href="/sdg-indicators/guidance/">매뉴얼</a></li><!--Space-->	  
 
 
 
@@ -321,7 +954,7 @@ var translations = {
 <script src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.3/dist/html2canvas.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/file-saver@2.0.2/dist/FileSaver.min.js"></script>
-<script src='/sdg-indicators/assets/js/sdg.js?v=20200417014557'></script><script src="/sdg-indicators/assets/js/custom.js?v=20200417014557"></script><script>
+<script src='/sdg-indicators/assets/js/sdg.js?v=20200417020408'></script><script src="/sdg-indicators/assets/js/custom.js?v=20200417020408"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
@@ -383,4 +1016,5 @@ $(function() {
   </body>
   </html>
   
+
 
