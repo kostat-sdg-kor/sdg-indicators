@@ -149,7 +149,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-indicators/assets/css/default.css?v=20200424015606">
+        <link rel="stylesheet" href="/sdg-indicators/assets/css/default.css?v=20200424054043">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -162,6 +162,7 @@ var translations = {
     </head>
 <body class="language-kr layout-indicator">
 <!-- <div class="container"> -->
+
 
 <script>translations['header'] = {"alpha":"Alpha version","default_contrast":"원래대로","disable_high_contrast":"고대비 불가","disclaimer":"현재 개발중인 웹사이트 입니다. 문의사항은 <a href=\"mailto:%email_address\">이메일</a> 부탁 드립니다.","enable_high_contrast":"고대비 가능","high_contrast":"고대비","skip_link":"Skip to main content","tag_line":"17 Goals to Transform our World"};</script>
 
@@ -246,6 +247,7 @@ var translations = {
 
 </header>
 
+
 <script type="text/template" id="item_template">
   <% _.each(series, function(seriesItem) { %>
     <div class="variable-selector<% if(allowedFields.indexOf(seriesItem.field) == -1) { %> disallowed child<% }%>" data-field="<%=seriesItem.field%>">
@@ -275,6 +277,7 @@ var translations = {
   <% }); %>
 </script>
 
+
 <script type="text/template" id="units_template">
   <% if(units.length) { %>
     <h5>구분</h5>
@@ -285,22 +288,35 @@ var translations = {
   <% } %>
 </script>
 
+
 <script>translations['indicator'] = {"chart":"그래프","clear_all":"모두 취소","clear_selections":"초기화","dataset_size_warning":"너무 많은 항목이 선택되었습니다. 선택을 취소해 주시기 바랍니다.","download_chart":"그래프 CSV 내려받기","download_chart_image":"그래프 이미지 내려받기","download_chart_image_title":"그래프 이미지 내려받기","download_csv":"CSV 내려받기","download_csv_title":"CSV 내려받기","download_headline":"Download Headline CSV","download_headline_title":"Download headline data as CSV","download_source":"원본 CSV 내려받기","download_source_title":"원본 CSV 내려받기","download_table":"표 CSV 내려받기","edit":"자료 수정","edit_data":"데이터 수정","edit_metadata":"메타데이터 수정","footnote":"주석","geographical_area":"지역","global_metadata":"UN 메타데이터","global_metadata_blurb":null,"legend_help":"범례의 개별 항목을 클릭하면 해당 항목을 그래프에서 삭제하실 수 있습니다.","loading_map":"지도를 불어오고 있습니다.","map":"지도","national_metadata":"통계설명자료","national_metadata_blurb":null,"no_data_hint":"No options available because of filters above","select_all":"모두 선택","series_help":"상세한 정보를 원하시는 세부 항목을 아래에서 선택해 주시기 바랍니다.","source":"출처","sources":"출처 정보","sub_categories":"세부 항목","table":"표","unit_of_measurement":"단위","units_type":"구분","variable_hint":"먼저 '%field' 항목을 선택해 주시기 바랍니다.","view_indicator_list":"View this goal's indicator list"};</script>
+
 
 <script>translations['data'] = null;</script>
 
 
+
+
 <div class="heading indicator goal-9">
-  <div class="container">
-    <div class="row">
-      <div class="col-xs-4 col-md-3 col-lg-2">
-        <a href="/sdg-indicators/9" title="View this goal's indicator list">
-          <img src="https://kostat-sdg-kor.github.io/sdg-translations/assets/img/goals/kr/9.png" alt="산업, 혁신과 사회기반시설 - 목표 9" />
-        </a>
-      </div>
-      <div class="col-xs-8 col-md-9 col-lg-10">
-        <h1>
-          <a href="/sdg-indicators/9">
+  
+<div class="container">
+    
+<div class="row">
+      
+<div class="col-xs-4 col-md-3 col-lg-2">
+        
+<a href="/sdg-indicators/9" title="View this goal's indicator list">
+          
+<img src="https://kostat-sdg-kor.github.io/sdg-translations/assets/img/goals/kr/9.png" alt="산업, 혁신과 사회기반시설 - 목표 9" />
+
+</a>
+
+</div>
+<div class="col-xs-8 col-md-9 col-lg-10">
+<h1>
+
+<a href="/sdg-indicators/9">
+
             <span class="hidden-sm hidden-md hidden-lg">목표 9: </span>회복력 있는 사회기반시설 구축, 포용적이고 지속가능한 산업화 증진과 혁신 도모
           </a>
         </h1>
@@ -311,7 +327,8 @@ var translations = {
 </div>
 
 <div id="main-content" class="container goal-9">
-  <ol class="breadcrumb">
+
+    <ol class="breadcrumb">
   <li><a href="/sdg-indicators/">Home</a></li>
   
       <li><a href="/sdg-indicators/9" title="회복력 있는 사회기반시설 구축, 포용적이고 지속가능한 산업화 증진과 혁신 도모">목표 9</a></li>
@@ -320,54 +337,567 @@ var translations = {
 </ol>
 
 
-  <div class="row" id="page-content-row">
-    <div class="col-xs-12">
-      
+    <div class="row" id="page-content-row">
+        <div class="col-xs-12">
+            
 
-      <div id="page-content">
+            <div id="page-content">
   
 
 </div>
 
-    </div>
-  </div>
-
-
-  <div class="row">
-    <div class="col-xs-12" style="display:none">
-      <h2>GDP당 이산화탄소 배출량 (2010년 고정 USD당 CO2 킬로그램)</h2>
-    </div>
-  </div>
-
-
-  
-  
-
-  
-
-  <div class="row" id="indicatorData" data-indicatorid='indicator_9-4-1' data-id="9-4-1" data-country="전국"
-  data-charttitle="GDP당 이산화탄소 배출량 (2010년 고정 USD당 CO2 킬로그램)" data-measurementunit="킬로그램 (kg)" data-datasource="" data-copyright=""
-  data-geographicalarea="전국" data-footnote="" data-showdata="true" data-graphtype="line"
-  data-geocoderegex="" data-showmap="false" data-startvalues="">
-    
-    <div id="indicator-sidebar" class="col-md-3">
-      <div id="toolbar">
-        <span id="series-help">
-          <h4>세부 항목</h4>
-          <p>상세한 정보를 원하시는 세부 항목을 아래에서 선택해 주시기 바랍니다.</p>
-        </span>
-        <p>범례의 개별 항목을 클릭하면 해당 항목을 그래프에서 삭제하실 수 있습니다.</p>
-        <div id="fields">
-          <p class="async-loading" data-img="/sdg-indicators/assets/img/loading-small.gif"></p>
         </div>
-      </div>
-      <div id="units"></div>
     </div>
-    <div id="indicator-main" class="col-md-9">
+
+
+    <div class="row">
+        <div class="col-xs-12" style="display:none">
+            <h2>GDP당 이산화탄소 배출량 (2010년 고정 USD당 CO2 킬로그램)</h2>
+        </div>
+    </div>
+
+
+    
     
 
+    
+
+    <div class="tab-content">
+        <div role="tabpanel" class="tab-pane active" id="metadata">
+            <!-- National Metadata -->
+            <div>
+                <!-- formerly class="collapsible expanded" -->
+                <!-- <h3 tabindex='0'>National Metadata</h3> -->
+                <article>
+                    <p>
+                        
+                        
+                        
+                    </p>
+                    <table class="table table-hover">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
       
       
+      <tr>
+        <th scope="row" class="col-xs-3 col-sm-3 col-md-2">지표 상세 설명 </th>
+        <td>
+          
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row" class="col-xs-3 col-sm-3 col-md-2">지역적 범위 </th>
+        <td>
+          
+            <p>전국</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row" class="col-xs-3 col-sm-3 col-md-2">단위 </th>
+        <td>
+          
+            <p>킬로그램 (kg)</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row" class="col-xs-3 col-sm-3 col-md-2">정의 </th>
+        <td>
+          
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row" class="col-xs-3 col-sm-3 col-md-2">계산방법 </th>
+        <td>
+          
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row" class="col-xs-3 col-sm-3 col-md-2">비고 </th>
+        <td>
+          
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row" class="col-xs-3 col-sm-3 col-md-2">데이터 갱신 이력 </th>
+        <td>
+          
+            
+            
+            
+            
+
+            
+              <a href="https://github.com/kostat-sdg-kor/sdg-data/commit/301b4daa5d61a5e8c8843faafd068f2e96374688" target="_blank">
+                2019-09-29: see changes on GitHub <span class="visuallyhidden">새 창에서 열기</span>
+              </a>
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+  
+      
+      
+      <tr>
+        <th scope="row" class="col-xs-3 col-sm-3 col-md-2">메타데이터 갱신 이력 </th>
+        <td>
+          
+            
+            
+            
+            
+
+            
+              <a href="https://github.com/kostat-sdg-kor/sdg-data/commit/6bb8546e9bc09fef23a087889ada8b7c1be66d88" target="_blank">
+                2019-12-02: see changes on GitHub <span class="visuallyhidden">새 창에서 열기</span>
+              </a>
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</table>
+
+                </article>
+            </div>
+        </div>
+
+
+        <div role="tabpanel" class="tab-pane" id="globalmetadata">
+            <!-- Global Metadata -->
+            <div>
+                <!-- formerly <div class="collapsible expanded"> -->
+                <!-- <h3 tabindex='0'>Global Metadata</h3> -->
+                <article>
+                    <p></p>
+                    <table class="table table-hover">
+  
+  
+  
+  
+  
+      
+      
+      <tr>
+        <th scope="row" class="col-xs-3 col-sm-3 col-md-2">지표 번호 </th>
+        <td>
+          
+            <p>9.4.1</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+  
+      
+      
+      <tr>
+        <th scope="row" class="col-xs-3 col-sm-3 col-md-2">지표명 </th>
+        <td>
+          
+            <p>부가가치 단위 당 이산화탄소 배출</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row" class="col-xs-3 col-sm-3 col-md-2">세부목표 번호 </th>
+        <td>
+          
+            <p>9.4</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row" class="col-xs-3 col-sm-3 col-md-2">세부목표명 </th>
+        <td>
+          
+            <p>자원사용 효율 제고와 청정/환경 친화 기술 및 산업공정의 도입을 통해 2030년까지 기반시설과 낙후된 산업시설을 지속가능한 환경으로 개선 및 개조하고 모든 국가들은 각자의 역량에 따라 이를 이행함</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row" class="col-xs-3 col-sm-3 col-md-2">지표 상세 설명 </th>
+        <td>
+          
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row" class="col-xs-3 col-sm-3 col-md-2">티어(Tier) </th>
+        <td>
+          
+            <p>I</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row" class="col-xs-3 col-sm-3 col-md-2">소관 국제기구 </th>
+        <td>
+          
+            <p>International Energy Agency (IEA), United Nations Industrial Development Organization (UNIDO)</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row" class="col-xs-3 col-sm-3 col-md-2">UN 메타데이터 </th>
+        <td>
+          
+            
+            
+            
+            
+
+            
+              <a href="https://unstats.un.org/sdgs/metadata/files/Metadata-09-04-01.pdf" target="_blank">
+                https://unstats.un.org/sdgs/metadata/files/Metadata-09-04-01.pdf <span class="visuallyhidden">새 창에서 열기</span>
+              </a>
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</table>
+
+                </article>
+            </div>
+        </div>
+        <div role="tabpanel" class="tab-pane" id="sources">
+            <!-- Count the non-empty sources (up to 5) -->
+
+
+
+
+
+        </div>
+    </div>  
+
+
+
+    <div class="row" id="indicatorData" data-indicatorid='indicator_9-4-1' data-id="9-4-1" data-country="전국"
+         data-charttitle="GDP당 이산화탄소 배출량 (2010년 고정 USD당 CO2 킬로그램)" data-measurementunit="킬로그램 (kg)" data-datasource="" data-copyright=""
+         data-geographicalarea="전국" data-footnote="" data-showdata="true" data-graphtype="line"
+         data-geocoderegex="" data-showmap="false" data-startvalues="">
+        
+        <div id="indicator-sidebar" class="col-md-3">
+            <div id="toolbar">
+                <span id="series-help">
+                    <h4>세부 항목</h4>
+                    <p>상세한 정보를 원하시는 세부 항목을 아래에서 선택해 주시기 바랍니다.</p>
+                </span>
+                <p>범례의 개별 항목을 클릭하면 해당 항목을 그래프에서 삭제하실 수 있습니다.</p>
+                <div id="fields">
+                    <p class="async-loading" data-img="/sdg-indicators/assets/img/loading-small.gif"></p>
+                </div>
+            </div>
+            <div id="units"></div>
+        </div>
+        <div id="indicator-main" class="col-md-9">
+            
+
+                
+                
 
 
 <div id="headlineTable">
@@ -611,40 +1141,40 @@ var translations = {
 
 </div>
 
-      
+                
 
-      <section>
+                <section>
 
-        
-        <p class="async-loading" data-img="/sdg-indicators/assets/img/loading-small.gif"></p>
-        <div class="async-loaded" style="display:none">
-          <ul class="nav nav-tabs data-view" role="tablist">
-            <li role="presentation" class="nav-item active">
-              <a class="nav-link" data-toggle="tab" href="#chartview" aria-controls="chartview" role="tab" data-on="click"
+                    
+                    <p class="async-loading" data-img="/sdg-indicators/assets/img/loading-small.gif"></p>
+                    <div class="async-loaded" style="display:none">
+                        <ul class="nav nav-tabs data-view" role="tablist">
+                            <li role="presentation" class="nav-item active">
+                                <a class="nav-link" data-toggle="tab" href="#chartview" aria-controls="chartview" role="tab" data-on="click"
 data-event-category="Tab change"
 data-event-action="Change data view"
 data-event-label="Change to Chart tab"
 >그래프</a>
-            </li>
-            <li role="presentation" class="nav-item">
-              <a class="nav-link" data-toggle="tab" href="#tableview" aria-controls="tableview" role="tab" data-on="click"
+                            </li>
+                            <li role="presentation" class="nav-item">
+                                <a class="nav-link" data-toggle="tab" href="#tableview" aria-controls="tableview" role="tab" data-on="click"
 data-event-category="Tab change"
 data-event-action="Change data view"
 data-event-label="Change to Table tab"
 >표</a>
-            </li>
-            <li role="presentation" class="nav-item map" style="display:none">
-              <a data-no-disagg="true" class="nav-link" data-toggle="tab" href="#mapview" aria-controls="mapview" role="tab" data-on="click"
+                            </li>
+                            <li role="presentation" class="nav-item map" style="display:none">
+                                <a data-no-disagg="true" class="nav-link" data-toggle="tab" href="#mapview" aria-controls="mapview" role="tab" data-on="click"
 data-event-category="Tab change"
 data-event-action="Change data view"
 data-event-label="Change to Map tab"
 >지도</a>
-            </li></ul>
+                            </li></ul>
 
-          <!-- Tab panes -->
-          <div class="tab-content data-view">
-            <div role="tabpanel" class="tab-pane active" id="chartview">
-              
+                        <!-- Tab panes -->
+                        <div class="tab-content data-view">
+                            <div role="tabpanel" class="tab-pane active" id="chartview">
+                                
 
     <div id="dataset-size-warning" style="display:none">
       <i class="fa fa-bolt"></i> 너무 많은 항목이 선택되었습니다. 선택을 취소해 주시기 바랍니다.
@@ -670,557 +1200,57 @@ data-event-label="Change to Map tab"
 
 
 
-            </div>
-            <div role="tabpanel" class="tab-pane" id="tableview">
-              <div id="selectionsTable"></div>
-            </div>
-            <div role="tabpanel" class="tab-pane" id="mapview" class="map">
-              <div id="map">
-                <img src="/sdg-indicators/assets/img/loading.gif" alt="지도를 불어오고 있습니다." />
-              </div>
-            </div>
-            
-          </div>
-        </div>
-        
+                            </div>
+                            <div role="tabpanel" class="tab-pane" id="tableview">
+                                <div id="selectionsTable"></div>
+                            </div>
+                            <div role="tabpanel" class="tab-pane" id="mapview" class="map">
+                                <div id="map">
+                                    <img src="/sdg-indicators/assets/img/loading.gif" alt="지도를 불어오고 있습니다." />
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    
 
-        <!-- Nav tabs -->
-        <ul class="nav nav-tabs" role="tablist">
-          <li role="presentation" class="nav-item active">
-            <a class="nav-link" data-toggle="tab" href="#metadata" aria-controls="metadata" role="tab" data-on="click"
+                    <!-- Nav tabs -->
+                    <ul class="nav nav-tabs" role="tablist">
+                        <li role="presentation" class="nav-item active">
+                            <a class="nav-link" data-toggle="tab" href="#metadata" aria-controls="metadata" role="tab" data-on="click"
 data-event-category="Tab change"
 data-event-action="Change metadata view"
 data-event-label="Change to National Metadata tab"
 >통계설명자료</a>
-          </li>
-          <li role="presentation" class="nav-item">
-            <a class="nav-link" data-toggle="tab" href="#globalmetadata" aria-controls="globalmetadata" role="tab" data-on="click"
+                        </li>
+                        <li role="presentation" class="nav-item">
+                            <a class="nav-link" data-toggle="tab" href="#globalmetadata" aria-controls="globalmetadata" role="tab" data-on="click"
 data-event-category="Tab change"
 data-event-action="Change metadata view"
 data-event-label="Change to Global Metadata tab"
 >UN 메타데이터</a>
-          </li>
-          <li role="presentation" class="nav-item">
-            <a class="nav-link" data-toggle="tab" href="#sources" aria-controls="sources" role="tab" data-on="click"
+                        </li>
+                        <li role="presentation" class="nav-item">
+                            <a class="nav-link" data-toggle="tab" href="#sources" aria-controls="sources" role="tab" data-on="click"
 data-event-category="Tab change"
 data-event-action="Change metadata view"
 data-event-label="Change to Sources tab"
 >출처 정보</a>
-          </li>
-        </ul>
+                        </li>
+                    </ul>
 
-        <!-- Tab panes -->
-        <div class="tab-content">
-          <div role="tabpanel" class="tab-pane active" id="metadata">
-            <!-- National Metadata -->
-            <div > <!-- formerly class="collapsible expanded" -->
-              <!-- <h3 tabindex='0'>National Metadata</h3> -->
-              <article>
-                <p>
-                  
-                  
-                  
-                </p>
-                <table class="table table-hover">
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-      
-      
-      <tr>
-        <th scope="row" class="col-xs-3 col-sm-3 col-md-2">지표 상세 설명 </th>
-        <td>
-          
-            
+                    <!-- Tab panes -->
+                    
+                    <!-- @@@@@@@@@@@@@@@@@@ -->
 
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      
-      <tr>
-        <th scope="row" class="col-xs-3 col-sm-3 col-md-2">지역적 범위 </th>
-        <td>
-          
-            <p>전국</p>
 
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      
-      <tr>
-        <th scope="row" class="col-xs-3 col-sm-3 col-md-2">단위 </th>
-        <td>
-          
-            <p>킬로그램 (kg)</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      
-      <tr>
-        <th scope="row" class="col-xs-3 col-sm-3 col-md-2">정의 </th>
-        <td>
-          
-            
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      
-      <tr>
-        <th scope="row" class="col-xs-3 col-sm-3 col-md-2">계산방법 </th>
-        <td>
-          
-            
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      
-      <tr>
-        <th scope="row" class="col-xs-3 col-sm-3 col-md-2">비고 </th>
-        <td>
-          
-            
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      
-      <tr>
-        <th scope="row" class="col-xs-3 col-sm-3 col-md-2">데이터 갱신 이력 </th>
-        <td>
-          
-            
-            
-            
-            
-
-            
-              <a href="https://github.com/kostat-sdg-kor/sdg-data/commit/301b4daa5d61a5e8c8843faafd068f2e96374688" target="_blank">
-                2019-09-29: see changes on GitHub <span class="visuallyhidden">새 창에서 열기</span>
-              </a>
-            
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      
-      
-  
-      
-      
-      <tr>
-        <th scope="row" class="col-xs-3 col-sm-3 col-md-2">메타데이터 갱신 이력 </th>
-        <td>
-          
-            
-            
-            
-            
-
-            
-              <a href="https://github.com/kostat-sdg-kor/sdg-data/commit/6bb8546e9bc09fef23a087889ada8b7c1be66d88" target="_blank">
-                2019-12-02: see changes on GitHub <span class="visuallyhidden">새 창에서 열기</span>
-              </a>
-            
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      
-      
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-</table>
-
-              </article>
+                </section>
             </div>
-          </div>
-          <div role="tabpanel" class="tab-pane" id="globalmetadata">
-            <!-- Global Metadata -->
-            <div> <!-- formerly <div class="collapsible expanded"> -->
-              <!-- <h3 tabindex='0'>Global Metadata</h3> -->
-              <article>
-                <p></p>
-                <table class="table table-hover">
-  
-  
-  
-  
-  
-      
-      
-      <tr>
-        <th scope="row" class="col-xs-3 col-sm-3 col-md-2">지표 번호 </th>
-        <td>
-          
-            <p>9.4.1</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
-  
-      
-      
-      <tr>
-        <th scope="row" class="col-xs-3 col-sm-3 col-md-2">지표명 </th>
-        <td>
-          
-            <p>부가가치 단위 당 이산화탄소 배출</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      
-      <tr>
-        <th scope="row" class="col-xs-3 col-sm-3 col-md-2">세부목표 번호 </th>
-        <td>
-          
-            <p>9.4</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      
-      <tr>
-        <th scope="row" class="col-xs-3 col-sm-3 col-md-2">세부목표명 </th>
-        <td>
-          
-            <p>자원사용 효율 제고와 청정/환경 친화 기술 및 산업공정의 도입을 통해 2030년까지 기반시설과 낙후된 산업시설을 지속가능한 환경으로 개선 및 개조하고 모든 국가들은 각자의 역량에 따라 이를 이행함</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      
-      <tr>
-        <th scope="row" class="col-xs-3 col-sm-3 col-md-2">지표 상세 설명 </th>
-        <td>
-          
-            
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      
-      <tr>
-        <th scope="row" class="col-xs-3 col-sm-3 col-md-2">티어(Tier) </th>
-        <td>
-          
-            <p>I</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      
-      <tr>
-        <th scope="row" class="col-xs-3 col-sm-3 col-md-2">소관 국제기구 </th>
-        <td>
-          
-            <p>International Energy Agency (IEA), United Nations Industrial Development Organization (UNIDO)</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      
-      <tr>
-        <th scope="row" class="col-xs-3 col-sm-3 col-md-2">UN 메타데이터 </th>
-        <td>
-          
-            
-            
-            
-            
-
-            
-              <a href="https://unstats.un.org/sdgs/metadata/files/Metadata-09-04-01.pdf" target="_blank">
-                https://unstats.un.org/sdgs/metadata/files/Metadata-09-04-01.pdf <span class="visuallyhidden">새 창에서 열기</span>
-              </a>
-            
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      
-      
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-</table>
-
-              </article>
-            </div>
-          </div>
-          <div role="tabpanel" class="tab-pane" id="sources">
-            <!-- Count the non-empty sources (up to 5) -->
-
-
-
-
-
-          </div>
         </div>
-      </section>
     </div>
-  </div>
+
+
 </div>
-    </div>
 
 <footer role="contentinfo">
     <div class="container">
@@ -1294,7 +1324,7 @@ data-event-label="Change to Sources tab"
 <script src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.3/dist/html2canvas.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/file-saver@2.0.2/dist/FileSaver.min.js"></script>
-<script src='/sdg-indicators/assets/js/sdg.js?v=20200424015606'></script><script src="/sdg-indicators/assets/js/custom.js?v=20200424015606"></script><script>
+<script src='/sdg-indicators/assets/js/sdg.js?v=20200424054043'></script><script src="/sdg-indicators/assets/js/custom.js?v=20200424054043"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();

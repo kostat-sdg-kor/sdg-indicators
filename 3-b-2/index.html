@@ -149,7 +149,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-indicators/assets/css/default.css?v=20200424015606">
+        <link rel="stylesheet" href="/sdg-indicators/assets/css/default.css?v=20200424054043">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -162,6 +162,7 @@ var translations = {
     </head>
 <body class="language-kr layout-indicator">
 <!-- <div class="container"> -->
+
 
 <script>translations['header'] = {"alpha":"Alpha version","default_contrast":"원래대로","disable_high_contrast":"고대비 불가","disclaimer":"현재 개발중인 웹사이트 입니다. 문의사항은 <a href=\"mailto:%email_address\">이메일</a> 부탁 드립니다.","enable_high_contrast":"고대비 가능","high_contrast":"고대비","skip_link":"Skip to main content","tag_line":"17 Goals to Transform our World"};</script>
 
@@ -246,6 +247,7 @@ var translations = {
 
 </header>
 
+
 <script type="text/template" id="item_template">
   <% _.each(series, function(seriesItem) { %>
     <div class="variable-selector<% if(allowedFields.indexOf(seriesItem.field) == -1) { %> disallowed child<% }%>" data-field="<%=seriesItem.field%>">
@@ -275,6 +277,7 @@ var translations = {
   <% }); %>
 </script>
 
+
 <script type="text/template" id="units_template">
   <% if(units.length) { %>
     <h5>구분</h5>
@@ -285,22 +288,35 @@ var translations = {
   <% } %>
 </script>
 
+
 <script>translations['indicator'] = {"chart":"그래프","clear_all":"모두 취소","clear_selections":"초기화","dataset_size_warning":"너무 많은 항목이 선택되었습니다. 선택을 취소해 주시기 바랍니다.","download_chart":"그래프 CSV 내려받기","download_chart_image":"그래프 이미지 내려받기","download_chart_image_title":"그래프 이미지 내려받기","download_csv":"CSV 내려받기","download_csv_title":"CSV 내려받기","download_headline":"Download Headline CSV","download_headline_title":"Download headline data as CSV","download_source":"원본 CSV 내려받기","download_source_title":"원본 CSV 내려받기","download_table":"표 CSV 내려받기","edit":"자료 수정","edit_data":"데이터 수정","edit_metadata":"메타데이터 수정","footnote":"주석","geographical_area":"지역","global_metadata":"UN 메타데이터","global_metadata_blurb":null,"legend_help":"범례의 개별 항목을 클릭하면 해당 항목을 그래프에서 삭제하실 수 있습니다.","loading_map":"지도를 불어오고 있습니다.","map":"지도","national_metadata":"통계설명자료","national_metadata_blurb":null,"no_data_hint":"No options available because of filters above","select_all":"모두 선택","series_help":"상세한 정보를 원하시는 세부 항목을 아래에서 선택해 주시기 바랍니다.","source":"출처","sources":"출처 정보","sub_categories":"세부 항목","table":"표","unit_of_measurement":"단위","units_type":"구분","variable_hint":"먼저 '%field' 항목을 선택해 주시기 바랍니다.","view_indicator_list":"View this goal's indicator list"};</script>
+
 
 <script>translations['data'] = null;</script>
 
 
+
+
 <div class="heading indicator goal-3">
-  <div class="container">
-    <div class="row">
-      <div class="col-xs-4 col-md-3 col-lg-2">
-        <a href="/sdg-indicators/3" title="View this goal's indicator list">
-          <img src="https://kostat-sdg-kor.github.io/sdg-translations/assets/img/goals/kr/3.png" alt="건강과 웰빙 - 목표 3" />
-        </a>
-      </div>
-      <div class="col-xs-8 col-md-9 col-lg-10">
-        <h1>
-          <a href="/sdg-indicators/3">
+  
+<div class="container">
+    
+<div class="row">
+      
+<div class="col-xs-4 col-md-3 col-lg-2">
+        
+<a href="/sdg-indicators/3" title="View this goal's indicator list">
+          
+<img src="https://kostat-sdg-kor.github.io/sdg-translations/assets/img/goals/kr/3.png" alt="건강과 웰빙 - 목표 3" />
+
+</a>
+
+</div>
+<div class="col-xs-8 col-md-9 col-lg-10">
+<h1>
+
+<a href="/sdg-indicators/3">
+
             <span class="hidden-sm hidden-md hidden-lg">목표 3: </span>모든 연령층을 위한 건강한 삶 보장과 복지 증진
           </a>
         </h1>
@@ -311,7 +327,8 @@ var translations = {
 </div>
 
 <div id="main-content" class="container goal-3">
-  <ol class="breadcrumb">
+
+    <ol class="breadcrumb">
   <li><a href="/sdg-indicators/">Home</a></li>
   
       <li><a href="/sdg-indicators/3" title="모든 연령층을 위한 건강한 삶 보장과 복지 증진">목표 3</a></li>
@@ -320,83 +337,44 @@ var translations = {
 </ol>
 
 
-  <div class="row" id="page-content-row">
-    <div class="col-xs-12">
-      
+    <div class="row" id="page-content-row">
+        <div class="col-xs-12">
+            
 
-      <div id="page-content">
+            <div id="page-content">
   
 
 </div>
 
+        </div>
     </div>
-  </div>
 
 
-  <div class="row">
-    <div class="col-xs-12" style="display:none">
-      <h2></h2>
+    <div class="row">
+        <div class="col-xs-12" style="display:none">
+            <h2></h2>
+        </div>
     </div>
-  </div>
 
 
-  
-  
-
-  
-
-  <div class="row" id="indicatorData" data-indicatorid='indicator_3-b-2' data-id="3-b-2" data-country=""
-  data-charttitle="" data-measurementunit="" data-datasource="" data-copyright=""
-  data-geographicalarea="" data-footnote="" data-showdata="false" data-graphtype="line"
-  data-geocoderegex="" data-showmap="false" data-startvalues="">
     
-    <div id="indicator-main" class="col-md-12">
     
 
-      
+    
 
-      <section>
-
-        
-
-        <!-- Nav tabs -->
-        <ul class="nav nav-tabs" role="tablist">
-          <li role="presentation" class="nav-item active">
-            <a class="nav-link" data-toggle="tab" href="#metadata" aria-controls="metadata" role="tab" data-on="click"
-data-event-category="Tab change"
-data-event-action="Change metadata view"
-data-event-label="Change to National Metadata tab"
->통계설명자료</a>
-          </li>
-          <li role="presentation" class="nav-item">
-            <a class="nav-link" data-toggle="tab" href="#globalmetadata" aria-controls="globalmetadata" role="tab" data-on="click"
-data-event-category="Tab change"
-data-event-action="Change metadata view"
-data-event-label="Change to Global Metadata tab"
->UN 메타데이터</a>
-          </li>
-          <li role="presentation" class="nav-item">
-            <a class="nav-link" data-toggle="tab" href="#sources" aria-controls="sources" role="tab" data-on="click"
-data-event-category="Tab change"
-data-event-action="Change metadata view"
-data-event-label="Change to Sources tab"
->출처 정보</a>
-          </li>
-        </ul>
-
-        <!-- Tab panes -->
-        <div class="tab-content">
-          <div role="tabpanel" class="tab-pane active" id="metadata">
+    <div class="tab-content">
+        <div role="tabpanel" class="tab-pane active" id="metadata">
             <!-- National Metadata -->
-            <div > <!-- formerly class="collapsible expanded" -->
-              <!-- <h3 tabindex='0'>National Metadata</h3> -->
-              <article>
-                <p>
-                  
-                  
-                  
-                </p>
-                <table class="table table-hover">
+            <div>
+                <!-- formerly class="collapsible expanded" -->
+                <!-- <h3 tabindex='0'>National Metadata</h3> -->
+                <article>
+                    <p>
+                        
+                        
+                        
+                    </p>
+                    <table class="table table-hover">
   
   
   
@@ -639,16 +617,19 @@ data-event-label="Change to Sources tab"
   
 </table>
 
-              </article>
+                </article>
             </div>
-          </div>
-          <div role="tabpanel" class="tab-pane" id="globalmetadata">
+        </div>
+
+
+        <div role="tabpanel" class="tab-pane" id="globalmetadata">
             <!-- Global Metadata -->
-            <div> <!-- formerly <div class="collapsible expanded"> -->
-              <!-- <h3 tabindex='0'>Global Metadata</h3> -->
-              <article>
-                <p></p>
-                <table class="table table-hover">
+            <div>
+                <!-- formerly <div class="collapsible expanded"> -->
+                <!-- <h3 tabindex='0'>Global Metadata</h3> -->
+                <article>
+                    <p></p>
+                    <table class="table table-hover">
   
   
   
@@ -879,23 +860,72 @@ data-event-label="Change to Sources tab"
   
 </table>
 
-              </article>
+                </article>
             </div>
-          </div>
-          <div role="tabpanel" class="tab-pane" id="sources">
+        </div>
+        <div role="tabpanel" class="tab-pane" id="sources">
             <!-- Count the non-empty sources (up to 5) -->
 
 
 
 
 
-          </div>
         </div>
-      </section>
+    </div>  
+
+
+
+    <div class="row" id="indicatorData" data-indicatorid='indicator_3-b-2' data-id="3-b-2" data-country=""
+         data-charttitle="" data-measurementunit="" data-datasource="" data-copyright=""
+         data-geographicalarea="" data-footnote="" data-showdata="false" data-graphtype="line"
+         data-geocoderegex="" data-showmap="false" data-startvalues="">
+        
+            <div id="indicator-main" class="col-md-12">
+                
+
+                
+
+                <section>
+
+                    
+
+                    <!-- Nav tabs -->
+                    <ul class="nav nav-tabs" role="tablist">
+                        <li role="presentation" class="nav-item active">
+                            <a class="nav-link" data-toggle="tab" href="#metadata" aria-controls="metadata" role="tab" data-on="click"
+data-event-category="Tab change"
+data-event-action="Change metadata view"
+data-event-label="Change to National Metadata tab"
+>통계설명자료</a>
+                        </li>
+                        <li role="presentation" class="nav-item">
+                            <a class="nav-link" data-toggle="tab" href="#globalmetadata" aria-controls="globalmetadata" role="tab" data-on="click"
+data-event-category="Tab change"
+data-event-action="Change metadata view"
+data-event-label="Change to Global Metadata tab"
+>UN 메타데이터</a>
+                        </li>
+                        <li role="presentation" class="nav-item">
+                            <a class="nav-link" data-toggle="tab" href="#sources" aria-controls="sources" role="tab" data-on="click"
+data-event-category="Tab change"
+data-event-action="Change metadata view"
+data-event-label="Change to Sources tab"
+>출처 정보</a>
+                        </li>
+                    </ul>
+
+                    <!-- Tab panes -->
+                    
+                    <!-- @@@@@@@@@@@@@@@@@@ -->
+
+
+                </section>
+            </div>
+        </div>
     </div>
-  </div>
+
+
 </div>
-    </div>
 
 <footer role="contentinfo">
     <div class="container">
@@ -969,7 +999,7 @@ data-event-label="Change to Sources tab"
 <script src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.3/dist/html2canvas.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/file-saver@2.0.2/dist/FileSaver.min.js"></script>
-<script src='/sdg-indicators/assets/js/sdg.js?v=20200424015606'></script><script src="/sdg-indicators/assets/js/custom.js?v=20200424015606"></script><script>
+<script src='/sdg-indicators/assets/js/sdg.js?v=20200424054043'></script><script src="/sdg-indicators/assets/js/custom.js?v=20200424054043"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
