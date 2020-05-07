@@ -952,7 +952,8 @@ h5 + .btn-download {
   #main-content.goal-indicators.goal-by-target .indicator-cards.target {
     margin-bottom: 1.5rem;
     font-weight: bold;
-    clear: left; }
+    clear: left;
+    font-size: large; }
   #main-content .goal-indicators:after {
     content: "";
     display: table;
