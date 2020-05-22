@@ -107,6 +107,13 @@
           "href": "/sdg-indicators/2-c-1",
           "status": "notstarted"
         },{
+          "id": "2-2-3",
+          "title": "임신으로 인한 15~49세 여성 빈혈 비율",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/2-2-3",
+          "status": "complete"
+        },{
           "id": "2-2-1",
           "title": "5세 미만의 발육부진비율(연령대비 신장이 WHO 아동성장표준에서 해당 연령 아동신장 중위값으로부터 표준편차가 <–2 인 경우)",
           "description": "",
