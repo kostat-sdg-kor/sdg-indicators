@@ -1037,7 +1037,7 @@
       "title": "포용적이고 안전하며 회복력 있고 지속가능한 도시와 주거지 조성",
       "indicators": [{
           "id": "11-6-1",
-          "title": "도시에서 발생하는 전체 고형 폐기물 중  정기적으로 수거되고 적절한 최종처리단계를 거치는 도시 고형 폐기물 비율(도시별)",
+          "title": "지자체에서 수거되고 관리되는 고형 폐기물 비율",
           "description": "",
           "keywords": "",
           "href": "/sdg-indicators/11-6-1",
@@ -1051,7 +1051,7 @@
           "status": "notstarted"
         },{
           "id": "11-4-1",
-          "title": "모든 문화 및 자연유산의 보존, 보호 및 관리에 배정된 1인당 총 지출액(유산종류(문화, 자연, 복합, 세계유산센터 등재), 정부유형(중앙, 광역, 시군), 지출종류(운영비/투자)), 민간자금종류(기부, 민간, 비영리, 스폰서)별)",
+          "title": "모든 문화 및 자연유산의 보존, 보호 및 관리에 배정된 1인당 총 지출액(자금출처(공공, 민간), 유산종류(문화, 자연), 정부유형(중앙, 광역, 시군)별)",
           "description": "",
           "keywords": "",
           "href": "/sdg-indicators/11-4-1",
@@ -1086,7 +1086,7 @@
           "status": "complete"
         },{
           "id": "11-a-1",
-          "title": "인구 추계와 자원 수요를 통합하여 수립된 도시 및 지역발전계획을 이행하는 도시에 거주하는 인구의 비율 (도시크기별)",
+          "title": "(a) 인구다양성, (b) 토지균형개발, (c) 지방재정강화를 고려한 국가 도시정책 혹은 지역개발계획이 있는 국가의 수",
           "description": "",
           "keywords": "",
           "href": "/sdg-indicators/11-a-1",
@@ -1105,13 +1105,6 @@
           "keywords": "Non-statistical, legislation, policy",
           "href": "/sdg-indicators/11-b-1",
           "status": "complete"
-        },{
-          "id": "11-c-1",
-          "title": "최빈개도국 내 현지 자원을 이용하여 지속가능하고 회복력 있으며 자원효율적인 건물을 짓고 재건축하는데 소요되는 최빈개도국 재정지원비율",
-          "description": "",
-          "keywords": "공적개발원조, ODA",
-          "href": "/sdg-indicators/11-c-1",
-          "status": "notstarted"
         },{
           "id": "11-6-2",
           "title": "도시 미세먼지의 연평균수준 (인구수에 따른 가중)",
@@ -1148,7 +1141,7 @@
       "title": "지속가능한 소비와 생산 양식의 보장",
       "indicators": [{
           "id": "12-c-1",
-          "title": "GDP 단위(생산과 소비)당 화석연료보조금액수 및 화석연료에 대한 총 국가지출대비 화석연료 보조금 비율",
+          "title": "GDP 단위(생산과 소비)당 화석연료보조금액",
           "description": "",
           "keywords": "",
           "href": "/sdg-indicators/12-c-1",
@@ -1162,7 +1155,7 @@
           "status": "notstarted"
         },{
           "id": "12-4-2",
-          "title": "1인당 발생시키는 유해폐기물과 유해폐기물 처리 비율(처리유형별)",
+          "title": "(a) 1인당 발생시키는 유해폐기물과 (b) 유해폐기물 처리 비율 (처리유형별)",
           "description": "",
           "keywords": "hazardous waste, treatment",
           "href": "/sdg-indicators/12-4-2",
@@ -1176,7 +1169,7 @@
           "status": "complete"
         },{
           "id": "12-b-1",
-          "title": "합의된 모니터링과  평가수단을 가진 지속가능한 관광 전략이나 정책 그리고 이행을 위한 실행계획의 수",
+          "title": "지속가능한 관광 측면에서 경제환경 측면을 모니터링하는 표준 회계 툴 이행",
           "description": "",
           "keywords": "규제, 정책, Non-statistical, legislation, policy",
           "href": "/sdg-indicators/12-b-1",
@@ -1197,14 +1190,14 @@
           "status": "notstarted"
         },{
           "id": "12-a-1",
-          "title": "지속가능한 생산소비 및 환경 친화적인 기술분야 연구개발을 위해 개발도상국에 지원되는 금액",
+          "title": "개도국의 재생에너지 설비 용량(인당 와트)",
           "description": "",
           "keywords": "공적개발원조, ODA",
           "href": "/sdg-indicators/12-a-1",
           "status": "notstarted"
         },{
           "id": "12-1-1",
-          "title": "지속가능한 소비 및 생산(SCP) 국가실행계획이나 SCP를 주류로 하는 계획을 갖고 있는 국가 수",
+          "title": "지속 가능한 소비 및 생산으로의 전환을 위한 정책 수단을 개발, 적용, 이행하는 국가 수",
           "description": "",
           "keywords": "Non-statistical, legislation, policy",
           "href": "/sdg-indicators/12-1-1",
@@ -1225,14 +1218,14 @@
           "status": "notstarted"
         },{
           "id": "12-7-1",
-          "title": "지속 가능한 공공 조달 정책들과 실행 계획들을 이행하는 국가들의 수",
+          "title": "지속 가능한 공공 조달 정책 및 실행 계획 이행 정도",
           "description": "",
           "keywords": "규제, 정책, Non-statistical, legislation, policy",
           "href": "/sdg-indicators/12-7-1",
           "status": "notstarted"
         },{
           "id": "12-8-1",
-          "title": "(i) 세계시민교육 (ii)지속가능발전교육(기후변화교육포함)이 (a)국가교육정책 (b) 교육과정 (c) 교사교육 그리고 (d) 학생평가 등 모든 영역에서 주류화 정도",
+          "title": "(i) 세계시민교육 (ii)지속가능발전교육이 (a)국가교육정책 (b) 교육과정 (c) 교사교육 그리고 (d) 학생평가 등 모든 영역에서 주류화 정도",
           "description": "",
           "keywords": "규제, 정책, Non-statistical, legislation, policy",
           "href": "/sdg-indicators/12-8-1",
@@ -1273,14 +1266,14 @@
           "status": "complete"
         },{
           "id": "13-2-1",
-          "title": "식량 생산을 위협하지 않는 방식으로 기후변화의 부정적인 영향에 적응하고, 기후회복력을 배양하고 온실가스배출을 줄일 수 있는 통합된 정책, 전략, 계획을 수립하거나 운영하는 것을 논의해 온 국가의 수(국가 적응계획, 국가 온실가스 감축 기여방안, 국가보고서, 격년별로 갱신되는 보고서 등을 포함)",
+          "title": "NDCs, 장기전략, 국가적응계획 등을 보유한 국가의 수",
           "description": "",
           "keywords": "규제, 정책, Non-statistical, legislation, policy, Sexual Health, Education",
           "href": "/sdg-indicators/13-2-1",
           "status": "notstarted"
         },{
           "id": "13-1-1",
-          "title": "100,000명당 재난으로 인해 사망, 실종, 직접적 피해(affected)를 받은 인구 수",
+          "title": "100,000당 재난으로 인해 사망, 실종, 직접적 피해(affected)를 받은 인구 수",
           "description": "",
           "keywords": "",
           "href": "/sdg-indicators/13-1-1",
