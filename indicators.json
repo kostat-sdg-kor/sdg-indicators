@@ -1238,14 +1238,21 @@
       "title": "기후변화와 그로 인한 영향에 맞서기 위한 긴급 대응",
       "indicators": [{
           "id": "13-3-1",
-          "title": "완화, 적응, 영향 저감, 조기 경보를 초중고등 교육과정에 포함시킨 국가들의 수",
+          "title": "(i) 세계시민교육 (ii)지속가능발전교육이 (a)국가교육정책 (b) 교육과정 (c) 교사교육 그리고 (d) 학생평가 등 모든 영역에서 주류화 정도",
           "description": "",
           "keywords": "규제, 정책, Non-statistical, legislation, policy",
           "href": "/sdg-indicators/13-3-1",
           "status": "notstarted"
         },{
+          "id": "13-2-2",
+          "title": "전체 온실가스 배출량",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/13-2-2",
+          "status": "notstarted"
+        },{
           "id": "13-b-1",
-          "title": "여성, 청소년, 지역 및 소외 공동체에 초점을 맞추는 것을 포함하여, 효과적인 기후변화 관련 계획과 관리 역량을 제고하기 위한 매커니즘 개발을 위해 금융, 기술, 역량배양을 비롯한 특별지원과 지원금을 받고 있는 최빈 개도국과 군소 도서개발국의 수",
+          "title": "NDCs, 장기전략, 국가적응계획 등을 보유한 최빈개도국 수",
           "description": "",
           "keywords": "기후변화, climate change",
           "href": "/sdg-indicators/13-b-1",
@@ -1279,15 +1286,8 @@
           "href": "/sdg-indicators/13-1-1",
           "status": "complete"
         },{
-          "id": "13-3-2",
-          "title": "적응, 완화, 그리고 기술 이전 및 개발 이행을 위한 기관, 시스템, 그리고 개인의 역량 강화를 논의해온 국가의 수",
-          "description": "",
-          "keywords": "규제, 정책, Non-statistical, legislation, policy, Sexual Health, Education",
-          "href": "/sdg-indicators/13-3-2",
-          "status": "notstarted"
-        },{
           "id": "13-a-1",
-          "title": "약속된 1천 억 달러 재원 조성에 대해 2020~2025년 실제 모금되는 연도별 금액",
+          "title": "2025년까지 1000억 달러 재원 모금을 위해 매년 제공 혹은 모금되는 금액",
           "description": "",
           "keywords": "규제, 정책, Non-statistical, legislation, policy",
           "href": "/sdg-indicators/13-a-1",
@@ -1307,7 +1307,7 @@
           "status": "notstarted"
         },{
           "id": "14-2-1",
-          "title": "생태계 기반의 접근방식으로 관리되는 국가의 배타적 경제수역의 비율",
+          "title": "해양 면적 관리에 생태계 기반 접근방식을 이용하는 국가 수",
           "description": "",
           "keywords": "",
           "href": "/sdg-indicators/14-2-1",
@@ -1363,7 +1363,7 @@
           "status": "notstarted"
         },{
           "id": "14-1-1",
-          "title": "연안해역 부영양화지수 및 부유성 플라스틱 부유성 폐기물 밀도",
+          "title": "(a) 연안해역 부영양화지수와 (b) 플라스틱 폐기물 밀도",
           "description": "",
           "keywords": "",
           "href": "/sdg-indicators/14-1-1",
@@ -1404,21 +1404,21 @@
           "status": "notstarted"
         },{
           "id": "15-9-1",
-          "title": "「생물다양성 전략계획2011-2020」의 Aichi 타겟2에 따라 수립된 국가 목표의 진전도",
+          "title": "(a) 생물다양성 증진을 위한 아이치목표 타겟2에 따라 국가 차원의 목표를 수립한 국가의 수와 그 목표에 따른 보고 진전도 (b) 환경경제계정 구현을 위한 국가 회계 및 보고 시스템과 생태다양성의 통합",
           "description": "",
           "keywords": "규제, 정책, Non-statistical, legislation, policy",
           "href": "/sdg-indicators/15-9-1",
           "status": "notstarted"
         },{
           "id": "15-a-1",
-          "title": "생물 다양성과 생태계 보존과 지속가능한 이용을 위한 ODA 및 공공지출",
+          "title": "(a) 생물 다양성의 보존과 지속가능한 이용을 위한 ODA, (b) 생물다양성 관련 경제기구로부터 발생한 이윤과 모금 재정",
           "description": "",
           "keywords": "ODA",
           "href": "/sdg-indicators/15-a-1",
           "status": "complete"
         },{
           "id": "15-b-1",
-          "title": "생물 다양성과 생태계의 지속가능한 이용과 보존을 위한 ODA 및 공공지출",
+          "title": "(a) 생물 다양성의 보존과 지속가능한 이용을 위한 ODA, (b) 생물다양성 관련 경제기구로부터 발생한 이윤과 모금 재정",
           "description": "",
           "keywords": "ODA",
           "href": "/sdg-indicators/15-b-1",
@@ -1513,6 +1513,13 @@
           "keywords": "Crime, homicide",
           "href": "/sdg-indicators/16-1-1",
           "status": "complete"
+        },{
+          "id": "16-3-3",
+          "title": "지난 2년간 분쟁을 경험한 인구비율, 공식 혹은 비공식 절차를 이용하여 분쟁해결 한 인구비율",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/16-3-3",
+          "status": "notstarted"
         },{
           "id": "16-a-1",
           "title": "파리원칙(Paris Principles)에 따른 독립적인 국가인권기구의 존재",
@@ -1647,11 +1654,11 @@
       "title": "이행수단 강화와 지속가능발전을 위한 글로벌 파트너십의 활성화",
       "indicators": [{
           "id": "17-6-1",
-          "title": "국가간 과학기술 협력을 위한 협정과 프로그램의 수 (협력 형태별)",
+          "title": "인구 100명 당 유선 초고속인터넷 가입률 (속도별)",
           "description": "",
-          "keywords": "규제, 정책, Non-statistical, legislation, policy",
+          "keywords": "",
           "href": "/sdg-indicators/17-6-1",
-          "status": "notstarted"
+          "status": "complete"
         },{
           "id": "17-9-1",
           "title": "개발도상국에 지원하는 (남북, 남남, 삼각협력 포함) 재정 및 기술지원금액 (달러기준)",
@@ -1668,14 +1675,14 @@
           "status": "notstarted"
         },{
           "id": "17-12-1",
-          "title": "개발도상국, 최빈개도국 및 군소도서 개발국에 부과되는 평균 관세",
+          "title": "개발도상국, 최빈개도국 및 군소도서 개발국에 부과되는 가중 평균 관세",
           "description": "",
           "keywords": "NA",
           "href": "/sdg-indicators/17-12-1",
           "status": "complete"
         },{
           "id": "17-3-1",
-          "title": "총 정부예산 중 해외직접투자, ODA 및 남남협력의 비율",
+          "title": "국민총생산(GNI) 대비 해외직접투자(FDI),ODA 및 남남협력 비율",
           "description": "",
           "keywords": "",
           "href": "/sdg-indicators/17-3-1",
@@ -1686,13 +1693,6 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-indicators/17-10-1",
-          "status": "complete"
-        },{
-          "id": "17-6-2",
-          "title": "인구 100명 당 유선 초고속인터넷 가입률 (속도별)",
-          "description": "",
-          "keywords": "",
-          "href": "/sdg-indicators/17-6-2",
           "status": "complete"
         },{
           "id": "17-1-1",
@@ -1738,7 +1738,7 @@
           "status": "complete"
         },{
           "id": "17-7-1",
-          "title": "개도국에 친환경 기술의 개발과 이전, 보급 및 확산을 촉진하기 위해 지원하는 총 승인 금액",
+          "title": "개도국에 친환경 기술의 개발과 이전, 보급 및 확산을 촉진하기 위해 지원하는 총 금액",
           "description": "",
           "keywords": "공적개발원조, ODA",
           "href": "/sdg-indicators/17-7-1",
@@ -1752,7 +1752,7 @@
           "status": "complete"
         },{
           "id": "17-18-1",
-          "title": "세부목표와 관련성이 있는 경우 공식통계의 기본원칙에 따라 국가적 단위에서 생산된 완전히 세분화된 지속가능발전 지표의 비율",
+          "title": "SDG 모니터링 위한 통계역량지표",
           "description": "",
           "keywords": "",
           "href": "/sdg-indicators/17-18-1",
@@ -1766,7 +1766,7 @@
           "status": "notstarted"
         },{
           "id": "17-17-1",
-          "title": "민-관 및 시민단체 파트너십에 약정한 US달러 금액",
+          "title": "인프라 구축을 위해 민관 파트너십에 약정한 US달러 금액",
           "description": "",
           "keywords": "",
           "href": "/sdg-indicators/17-17-1",
