@@ -1393,7 +1393,8 @@ body.contrast-high {
     background: white;
     color: black; }
   body.contrast-high caption {
-    color: white; }
+    color: white;
+    font-size: 0; }
   body.contrast-high .table-hover tbody tr:hover {
     background: yellow; }
     body.contrast-high .table-hover tbody tr:hover td {
