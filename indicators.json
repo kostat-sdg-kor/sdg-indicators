@@ -226,7 +226,7 @@
           "status": "complete"
         },{
           "id": "3-3-4",
-          "title": "10만명당 B형 간염 발생건수",
+          "title": "인구 10만명당 B형 간염 발생건수",
           "description": "",
           "keywords": "",
           "href": "/sdg-indicators/3-3-4",
@@ -275,14 +275,14 @@
           "status": "complete"
         },{
           "id": "3-3-3",
-          "title": "1천명당 말라리아 발생건수",
+          "title": "인구 1천명당 말라리아 발생건수",
           "description": "",
           "keywords": "질병, 말라리아, Population",
           "href": "/sdg-indicators/3-3-3",
           "status": "complete"
         },{
           "id": "3-3-2",
-          "title": "10만명당 결핵 발생건수",
+          "title": "인구 10만명당 결핵 발생건수",
           "description": "",
           "keywords": "Population",
           "href": "/sdg-indicators/3-3-2",
@@ -746,7 +746,7 @@
           "status": "notstarted"
         },{
           "id": "8-8-1",
-          "title": "근로자 100,000명 당 치명적 및 비치명적 산업 재해 건수 (성별 및 이주 상태별)",
+          "title": "근로자 10만명당 치명적 및 비치명적 산업 재해 건수 (성별 및 이주 상태별)",
           "description": "",
           "keywords": "",
           "href": "/sdg-indicators/8-8-1",
@@ -823,7 +823,7 @@
           "status": "notstarted"
         },{
           "id": "8-10-1",
-          "title": "성인 100,000명 당 상업은행 지점들과 ATM의 개수",
+          "title": "성인 10만명당 상업은행 지점들과 ATM의 개수",
           "description": "",
           "keywords": "",
           "href": "/sdg-indicators/8-10-1",
@@ -1079,7 +1079,7 @@
           "status": "complete"
         },{
           "id": "11-5-1",
-          "title": "인구 100,000 명당 재난으로 인해 사망, 실종, 직접적 피해를 입은 인구 수",
+          "title": "인구 10만명당 재난으로 인해 사망, 실종, 직접적 피해를 입은 인구 수",
           "description": "",
           "keywords": "",
           "href": "/sdg-indicators/11-5-1",
@@ -1280,7 +1280,7 @@
           "status": "notstarted"
         },{
           "id": "13-1-1",
-          "title": "100,000당 재난으로 인해 사망, 실종, 직접적 피해(affected)를 받은 인구 수",
+          "title": "인구 10만명당 재난으로 인해 사망, 실종, 직접적 피해(affected)를 받은 인구 수",
           "description": "",
           "keywords": "",
           "href": "/sdg-indicators/13-1-1",
