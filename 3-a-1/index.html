@@ -149,7 +149,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-indicators/assets/css/default.css?v=20200713090041">
+        <link rel="stylesheet" href="/sdg-indicators/assets/css/default.css?v=20200713091922">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -358,7 +358,7 @@ var translations = {
 
     <div class="row">
         <div class="col-xs-12" style="display:none">
-            <h2>연령표준화를 적용한 15세 이상 인구 중 현재 흡연률(성별)</h2>
+            <h2>현재 흡연율(만 19세 이상)</h2>
         </div>
     </div>
 
@@ -422,7 +422,7 @@ data-event-label="Change to Sources tab"
         <th scope="row" class="col-xs-3 col-sm-3 col-md-2">지표명 </th>
         <td>
           
-            <p>연령표준화를 적용한 15세 이상 인구에서 현재 흡연률</p>
+            <p>현재 흡연율(만 19세 이상)</p>
 
           
         </td>
@@ -436,7 +436,7 @@ data-event-label="Change to Sources tab"
         <th scope="row" class="col-xs-3 col-sm-3 col-md-2">지표 상세 설명 </th>
         <td>
           
-            
+            <p>평생 담배 5갑(100개비) 이상을 피웠고 현재 담배를 피우고 있는 사람의 비율을 의미함.  만 19세 이상 응답자 중 ‘매일’ 또는 ‘가끔’ 흡연하고 있는 사람들의 비율이며, 2005년 추계인구(장래인구추계) 기준으로 보정한 연령 표준화한 결과임</p>
 
           
         </td>
@@ -560,6 +560,10 @@ data-event-label="Change to Sources tab"
             
             
 
+            
+              <a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/data/Metadata-03-0a-01_KOR.pdf" target="_blank">
+                https://kostat-sdg-kor.github.io/sdg-indicators/public/data/Metadata-03-0a-01_KOR.pdf <span class="visuallyhidden">새 창에서 열기</span>
+              </a>
             
 
           
@@ -704,7 +708,7 @@ data-event-label="Change to Sources tab"
     <div class="row" id="indicatorData" data-indicatorid='indicator_3-a-1' data-id="3-a-1" 		 
 		  data-copyright=""
          data-footnote="" data-showdata="true" data-graphtype="line"
-		 data-charttitle="연령표준화를 적용한 15세 이상 인구 중 현재 흡연률(성별)" 
+		 data-charttitle="현재 흡연율(만 19세 이상)" 
 		 data-geographicalarea="전국" 
 	data-country="전국"
     data-datasource=""
@@ -982,7 +986,7 @@ data-event-label="Change to Map tab"
 <script src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.3/dist/html2canvas.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/file-saver@2.0.2/dist/FileSaver.min.js"></script>
-<script src='/sdg-indicators/assets/js/sdg.js?v=20200713090041'></script><script src="/sdg-indicators/assets/js/custom.js?v=20200713090041"></script><script>
+<script src='/sdg-indicators/assets/js/sdg.js?v=20200713091922'></script><script src="/sdg-indicators/assets/js/custom.js?v=20200713091922"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
