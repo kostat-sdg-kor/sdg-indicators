@@ -149,7 +149,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-indicators/assets/css/default.css?v=20200713082538">
+        <link rel="stylesheet" href="/sdg-indicators/assets/css/default.css?v=20200713084053">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -213,9 +213,9 @@ var translations = {
       </ul>
 
       <ul class="nav navbar-nav menu-target contrast-switcher" id="menu"><li class="nav-link ">
-            <a href="/sdg-indicators/">SDGs 한국 진척도</a>
+            <a href="/sdg-indicators/">SDGs 목표</a>
           </li><li class="nav-link ">
-            <a href="/sdg-indicators/reporting-status/">데이터 현황</a>
+            <a href="/sdg-indicators/reporting-status/">데이터 선정기준</a>
           </li><li class="nav-link ">
             <a href="/sdg-indicators/about/">SDGs 소개</a>
           </li><li class="nav-link ">
@@ -289,7 +289,7 @@ var translations = {
 </script>
 
 
-<script>translations['indicator'] = {"chart":"그래프","clear_all":"모두 취소","clear_selections":"초기화","dataset_size_warning":"너무 많은 항목이 선택되었습니다. 선택을 취소해 주시기 바랍니다.","download_chart":"그래프 CSV 내려받기","download_chart_image":"그래프 이미지 내려받기","download_chart_image_title":"그래프 이미지 내려받기","download_csv":"CSV 내려받기","download_csv_title":"CSV 내려받기","download_headline":"Download Headline CSV","download_headline_title":"Download headline data as CSV","download_source":"원본 CSV 내려받기","download_source_title":"원본 CSV 내려받기","download_table":"표 CSV 내려받기","edit":"자료 수정","edit_data":"데이터 수정","edit_metadata":"메타데이터 수정","footnote":"주석","geographical_area":"지역","global_metadata":"메타데이터","global_metadata_blurb":null,"legend_help":"범례의 개별 항목을 클릭하면 해당 항목을 그래프에서 삭제하실 수 있습니다.","loading_map":"지도를 불어오고 있습니다.","map":"지도","national_metadata":"데이터명과 정의","national_metadata_blurb":null,"no_data_hint":"No options available because of filters above","select_all":"모두 선택","series_help":"성, 연령 등에 따른 세분화된 값을 보려면 해당되는 항목을 선택해 주십시오.","source":"출처","sources":"데이터","sub_categories":"데이터 세분화","table":"표","unit_of_measurement":"단위","units_type":"구분","variable_hint":"먼저 '%field' 항목을 선택해 주시기 바랍니다.","view_indicator_list":"View this goal's indicator list"};</script>
+<script>translations['indicator'] = {"chart":"그래프","clear_all":"모두 취소","clear_selections":"초기화","dataset_size_warning":"너무 많은 항목이 선택되었습니다. 선택을 취소해 주시기 바랍니다.","download_chart":"그래프 CSV 내려받기","download_chart_image":"그래프 이미지 내려받기","download_chart_image_title":"그래프 이미지 내려받기","download_csv":"CSV 내려받기","download_csv_title":"CSV 내려받기","download_headline":"Download Headline CSV","download_headline_title":"Download headline data as CSV","download_source":"원본 CSV 내려받기","download_source_title":"원본 CSV 내려받기","download_table":"표 CSV 내려받기","edit":"자료 수정","edit_data":"데이터 수정","edit_metadata":"메타데이터 수정","footnote":"주석","geographical_area":"지역","global_metadata":"메타데이터","global_metadata_blurb":null,"loading_map":"지도를 불어오고 있습니다.","map":"지도","national_metadata":"지표명과 정의","national_metadata_blurb":null,"no_data_hint":"No options available because of filters above","select_all":"모두 선택","series_help":"성, 연령 등에 따른 세분화된 값을 보려면 해당되는 항목을 선택해 주십시오.","source":"출처","sources":"데이터","sub_categories":"데이터 세분화","table":"표","unit_of_measurement":"단위","units_type":"구분","variable_hint":"먼저 '%field' 항목을 선택해 주시기 바랍니다.","view_indicator_list":"View this goal's indicator list"};</script>
 
 
 <script>translations['data'] = null;</script>
@@ -375,7 +375,7 @@ var translations = {
 data-event-category="Tab change"
 data-event-action="Change metadata view"
 data-event-label="Change to National Metadata tab"
->데이터명과 정의</a>
+>지표명과 정의</a>
                         </li>
                         <li role="presentation" class="nav-item">
                             <a class="nav-link" data-toggle="tab" href="#globalmetadata" aria-controls="globalmetadata" role="tab" data-on="click"
@@ -1245,7 +1245,7 @@ data-event-label="Change to Map tab"
                     <h4>데이터 세분화</h4>
                     <p>성, 연령 등에 따른 세분화된 값을 보려면 해당되는 항목을 선택해 주십시오.</p>
                 </span>
-                <p>범례의 개별 항목을 클릭하면 해당 항목을 그래프에서 삭제하실 수 있습니다.</p>
+                <p></p>
                 <div id="fields">
                     <p class="async-loading" data-img="/sdg-indicators/assets/img/loading-small.gif"></p>
                 </div>
@@ -1334,7 +1334,7 @@ data-event-label="Change to Map tab"
 <script src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.3/dist/html2canvas.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/file-saver@2.0.2/dist/FileSaver.min.js"></script>
-<script src='/sdg-indicators/assets/js/sdg.js?v=20200713082538'></script><script src="/sdg-indicators/assets/js/custom.js?v=20200713082538"></script><script>
+<script src='/sdg-indicators/assets/js/sdg.js?v=20200713084053'></script><script src="/sdg-indicators/assets/js/custom.js?v=20200713084053"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
