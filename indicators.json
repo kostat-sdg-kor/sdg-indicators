@@ -8,14 +8,14 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-indicators/1-a-1",
-          "status": "notstarted"
+          "status": "notapplicable"
         },{
           "id": "1-a-2",
           "title": "정부 총지출 중 필수 서비스 (교육, 의료 및 사회적 보호)에 소요되는 지출 비율",
           "description": "",
           "keywords": "",
           "href": "/sdg-indicators/1-a-2",
-          "status": "notstarted"
+          "status": "notapplicable"
         },{
           "id": "1-5-3",
           "title": "「재난위험감축을 위한 센다이프레임워크(2015-2030)」에 따라 국가적인 재난위험감축전략을 채택하고 이행하는 국가의 수",
@@ -36,14 +36,14 @@
           "description": "",
           "keywords": "빈곤, Poverty, Population",
           "href": "/sdg-indicators/1-2-2",
-          "status": "notstarted"
+          "status": "notapplicable"
         },{
           "id": "1-b-1",
           "title": "빈민층을 위한 공공 사회 지출",
           "description": "",
           "keywords": "",
           "href": "/sdg-indicators/1-b-1",
-          "status": "notstarted"
+          "status": "notapplicable"
         },{
           "id": "1-5-2",
           "title": "국내총생산(GDP) 대비 재난으로 인한 직접적인 경제적 손실액",
@@ -71,7 +71,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-indicators/1-4-1",
-          "status": "notstarted"
+          "status": "notapplicable"
         },{
           "id": "1-3-1",
           "title": "사회적 보호 최저선/체계의 적용을 받는 인구의 성·특수아동·실업자·노령자·장애인·임산부·신생아·산업재해피해자·빈곤층 및 취약계층별 비율",
@@ -105,7 +105,7 @@
           "description": "",
           "keywords": "ONS, CPI",
           "href": "/sdg-indicators/2-c-1",
-          "status": "notstarted"
+          "status": "notapplicable"
         },{
           "id": "2-2-3",
           "title": "임신으로 인한 15~49세 여성 빈혈 비율",
@@ -133,7 +133,7 @@
           "description": "",
           "keywords": "DEFRA",
           "href": "/sdg-indicators/2-4-1",
-          "status": "notstarted"
+          "status": "notapplicable"
         },{
           "id": "2-2-2",
           "title": "5세 미만의 영양불량비율(신장대비 체중이 WHO 아동성장표준에서 중위값으로부터 표준편차가 +2> 혹은 <-2인 경우)",
@@ -258,7 +258,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-indicators/3-b-3",
-          "status": "notstarted"
+          "status": "notapplicable"
         },{
           "id": "3-2-2",
           "title": "신생아 사망률",
@@ -300,7 +300,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-indicators/3-d-2",
-          "status": "notstarted"
+          "status": "notapplicable"
         },{
           "id": "3-7-1",
           "title": "가족계획이 필요한 가임기 여성(15-49세) 중 현대적 피임방법 사용 비율",
@@ -342,7 +342,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-indicators/3-5-1",
-          "status": "notstarted"
+          "status": "notapplicable"
         },{
           "id": "3-9-3",
           "title": "비의도적 중독 사망률",
@@ -446,7 +446,7 @@
           "description": "",
           "keywords": "규제, 정책, Non-statistical, legislation, policy",
           "href": "/sdg-indicators/4-7-1",
-          "status": "notstarted"
+          "status": "notapplicable"
         },{
           "id": "4-2-1",
           "title": "(정규 초등교육 입학연령이 되기 1년 전) 조직화된 학습 참여 성별 비율",
@@ -460,7 +460,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-indicators/4-1-2",
-          "status": "notstarted"
+          "status": "notapplicable"
         },{
           "id": "4-4-1",
           "title": "기술유형별 정보통신기술(ICT) 능력을 보유한 청소년/성인의 비율",
@@ -501,7 +501,7 @@
           "description": "",
           "keywords": "규제, 정책, Non-statistical, legislation, policy",
           "href": "/sdg-indicators/5-a-2",
-          "status": "notstarted"
+          "status": "notapplicable"
         },{
           "id": "5-5-1",
           "title": "(a)국회의 여성 의석 비율 (b) 지방정부의 여성 의석 비율",
@@ -515,7 +515,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-indicators/5-6-1",
-          "status": "notstarted"
+          "status": "notapplicable"
         },{
           "id": "5-b-1",
           "title": "휴대폰을 소유한 개인의 비율 (성별)",
@@ -529,14 +529,14 @@
           "description": "",
           "keywords": "규제, 정책, Non-statistical, legislation, policy",
           "href": "/sdg-indicators/5-1-1",
-          "status": "notstarted"
+          "status": "notapplicable"
         },{
           "id": "5-6-2",
           "title": "성 및 생식 보건에 대한 정보와 교육에 대해 15세 이상의 여성 및 남성의 완전하고 평등한 접근성을 보장하는 법과 제도가 마련된 국가의 수",
           "description": "",
           "keywords": "Non-statistical, legislation, policy, Sexual Health, Education",
           "href": "/sdg-indicators/5-6-2",
-          "status": "notstarted"
+          "status": "notapplicable"
         },{
           "id": "5-4-1",
           "title": "무보수 가사노동 및 돌봄노동에 소요된 시간의 성별, 연령 및 지역별 비율",
@@ -557,21 +557,21 @@
           "description": "",
           "keywords": "인구, 결혼, Demography, Marriage",
           "href": "/sdg-indicators/5-3-1",
-          "status": "notstarted"
+          "status": "notapplicable"
         },{
           "id": "5-a-1",
           "title": "(a) 농경지에 대한 소유권 또는 확실한 권리를 가진 전체 농업인구의 비율 (성별) (b)농경지 소유자 또는 토지 관리권을 가진 사람 중 여성의 비율 (보유기간별)",
           "description": "",
           "keywords": "노동, 노동력, Labour Force",
           "href": "/sdg-indicators/5-a-1",
-          "status": "notstarted"
+          "status": "notapplicable"
         },{
           "id": "5-3-2",
           "title": "15~49세 여아와 여성 중 여성성기절제(FGM/C)를 한 인구의 연령별 비율",
           "description": "",
           "keywords": "인구, Population",
           "href": "/sdg-indicators/5-3-2",
-          "status": "notstarted"
+          "status": "notapplicable"
         },{
           "id": "5-5-2",
           "title": "여성 관리자 비율",
@@ -598,7 +598,7 @@
           "description": "",
           "keywords": "규제, 정책, Non-statistical, legislation, policy",
           "href": "/sdg-indicators/6-b-1",
-          "status": "notstarted"
+          "status": "notapplicable"
         },{
           "id": "6-3-2",
           "title": "주변 수질이 양호한 수계(bodies of water)의 비율",
@@ -619,7 +619,7 @@
           "description": "",
           "keywords": "DEFRA",
           "href": "/sdg-indicators/6-4-1",
-          "status": "notstarted"
+          "status": "notapplicable"
         },{
           "id": "6-3-1",
           "title": "안전하게 처리되는 가정용 및 산업용 하·폐수 비율",
@@ -681,14 +681,14 @@
           "description": "",
           "keywords": "공적개발원조, ODA",
           "href": "/sdg-indicators/7-a-1",
-          "status": "notstarted"
+          "status": "notapplicable"
         },{
           "id": "7-b-1",
           "title": "개도국의 재생에너지 설비 용량(인당 와트)",
           "description": "",
           "keywords": "에너지, 저탄소, 수출, 환경, Energy, Renewable, Low carbon, Exports, GDP, Environmental Accounts, Environment, Sustainable Development",
           "href": "/sdg-indicators/7-b-1",
-          "status": "notstarted"
+          "status": "notapplicable"
         },{
           "id": "7-3-1",
           "title": "1차 에너지와 GDP의 측면에서 측정한 에너지 집약도",
@@ -736,14 +736,14 @@
           "description": "",
           "keywords": "노동, 노동력, Labour Force",
           "href": "/sdg-indicators/8-6-1",
-          "status": "notstarted"
+          "status": "notapplicable"
         },{
           "id": "8-9-1",
           "title": "전체 GDP 및 성장률에 관광분야가 직접적으로 기여하는 GDP 비율",
           "description": "",
           "keywords": "관광, GDP, Tourism",
           "href": "/sdg-indicators/8-9-1",
-          "status": "notstarted"
+          "status": "notapplicable"
         },{
           "id": "8-8-1",
           "title": "근로자 10만명당 치명적 및 비치명적 산업 재해 건수 (성별 및 이주 상태별)",
@@ -771,7 +771,7 @@
           "description": "",
           "keywords": "노동, 노동력, Labour Force",
           "href": "/sdg-indicators/8-3-1",
-          "status": "notstarted"
+          "status": "notapplicable"
         },{
           "id": "8-1-1",
           "title": "1인당 실질 GDP의 연 성장률",
@@ -792,14 +792,14 @@
           "description": "",
           "keywords": "인구, GDP, Population",
           "href": "/sdg-indicators/8-4-1",
-          "status": "notstarted"
+          "status": "notapplicable"
         },{
           "id": "8-8-2",
           "title": "국제노동기구(ILO) 협약과 국내입법에 기초한 노동권(집회 및 단체교섭의 자유)의 국가별 준수 수준 (성 및 이주 상태별)",
           "description": "",
           "keywords": "",
           "href": "/sdg-indicators/8-8-2",
-          "status": "notstarted"
+          "status": "notapplicable"
         },{
           "id": "8-5-2",
           "title": "실업률 (성, 연령, 장애인별)",
@@ -820,7 +820,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-indicators/8-7-1",
-          "status": "notstarted"
+          "status": "notapplicable"
         },{
           "id": "8-10-1",
           "title": "성인 10만명당 상업은행 지점들과 ATM의 개수",
@@ -834,7 +834,7 @@
           "description": "",
           "keywords": "규제, 정책, 교육, 고용, Non-statistical, legislation, policy, Education, Employment, skills",
           "href": "/sdg-indicators/8-b-1",
-          "status": "notstarted"
+          "status": "notapplicable"
         }]
     }
   },{
@@ -868,7 +868,7 @@
           "description": "",
           "keywords": "Geography Accelerator Project",
           "href": "/sdg-indicators/9-1-1",
-          "status": "notstarted"
+          "status": "notapplicable"
         },{
           "id": "9-4-1",
           "title": "부가가치 단위 당 이산화탄소 배출",
@@ -889,7 +889,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-indicators/9-3-2",
-          "status": "notstarted"
+          "status": "notapplicable"
         },{
           "id": "9-5-1",
           "title": "GDP 대비 연구개발비율",
@@ -951,7 +951,7 @@
           "description": "",
           "keywords": "inequality",
           "href": "/sdg-indicators/10-1-1",
-          "status": "notstarted"
+          "status": "notapplicable"
         },{
           "id": "10-7-4",
           "title": "출신국별 난민 인구 비율",
@@ -986,7 +986,7 @@
           "description": "",
           "keywords": "규제, 정책, Non-statistical, legislation, policy",
           "href": "/sdg-indicators/10-7-2",
-          "status": "notstarted"
+          "status": "notapplicable"
         },{
           "id": "10-b-1",
           "title": "공여국과 수원국별 개발을 위한 총자원 자원투입(예 - ODA, 해외직접투자 및 기타 투입)",
@@ -1014,7 +1014,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-indicators/10-7-3",
-          "status": "notstarted"
+          "status": "notapplicable"
         },{
           "id": "10-2-1",
           "title": "중위소득 50% 미만 인구의 성, 연령 및 장애별 비율",
@@ -1028,7 +1028,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-indicators/10-c-1",
-          "status": "notstarted"
+          "status": "notapplicable"
         }]
     }
   },{
@@ -1055,7 +1055,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-indicators/11-4-1",
-          "status": "notstarted"
+          "status": "notapplicable"
         },{
           "id": "11-b-2",
           "title": "국가의 재난위험감축전략에 따라 지자체 차원에서 재난위험감축전략을 갖추고 있는 비율",
@@ -1090,14 +1090,14 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-indicators/11-a-1",
-          "status": "notstarted"
+          "status": "notapplicable"
         },{
           "id": "11-3-1",
           "title": "인구성장률 대비 토지소모 비율",
           "description": "",
           "keywords": "experimental",
           "href": "/sdg-indicators/11-3-1",
-          "status": "notstarted"
+          "status": "notapplicable"
         },{
           "id": "11-b-1",
           "title": "「재난위험감축을 위한 센다이프레임워크 (2015-2030)」에 따라 국가재난위험감축전략을 채택하고 이행하는 국가의 수",
@@ -1118,14 +1118,14 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-indicators/11-3-2",
-          "status": "notstarted"
+          "status": "notapplicable"
         },{
           "id": "11-7-1",
           "title": "도시에서 공공목적의 용도를 위해 개방된 공용 공간이 차지하는 평균비율 (연령, 성 및 장애별)",
           "description": "",
           "keywords": "Public; Open Space; Habitat; Environment; Cities",
           "href": "/sdg-indicators/11-7-1",
-          "status": "notstarted"
+          "status": "notapplicable"
         },{
           "id": "11-1-1",
           "title": "빈민가, 임시거처 또는 최소한의 요건을 갖추지 못한 주거시설에 거주하는 도시인구비율",
@@ -1152,7 +1152,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-indicators/12-6-1",
-          "status": "notstarted"
+          "status": "notapplicable"
         },{
           "id": "12-4-2",
           "title": "(a) 1인당 발생시키는 유해폐기물과 (b) 유해폐기물 처리 비율 (처리유형별)",
@@ -1173,7 +1173,7 @@
           "description": "",
           "keywords": "규제, 정책, Non-statistical, legislation, policy",
           "href": "/sdg-indicators/12-b-1",
-          "status": "notstarted"
+          "status": "notapplicable"
         },{
           "id": "12-4-1",
           "title": "유해 폐기물과 기타 화학물질에 대한 국제 다자간 환경협약이 요구하는 정보제공에 관한 약속과 의무를 이행하는 당사국 수",
@@ -1194,7 +1194,7 @@
           "description": "",
           "keywords": "공적개발원조, ODA",
           "href": "/sdg-indicators/12-a-1",
-          "status": "notstarted"
+          "status": "notapplicable"
         },{
           "id": "12-1-1",
           "title": "지속 가능한 소비 및 생산으로의 전환을 위한 정책 수단을 개발, 적용, 이행하는 국가 수",
@@ -1215,21 +1215,21 @@
           "description": "",
           "keywords": "GDP",
           "href": "/sdg-indicators/12-2-1",
-          "status": "notstarted"
+          "status": "notapplicable"
         },{
           "id": "12-7-1",
           "title": "지속 가능한 공공 조달 정책 및 실행 계획 이행 정도",
           "description": "",
           "keywords": "규제, 정책, Non-statistical, legislation, policy",
           "href": "/sdg-indicators/12-7-1",
-          "status": "notstarted"
+          "status": "notapplicable"
         },{
           "id": "12-8-1",
           "title": "(i) 세계시민교육 (ii)지속가능발전교육이 (a)국가교육정책 (b) 교육과정 (c) 교사교육 그리고 (d) 학생평가 등 모든 영역에서 주류화 정도",
           "description": "",
           "keywords": "규제, 정책, Non-statistical, legislation, policy",
           "href": "/sdg-indicators/12-8-1",
-          "status": "notstarted"
+          "status": "notapplicable"
         }]
     }
   },{
@@ -1242,7 +1242,7 @@
           "description": "",
           "keywords": "규제, 정책, Non-statistical, legislation, policy",
           "href": "/sdg-indicators/13-3-1",
-          "status": "notstarted"
+          "status": "notapplicable"
         },{
           "id": "13-2-2",
           "title": "전체 온실가스 배출량",
@@ -1256,7 +1256,7 @@
           "description": "",
           "keywords": "기후변화, climate change",
           "href": "/sdg-indicators/13-b-1",
-          "status": "notstarted"
+          "status": "notapplicable"
         },{
           "id": "13-1-3",
           "title": "국가의 재난위험감축전략에 따라 지자체 차원에서 재난위험감축전략을 갖추고 있는 비율",
@@ -1277,7 +1277,7 @@
           "description": "",
           "keywords": "규제, 정책, Non-statistical, legislation, policy, Sexual Health, Education",
           "href": "/sdg-indicators/13-2-1",
-          "status": "notstarted"
+          "status": "notapplicable"
         },{
           "id": "13-1-1",
           "title": "인구 10만명당 재난으로 인해 사망, 실종, 직접적 피해(affected)를 받은 인구 수",
@@ -1291,7 +1291,7 @@
           "description": "",
           "keywords": "규제, 정책, Non-statistical, legislation, policy",
           "href": "/sdg-indicators/13-a-1",
-          "status": "notstarted"
+          "status": "notapplicable"
         }]
     }
   },{
@@ -1304,14 +1304,14 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-indicators/14-3-1",
-          "status": "notstarted"
+          "status": "notapplicable"
         },{
           "id": "14-2-1",
           "title": "해양 면적 관리에 생태계 기반 접근방식을 이용하는 국가 수",
           "description": "",
           "keywords": "",
           "href": "/sdg-indicators/14-2-1",
-          "status": "notstarted"
+          "status": "notapplicable"
         },{
           "id": "14-4-1",
           "title": "생물학적으로 지속 가능한 수준에서의 어족자원의 비율",
@@ -1332,7 +1332,7 @@
           "description": "",
           "keywords": "규제, 정책, Non-statistical, legislation, policy",
           "href": "/sdg-indicators/14-c-1",
-          "status": "notstarted"
+          "status": "notapplicable"
         },{
           "id": "14-a-1",
           "title": "전체 연구예산 중 해양기술부문 연구에 할당된 예산비율",
@@ -1360,14 +1360,14 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-indicators/14-7-1",
-          "status": "notstarted"
+          "status": "notapplicable"
         },{
           "id": "14-1-1",
           "title": "(a) 연안해역 부영양화지수와 (b) 플라스틱 폐기물 밀도",
           "description": "",
           "keywords": "",
           "href": "/sdg-indicators/14-1-1",
-          "status": "notstarted"
+          "status": "notapplicable"
         }]
     }
   },{
@@ -1401,7 +1401,7 @@
           "description": "",
           "keywords": "교육, CITES, UNODC",
           "href": "/sdg-indicators/15-c-1",
-          "status": "notstarted"
+          "status": "notapplicable"
         },{
           "id": "15-9-1",
           "title": "(a) 생물다양성 증진을 위한 아이치목표 타겟2에 따라 국가 차원의 목표를 수립한 국가의 수와 그 목표에 따른 보고 진전도 (b) 환경경제계정 구현을 위한 국가 회계 및 보고 시스템과 생태다양성의 통합",
@@ -1429,7 +1429,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-indicators/15-3-1",
-          "status": "notstarted"
+          "status": "notapplicable"
         },{
           "id": "15-4-2",
           "title": "산림피복 지수(Mountain Green Cover Index)",
@@ -1450,7 +1450,7 @@
           "description": "",
           "keywords": "도시, CITES, UNODC",
           "href": "/sdg-indicators/15-7-1",
-          "status": "notstarted"
+          "status": "notapplicable"
         },{
           "id": "15-4-1",
           "title": "산림생물다양성 관련 중요 보호지역 면적",
@@ -1491,7 +1491,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-indicators/16-10-1",
-          "status": "notstarted"
+          "status": "notapplicable"
         },{
           "id": "16-6-2",
           "title": "가장 최근에 경험한 공공서비스에 대해 만족하는 인구비율",
@@ -1505,7 +1505,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-indicators/16-4-1",
-          "status": "notstarted"
+          "status": "notapplicable"
         },{
           "id": "16-1-1",
           "title": "인구 10만명당 고의에 의한 살인범죄 피해자수의 성 및 연령별 현황",
@@ -1519,7 +1519,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-indicators/16-3-3",
-          "status": "notstarted"
+          "status": "notapplicable"
         },{
           "id": "16-a-1",
           "title": "파리원칙(Paris Principles)에 따른 독립적인 국가인권기구의 존재",
@@ -1533,7 +1533,7 @@
           "description": "",
           "keywords": "crime, bribery, corruption",
           "href": "/sdg-indicators/16-5-1",
-          "status": "complete"
+          "status": "notapplicable"
         },{
           "id": "16-3-2",
           "title": "교도소 수용자 중 미결수 비율",
@@ -1554,7 +1554,7 @@
           "description": "",
           "keywords": "범죄, Crime",
           "href": "/sdg-indicators/16-2-1",
-          "status": "notstarted"
+          "status": "notapplicable"
         },{
           "id": "16-b-1",
           "title": "국제인권법 차별금지기준으로 지난 12개월 동안 차별 또는 괴롭힘을 당했다고 느꼈음을 보고한 인구의 비율",
@@ -1568,14 +1568,14 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-indicators/16-6-1",
-          "status": "notstarted"
+          "status": "notapplicable"
         },{
           "id": "16-2-3",
           "title": "18-29세 성인 중 18세 이전에 성폭력을 당한 적이 있는 인구비율",
           "description": "",
           "keywords": "범죄, Crime",
           "href": "/sdg-indicators/16-2-3",
-          "status": "notstarted"
+          "status": "notapplicable"
         },{
           "id": "16-7-1",
           "title": "국가전체 대비 공공기관(국가 및 지방 입법부, 행정부, 사법부) 내 성별, 연령, 장애여부 등 인구집단별 보직분포 비율",
@@ -1596,21 +1596,21 @@
           "description": "",
           "keywords": "노예, 인신매매, Modern slavery and Human Trafficing",
           "href": "/sdg-indicators/16-2-2",
-          "status": "notstarted"
+          "status": "notapplicable"
         },{
           "id": "16-4-2",
           "title": "압수,적발, 회수된 무기 중 국제법제에 따라 유관당국에 의해 불법성이 추적, 확인된  비율",
           "description": "",
           "keywords": "",
           "href": "/sdg-indicators/16-4-2",
-          "status": "notstarted"
+          "status": "notapplicable"
         },{
           "id": "16-9-1",
           "title": "5세미만 중 행정 당국에 출생 신고된 자의 연령별 비율",
           "description": "",
           "keywords": "출생, 신고, 등록,  Births, registrations",
           "href": "/sdg-indicators/16-9-1",
-          "status": "notstarted"
+          "status": "notapplicable"
         },{
           "id": "16-7-2",
           "title": "의사결정이 포용적이고 대응적이라고 생각하는 인구의 성별, 연령별, 장애 및 인구집단별 비율",
@@ -1631,7 +1631,7 @@
           "description": "",
           "keywords": "범죄, 분쟁, 무장, Crime, conflict, armed forces",
           "href": "/sdg-indicators/16-1-2",
-          "status": "notstarted"
+          "status": "notapplicable"
         },{
           "id": "16-5-2",
           "title": "지난 12개월 동안 공무원을 최소한 1회 이상 접촉하여 뇌물을 주었거나 공무원으로부터 뇌물을 요구받았던 기업의 비율",
@@ -1665,14 +1665,14 @@
           "description": "",
           "keywords": "공적개발원조, ODA",
           "href": "/sdg-indicators/17-9-1",
-          "status": "notstarted"
+          "status": "notapplicable"
         },{
           "id": "17-13-1",
           "title": "거시경제 관련 다양한 지표",
           "description": "",
           "keywords": "",
           "href": "/sdg-indicators/17-13-1",
-          "status": "notstarted"
+          "status": "notapplicable"
         },{
           "id": "17-12-1",
           "title": "개발도상국, 최빈개도국 및 군소도서 개발국에 부과되는 가중 평균 관세",
@@ -1728,7 +1728,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-indicators/17-11-1",
-          "status": "notstarted"
+          "status": "notapplicable"
         },{
           "id": "17-18-2",
           "title": "공식통계의 기본원칙을 준수하는 국가통계법령을 갖고 있는 국가의 수",
@@ -1742,7 +1742,7 @@
           "description": "",
           "keywords": "공적개발원조, ODA",
           "href": "/sdg-indicators/17-7-1",
-          "status": "notstarted"
+          "status": "notapplicable"
         },{
           "id": "17-2-1",
           "title": "OECD/개발 원조 위원회(DAC) 공여국의 국민총소득(GNI) 대비 1) 총 순ODA의 비율 2) LDC(최빈개도국)에 대한 순ODA 비율",
@@ -1784,7 +1784,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-indicators/17-4-1",
-          "status": "notstarted"
+          "status": "notapplicable"
         },{
           "id": "17-19-2",
           "title": "지난 10년 동안 a)최소한 한 번의 인구주택총조사를 진행했고, b)100%의 출생등록과 80%의 사망등록을 달성한 국가의 비율",
@@ -1819,7 +1819,7 @@
           "description": "",
           "keywords": "규제, 정책, Non-statistical, legislation, policy",
           "href": "/sdg-indicators/17-14-1",
-          "status": "notstarted"
+          "status": "notapplicable"
         }]
     }
   }]
