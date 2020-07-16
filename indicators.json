@@ -92,7 +92,7 @@
           "description": "",
           "keywords": "빈곤, Poverty, Population",
           "href": "/sdg-indicators/1-2-1",
-          "status": "notstarted"
+          "status": "notapplicable"
         }]
     }
   },{
@@ -619,7 +619,7 @@
           "description": "",
           "keywords": "DEFRA",
           "href": "/sdg-indicators/6-4-1",
-          "status": "complete"
+          "status": "notstarted"
         },{
           "id": "6-3-1",
           "title": "안전하게 처리되는 가정용 및 산업용 하·폐수 비율",
