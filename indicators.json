@@ -427,6 +427,13 @@
           "href": "/sdg-indicators/4-c-1",
           "status": "notstarted"
         },{
+          "id": "4-2-2",
+          "title": "(정규 초등교육 입학연령이 되기 1년 전) 조직화된 학습 참여 성별 비율",
+          "description": "",
+          "keywords": "Education, early learning years, children",
+          "href": "/sdg-indicators/4-2-2",
+          "status": "complete"
+        },{
           "id": "4-a-1",
           "title": "기본 서비스 제공하는 학교 비율(서비스 유형별)",
           "description": "",
@@ -449,7 +456,7 @@
           "status": "notapplicable"
         },{
           "id": "4-2-1",
-          "title": "(정규 초등교육 입학연령이 되기 1년 전) 조직화된 학습 참여 성별 비율",
+          "title": "건강, 학습 및 심리사회적 웰빙 측면에서 발달과정에 있는 24-59개월 아동 성별 비율",
           "description": "",
           "keywords": "Education, early learning years, children",
           "href": "/sdg-indicators/4-2-1",
@@ -1707,7 +1714,7 @@
           "description": "",
           "keywords": "공적개발원조, ODA",
           "href": "/sdg-indicators/17-19-1",
-          "status": "notstarted"
+          "status": "notapplicable"
         },{
           "id": "17-3-2",
           "title": "총 GDP 중 송금액의 비율(미달러 기준)",
@@ -1756,7 +1763,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-indicators/17-18-1",
-          "status": "notstarted"
+          "status": "notapplicable"
         },{
           "id": "17-16-1",
           "title": "SDGs 달성을 지원하기 위한 다자간 개발효과성 모니터링 프레임워크에서 진전을 보고한 국가의수",
@@ -1770,7 +1777,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-indicators/17-17-1",
-          "status": "notstarted"
+          "status": "notapplicable"
         },{
           "id": "17-8-1",
           "title": "인터넷 이용자 비율",
