@@ -1873,7 +1873,7 @@ var indicatorView = function (model, options) {
   this.createSelectionsTable = function(chartInfo) {
     this.createTable(chartInfo.selectionsTable, chartInfo.indicatorId, '#selectionsTable', true);
     this.createTableFooter('selectionTableFooter', chartInfo.footerFields, '#selectionsTable');
-    this.createDownloadButton(chartInfo.selectionsTable, 'Table', chartInfo.indicatorId, '#selectionsTable');
+    //this.createDownloadButton(chartInfo.selectionsTable, 'Table', chartInfo.indicatorId, '#selectionsTable');
     this.createSourceButton(chartInfo.shortIndicatorId, '#selectionsTable');
   };
 
@@ -2020,8 +2020,7 @@ var indicatorView = function (model, options) {
     .sort(sortLabels)
     .appendTo(fieldGroupElement.find('#indicatorData .variable-options'));
   }
-};
-var indicatorController = function (model, view) {
+};var indicatorController = function (model, view) {
   this._model = model;
   this._view = view;
 };
