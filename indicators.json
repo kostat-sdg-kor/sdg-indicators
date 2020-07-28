@@ -126,7 +126,7 @@
           "description": "",
           "keywords": "기아, 식량, FIES, food insecurity, UNSD, hunger, zero hunger",
           "href": "/sdg-indicators/2-1-2",
-          "status": "complete"
+          "status": "notstarted"
         },{
           "id": "2-4-1",
           "title": "생산적이고 지속가능한 농지면적 비율",
@@ -147,7 +147,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-indicators/2-1-1",
-          "status": "complete"
+          "status": "notstarted"
         },{
           "id": "2-a-2",
           "title": "농업부문에 대한 공적지원금(ODA+다른 공적지원금)",
@@ -446,7 +446,7 @@
           "description": "",
           "keywords": "Education",
           "href": "/sdg-indicators/4-3-1",
-          "status": "complete"
+          "status": "notstarted"
         },{
           "id": "4-7-1",
           "title": "(i) 세계시민교육 (ii)지속가능발전교육이 (a)국가교육정책 (b) 교육과정 (c) 교사교육 그리고 (d) 학생평가 등 모든 영역에서 주류화 정도",
@@ -488,7 +488,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-indicators/4-6-1",
-          "status": "complete"
+          "status": "notstarted"
         }]
     }
   },{
@@ -633,7 +633,7 @@
           "description": "",
           "keywords": "DEFRA",
           "href": "/sdg-indicators/6-3-1",
-          "status": "complete"
+          "status": "notstarted"
         },{
           "id": "6-a-1",
           "title": "정부의 지출계획에 포함되어 있는 물과 위생분야 관련 ODA 금액",
