@@ -824,6 +824,8 @@ layout: page
 
 －**[영국](https://sdgdata.gov.uk/)** : https://sdgdata.gov.uk/
 
+－**[미국](https://sdg.data.gov/)** : https://sdg.data.gov/
+
 －**[아일랜드](https://irelandsdg.geohive.ie/)** : https://irelandsdg.geohive.ie/
 
 －**[폴란드](https://sdg.gov.pl/)** : https://sdg.gov.pl/
