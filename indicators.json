@@ -1613,7 +1613,7 @@
           "status": "notapplicable"
         },{
           "id": "16-9-1",
-          "title": "5세미만 중 행정 당국에 출생 신고된 자의 연령별 비율",
+          "title": "5세 미만 중 행정 당국에 출생 신고된 자의 연령별 비율",
           "description": "",
           "keywords": "출생, 신고, 등록,  Births, registrations",
           "href": "/sdg-indicators/16-9-1",
@@ -1661,7 +1661,7 @@
       "title": "이행수단 강화 및 지속가능발전을 위한 글로벌 파트너십 활성화",
       "indicators": [{
           "id": "17-6-1",
-          "title": "인구 100명 당 유선 초고속인터넷 가입률 (속도별)",
+          "title": "인구 1백 명당 유선 초고속인터넷 가입률 (속도별)",
           "description": "",
           "keywords": "",
           "href": "/sdg-indicators/17-6-1",
@@ -1689,7 +1689,7 @@
           "status": "complete"
         },{
           "id": "17-3-1",
-          "title": "국민총생산(GNI) 대비 해외직접투자(FDI),ODA 및 남남협력 비율",
+          "title": "국민총생산(GNI) 대비 해외직접투자(FDI), ODA 및 남남협력 비율",
           "description": "",
           "keywords": "",
           "href": "/sdg-indicators/17-3-1",
@@ -1717,7 +1717,7 @@
           "status": "notapplicable"
         },{
           "id": "17-3-2",
-          "title": "총 GDP 대비 송금액의 비율(미달러 기준)",
+          "title": "총 GDP 중 송금액의 비율(미달러 기준)",
           "description": "",
           "keywords": "GDP",
           "href": "/sdg-indicators/17-3-2",
@@ -1731,7 +1731,7 @@
           "status": "complete"
         },{
           "id": "17-11-1",
-          "title": "전세계 수출에서 개도국 및 최빈개도국이 차지하는 비중",
+          "title": "전 세계 수출에서 개도국 및 최빈개도국이 차지하는 비중",
           "description": "",
           "keywords": "",
           "href": "/sdg-indicators/17-11-1",
@@ -1752,7 +1752,7 @@
           "status": "notapplicable"
         },{
           "id": "17-2-1",
-          "title": "공적개발원조(ODA) 지원규모(순지출)",
+          "title": "OECD/개발 원조 위원회(DAC) 공여국의 국민총소득(GNI) 대비 1) 총 순ODA의 비율 2) LDC(최빈개도국)에 대한 순ODA 비율",
           "description": "",
           "keywords": "ODA",
           "href": "/sdg-indicators/17-2-1",
@@ -1766,7 +1766,7 @@
           "status": "notapplicable"
         },{
           "id": "17-16-1",
-          "title": "SDGs 달성을 지원하기 위한 다자간 개발효과성 모니터링 프레임워크에서 진전을 보고한 국가의 수",
+          "title": "SDGs 달성을 지원하기 위한 다자간 개발효과성 모니터링 프레임워크에서 진전을 보고한 국가의수",
           "description": "",
           "keywords": "규제, 정책, Non-statistical, legislation, policy",
           "href": "/sdg-indicators/17-16-1",
@@ -1794,7 +1794,7 @@
           "status": "notapplicable"
         },{
           "id": "17-19-2",
-          "title": "지난 10년 동안 a)최소한 한번의 인구주택총조사를 진행했고, b)100%의 출생등록과 80%의 사망등록을 달성한 국가의 비율",
+          "title": "지난 10년 동안 a)최소한 한 번의 인구주택총조사를 진행했고, b)100%의 출생등록과 80%의 사망등록을 달성한 국가의 비율",
           "description": "",
           "keywords": "Non-Statistical  Non-statistical, & legislation, & policy",
           "href": "/sdg-indicators/17-19-2",
@@ -1808,7 +1808,7 @@
           "status": "complete"
         },{
           "id": "17-5-1",
-          "title": "최빈개도국을 위한 투자촉진제도를 채택하고 이행하는 국가의 수",
+          "title": "최빈개도국을 포함한 개도국 위한 투자촉진제도를 채택하고 이행하는 국가의 수",
           "description": "",
           "keywords": "규제, 정책, Non-statistical, legislation, policy",
           "href": "/sdg-indicators/17-5-1",
