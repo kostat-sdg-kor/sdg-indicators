@@ -781,7 +781,11 @@ layout: page
          <td>2014</td>
       </tr>
 
-
+      <tr class="content"><!-- 70 -->
+         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/15.pdf">SDGs 지표 톺아보기</a></td>
+         <td class="report1">통계청 통계개발원</td>
+         <td>2020</td>
+      </tr>
    </table>
    <div class="page_form">
       <ul class="pagination">
