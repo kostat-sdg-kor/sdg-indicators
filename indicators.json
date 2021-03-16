@@ -307,7 +307,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-indicators/3-7-1",
-          "status": "notstarted"
+          "status": "complete"
         },{
           "id": "3-2-1",
           "title": "5세 미만 사망률",
@@ -363,7 +363,7 @@
           "description": "",
           "keywords": "면역, 바이러스, 감염, 사망, HIV, Infections, mortality",
           "href": "/sdg-indicators/3-3-1",
-          "status": "notstarted"
+          "status": "complete"
         },{
           "id": "3-7-2",
           "title": "여성 청소년(10-14세, 15-19세) 출산율",
