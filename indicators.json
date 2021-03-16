@@ -857,7 +857,7 @@
           "status": "complete"
         },{
           "id": "9-1-2",
-          "title": "승객 및 운송량 (교통수단별)",
+          "title": "승객 및 화물 운송량(운송수단별)",
           "description": "",
           "keywords": "",
           "href": "/sdg-indicators/9-1-2",
@@ -878,7 +878,7 @@
           "status": "notapplicable"
         },{
           "id": "9-4-1",
-          "title": "부가가치 단위 당 이산화탄소 배출",
+          "title": "부가가치 단위당 이산화탄소 배출",
           "description": "",
           "keywords": "GDP",
           "href": "/sdg-indicators/9-4-1",
