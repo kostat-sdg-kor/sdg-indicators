@@ -1159,14 +1159,14 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-indicators/12-6-1",
-          "status": "notapplicable"
+          "status": "complete"
         },{
           "id": "12-4-2",
           "title": "(a) 1인당 발생시키는 유해폐기물과 (b) 유해폐기물 처리 비율(처리유형별)",
           "description": "",
           "keywords": "hazardous waste, treatment",
           "href": "/sdg-indicators/12-4-2",
-          "status": "notstarted"
+          "status": "complete"
         },{
           "id": "12-2-2",
           "title": "총 및 1인당 물질소비량, GDP 대비 물질소비량",
@@ -1215,7 +1215,7 @@
           "description": "",
           "keywords": "food loss, sustainable production.",
           "href": "/sdg-indicators/12-3-1",
-          "status": "notstarted"
+          "status": "complete"
         },{
           "id": "12-2-1",
           "title": "총 및 1인당 물질발자국, GDP 대비 물질발자국",
