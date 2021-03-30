@@ -151,7 +151,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-indicators/assets/css/default.css?v=20210330115142">
+        <link rel="stylesheet" href="/sdg-indicators/assets/css/default.css?v=20210330124230">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -366,10 +366,9 @@ var translations = {
             
 
             <div id="page-content">
-  <p><b>▶ 데이터 유형: 국내통계(1유형) </b> <br />
-  UN SDGs 지표 정의에 가장 부합하는 국내 생산 통계입니다.  <br />
-  국내 메타데이터 파일을 다운로드하여 자세한 내용을 확인하세요.</p>
-
+  <p><b> ▶ 데이터 유형: 국제기구통계(2유형) </b> <br />
+  국제기구에서 추정 및 모델링 등을 통해 작성한 한국 데이터입니다. <br />
+  UN SDGs 지표에 대응하는 국내 통계가 없는 경우에 국제기구통계를 통해 모니터링 중입니다.</p>
 
 </div>
 
@@ -582,6 +581,10 @@ data-event-label="Change to Sources tab"
             
 
             
+              <a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/data/Metadata-08-04-02_KOR.pdf" target="_blank">
+                https://kostat-sdg-kor.github.io/sdg-indicators/public/data/Metadata-08-04-02_KOR.pdf <span class="visuallyhidden">새 창에서 열기</span>
+              </a>
+            
 
           
         </td>
@@ -726,10 +729,10 @@ data-event-label="Change to Sources tab"
 		  data-copyright=""
          data-footnote="" data-showdata="true" data-graphtype="line"
 		 data-charttitle="1인당 및 GDP 단위당 국내 물질 소비량 (원재료별)" 
-		 data-geographicalarea="전국" 
-	data-country="전국"
+		 data-geographicalarea="전체" 
+	data-country="전체"
     data-datasource=""
-		 data-measurementunit="톤(tonnes), 2010 고정 USD당 킬로그램 (kilograms)"
+		 data-measurementunit="톤(tonnes), 2010 고정USD당 킬로그램(kilograms)"
          data-geocoderegex="" data-showmap="false" data-startvalues="">
 		 
 
@@ -968,7 +971,7 @@ data-event-label="Change to Map tab"
 <script src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.3/dist/html2canvas.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/file-saver@2.0.2/dist/FileSaver.min.js"></script>
-<script src='/sdg-indicators/assets/js/sdg.js?v=20210330115142'></script><script src="/sdg-indicators/assets/js/custom.js?v=20210330115142"></script><script>
+<script src='/sdg-indicators/assets/js/sdg.js?v=20210330124230'></script><script src="/sdg-indicators/assets/js/custom.js?v=20210330124230"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();

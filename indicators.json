@@ -698,21 +698,21 @@
           "status": "notapplicable"
         },{
           "id": "7-3-1",
-          "title": "1차 에너지와 GDP의 측면에서 측정한 에너지 집약도",
+          "title": "GDP 단위당 에너지 소비",
           "description": "",
           "keywords": "GDP",
           "href": "/sdg-indicators/7-3-1",
           "status": "complete"
         },{
           "id": "7-2-1",
-          "title": "최종 에너지 소비 중 재생에너지가 차지하는 비율",
+          "title": "최종 에너지 소비(구성비)",
           "description": "",
           "keywords": "",
           "href": "/sdg-indicators/7-2-1",
           "status": "complete"
         },{
           "id": "7-1-1",
-          "title": "전기 접근성을 갖고 있는 인구비율",
+          "title": "전기 접근성이 있는 인구 비율",
           "description": "",
           "keywords": "Electricity, Energy, Access",
           "href": "/sdg-indicators/7-1-1",
