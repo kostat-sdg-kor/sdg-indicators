@@ -151,7 +151,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-indicators/assets/css/default.css?v=20210330103222">
+        <link rel="stylesheet" href="/sdg-indicators/assets/css/default.css?v=20210330105602">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -456,7 +456,7 @@ data-event-label="Change to Sources tab"
         <th scope="row" class="col-xs-3 col-sm-3 col-md-2">지표 정의 </th>
         <td>
           
-            <p>지난 10년 동안 최소한 한번의 인구주택총조사를 진행함(1:그렇다,2:아니다) / 100%의 출생등록(1:그렇다,2:아니다) / 75%의 사망등록 달성(1:그렇다,2:아니다)</p>
+            <p>지난 10년 동안 최소한 한번의 인구주택총조사를 진행함(1:그렇다,0:아니다) / 100%의 출생등록(1:그렇다,0:아니다) / 75%의 사망등록 달성(1:그렇다,0:아니다)</p>
 
           
         </td>
@@ -581,6 +581,10 @@ data-event-label="Change to Sources tab"
             
 
             
+              <a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/data/Metadata-17-19-02_KOR.pdf" target="_blank">
+                https://kostat-sdg-kor.github.io/sdg-indicators/public/data/Metadata-17-19-02_KOR.pdf <span class="visuallyhidden">새 창에서 열기</span>
+              </a>
+            
 
           
         </td>
@@ -600,8 +604,8 @@ data-event-label="Change to Sources tab"
             
 
             
-              <a href="https://unstats.un.org/sdgs/metadata/?Text=&Goal=17&Target=17.19" target="_blank">
-                https://unstats.un.org/sdgs/metadata/?Text=&Goal=17&Target=17.19 <span class="visuallyhidden">새 창에서 열기</span>
+              <a href="https://unstats.un.org/sdgs/metadata/files/Metadata-17-19-02a.pdf https://unstats.un.org/sdgs/metadata/files/Metadata-17-19-02b.pdf" target="_blank">
+                https://unstats.un.org/sdgs/metadata/files/Metadata-17-19-02a.pdf https://unstats.un.org/sdgs/metadata/files/Metadata-17-19-02b.pdf <span class="visuallyhidden">새 창에서 열기</span>
               </a>
             
 
@@ -728,7 +732,7 @@ data-event-label="Change to Sources tab"
 		 data-geographicalarea="전체" 
 	data-country="전체"
     data-datasource=""
-		 data-measurementunit="1:그렇다, 2:아니다"
+		 data-measurementunit="1:그렇다, 0:아니다"
          data-geocoderegex="" data-showmap="false" data-startvalues="">
 		 
 
@@ -756,164 +760,8 @@ data-event-label="Change to Sources tab"
       <caption></caption>
       <thead>
         
-        
-        <th scope="col">Year</th>
-        
-        
-        
-        <th scope="col">Units</th>
-        
-        
-        
-        <th scope="col" class="table-value">Value</th>
-        
-        
       </thead>
       <tbody>
-        
-        <tr>
-          
-          
-          <td>2015</td>
-          
-          
-          
-          <td>인구주택총조사실시</td>
-          
-          
-          
-          <td class="table-value">1</td>
-          
-          
-        </tr>
-        
-        <tr>
-          
-          
-          <td>2015</td>
-          
-          
-          
-          <td>90%이상 출생등록</td>
-          
-          
-          
-          <td class="table-value">1</td>
-          
-          
-        </tr>
-        
-        <tr>
-          
-          
-          <td>2016</td>
-          
-          
-          
-          <td>90%이상 출생등록</td>
-          
-          
-          
-          <td class="table-value">1</td>
-          
-          
-        </tr>
-        
-        <tr>
-          
-          
-          <td>2017</td>
-          
-          
-          
-          <td>90%이상 출생등록</td>
-          
-          
-          
-          <td class="table-value">1</td>
-          
-          
-        </tr>
-        
-        <tr>
-          
-          
-          <td>2018</td>
-          
-          
-          
-          <td>90%이상 출생등록</td>
-          
-          
-          
-          <td class="table-value">1</td>
-          
-          
-        </tr>
-        
-        <tr>
-          
-          
-          <td>2015</td>
-          
-          
-          
-          <td>75%이상 사망등록</td>
-          
-          
-          
-          <td class="table-value">1</td>
-          
-          
-        </tr>
-        
-        <tr>
-          
-          
-          <td>2016</td>
-          
-          
-          
-          <td>75%이상 사망등록</td>
-          
-          
-          
-          <td class="table-value">1</td>
-          
-          
-        </tr>
-        
-        <tr>
-          
-          
-          <td>2017</td>
-          
-          
-          
-          <td>75%이상 사망등록</td>
-          
-          
-          
-          <td class="table-value">1</td>
-          
-          
-        </tr>
-        
-        <tr>
-          
-          
-          <td>2018</td>
-          
-          
-          
-          <td>75%이상 사망등록</td>
-          
-          
-          
-          <td class="table-value">1</td>
-          
-          
-        </tr>
         
       </tbody>
     </table>
@@ -1123,7 +971,7 @@ data-event-label="Change to Map tab"
 <script src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.3/dist/html2canvas.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/file-saver@2.0.2/dist/FileSaver.min.js"></script>
-<script src='/sdg-indicators/assets/js/sdg.js?v=20210330103222'></script><script src="/sdg-indicators/assets/js/custom.js?v=20210330103222"></script><script>
+<script src='/sdg-indicators/assets/js/sdg.js?v=20210330105602'></script><script src="/sdg-indicators/assets/js/custom.js?v=20210330105602"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
