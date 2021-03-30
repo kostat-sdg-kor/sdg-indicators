@@ -151,7 +151,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-indicators/assets/css/default.css?v=20210330105602">
+        <link rel="stylesheet" href="/sdg-indicators/assets/css/default.css?v=20210330115142">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -341,10 +341,10 @@ var translations = {
 
 		<a href="/sdg-indicators/6">
 		<span class="hidden-sm hidden-md hidden-lg">목표 6: </span>
-		모두를 위한 물과 위생의 이용가능성과 지속가능한 관리 보장  : 오염 저감, 유해물질 투기 근절과 배출 최소화, 재사용을 통한 수질 개선
+		모두를 위한 물과 위생의 이용가능성과 지속가능한 관리 보장  : 2030년까지 오염 감소, 유해 화학물질 투기 근절 및 배출 최소화를 통해 미처리된 하수 비율을 절반으로 줄이고 재활용 및 안전한 재사용을 전 세계적으로 대폭 확대
 		</a>
 	</h1>
-	<h2>지표 6.3.1: 안전하게 처리되는 가정용 및 산업용 하·폐수 비율</h2>
+	<h2>지표 6.3.1: (a) 하수발생량, (b) 폐수 발생량</h2>
 </div>
 </div>
 </div>
@@ -442,7 +442,7 @@ data-event-label="Change to Sources tab"
         <th scope="row" class="col-xs-3 col-sm-3 col-md-2">지표명 </th>
         <td>
           
-            <p>안전하게 처리되는 가정용 및 산업용 하·폐수 비율</p>
+            <p>(a) 하수발생량, (b) 폐수 발생량</p>
 
           
         </td>
@@ -456,7 +456,7 @@ data-event-label="Change to Sources tab"
         <th scope="row" class="col-xs-3 col-sm-3 col-md-2">지표 정의 </th>
         <td>
           
-            <p>가정과 경제활동으로 인해 발생되는 전체 폐수량 대비 IRWS(International Recommendations for Water Statistics)에서 지정한 SEEA(system of environmental-economic accounting for water)의 처리 단계에 기반하여 안전하게 처리되는 가정과 경제활동에서 발생하는 폐수 비율</p>
+            <p>(a) 사람의 생활이나 경제활동으로 인하여 액체성 또는 고체성 물질이 섞여 오염된 물(이하 ‘오수’라 한다)과 건물·도로 그 밖의 시설물의 부지로부터 하수도로 유입되는 빗물·지하수 유량의 총합 (b) 생산활동으로 인하여 폐수배출시설에서 배출되는 폐수량을 의미함. 즉, 폐수처리 후 최종방류구에서 재이용하는 폐수를 포함한 총 발생량을 말하며, 폐수처리 유입 전 또는 폐수처리장 중간에서 순환재이용하는 양은 제외함 * 참고: 폐수에는 생활오수 및 순수(간접)냉각수는 제외되나, 직접 냉각폐수와 특정수질유해물질함유폐수는 포함</p>
 
           
         </td>
@@ -729,8 +729,8 @@ data-event-label="Change to Sources tab"
 		  data-copyright=""
          data-footnote="" data-showdata="true" data-graphtype="line"
 		 data-charttitle="하수 및 분뇨 발생량" 
-		 data-geographicalarea="전국" 
-	data-country="전국"
+		 data-geographicalarea="전" 
+	data-country="전"
     data-datasource=""
 		 data-measurementunit="m3/일"
          data-geocoderegex="" data-showmap="false" data-startvalues="">
@@ -1399,7 +1399,7 @@ data-event-label="Change to Map tab"
 <script src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.3/dist/html2canvas.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/file-saver@2.0.2/dist/FileSaver.min.js"></script>
-<script src='/sdg-indicators/assets/js/sdg.js?v=20210330105602'></script><script src="/sdg-indicators/assets/js/custom.js?v=20210330105602"></script><script>
+<script src='/sdg-indicators/assets/js/sdg.js?v=20210330115142'></script><script src="/sdg-indicators/assets/js/custom.js?v=20210330115142"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
