@@ -151,7 +151,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-indicators/assets/css/default.css?v=20210331003602">
+        <link rel="stylesheet" href="/sdg-indicators/assets/css/default.css?v=20210331014250">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -341,10 +341,10 @@ var translations = {
 
 		<a href="/sdg-indicators/12">
 		<span class="hidden-sm hidden-md hidden-lg">목표 12: </span>
-		지속가능한 소비와 생산 양식 보장  : 천연 자원의 효율적 사용과 지속가능한 관리
+		지속가능한 소비와 생산 양식 보장  : 2030년까지 천연자원의 효율적인 사용 및 지속가능한 관리 달성
 		</a>
 	</h1>
-	<h2>지표 12.2.2: 총 및 1인당 물질소비량, GDP 대비 물질소비량</h2>
+	<h2>지표 12.2.2: 국내물질소비량, 1인당 국내물질소비량, GDP당 국내물질소비량</h2>
 </div>
 </div>
 </div>
@@ -443,7 +443,7 @@ data-event-label="Change to Sources tab"
         <th scope="row" class="col-xs-3 col-sm-3 col-md-2">지표명 </th>
         <td>
           
-            <p>총 및 1인당 물질소비량, GDP 대비 물질소비량</p>
+            <p>국내물질소비량, 1인당 국내물질소비량, GDP당 국내물질소비량</p>
 
           
         </td>
@@ -457,7 +457,7 @@ data-event-label="Change to Sources tab"
         <th scope="row" class="col-xs-3 col-sm-3 col-md-2">지표 정의 </th>
         <td>
           
-            <p>국내물질소비량(DMC)은 물질흐름계정(MFA)의 지표로 국내소비를 위해 유입되는 물질의 양을 나타냄. 물질흐름계정은 경제와 환경 사이의 물질대사를 분석하기 위해 고안된 계정체계임. 실제 경제 활동에서 사용되고 있는 자원양만을 측정하며 추출되었지만 실제로 경제활동에 사용되지 않은 자원은 제외함</p>
+            <p>국내물질소비량(DMC)은 물질흐름회계(MFA)의 지표로 국내물질소비를 위해 유입되는 물질의 양을 의미</p>
 
           
         </td>
@@ -730,10 +730,10 @@ data-event-label="Change to Sources tab"
 		  data-copyright=""
          data-footnote="" data-showdata="true" data-graphtype="line"
 		 data-charttitle="1인당 및 GDP 단위당 국내 물질 소비량 (원재료별)" 
-		 data-geographicalarea="전국" 
-	data-country="전국"
+		 data-geographicalarea="전" 
+	data-country="전"
     data-datasource=""
-		 data-measurementunit="톤(tonnes), 2010 고정 USD당 킬로그램 (kilograms)"
+		 data-measurementunit="톤, kg/USD"
          data-geocoderegex="" data-showmap="false" data-startvalues="">
 		 
 
@@ -972,7 +972,7 @@ data-event-label="Change to Map tab"
 <script src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.3/dist/html2canvas.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/file-saver@2.0.2/dist/FileSaver.min.js"></script>
-<script src='/sdg-indicators/assets/js/sdg.js?v=20210331003602'></script><script src="/sdg-indicators/assets/js/custom.js?v=20210331003602"></script><script>
+<script src='/sdg-indicators/assets/js/sdg.js?v=20210331014250'></script><script src="/sdg-indicators/assets/js/custom.js?v=20210331014250"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();

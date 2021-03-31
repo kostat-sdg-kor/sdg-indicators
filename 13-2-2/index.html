@@ -151,7 +151,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-indicators/assets/css/default.css?v=20210331003602">
+        <link rel="stylesheet" href="/sdg-indicators/assets/css/default.css?v=20210331014250">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -341,10 +341,10 @@ var translations = {
 
 		<a href="/sdg-indicators/13">
 		<span class="hidden-sm hidden-md hidden-lg">목표 13: </span>
-		기후변화와 그 영향에 맞서기 위한 긴급 대응  : 국가 정책에 기후변화 대응조치 통합
+		기후변화와 그 영향에 맞서기 위한 긴급 대응  : 국가정책, 전략 및 계획에 기후변화 조치 통합
 		</a>
 	</h1>
-	<h2>지표 13.2.2: 전체 온실가스 배출량</h2>
+	<h2>지표 13.2.2: 온실가스별 배출 추이</h2>
 </div>
 </div>
 </div>
@@ -442,7 +442,7 @@ data-event-label="Change to Sources tab"
         <th scope="row" class="col-xs-3 col-sm-3 col-md-2">지표명 </th>
         <td>
           
-            <p>전체 온실가스 배출량</p>
+            <p>온실가스별 배출 추이</p>
 
           
         </td>
@@ -456,7 +456,7 @@ data-event-label="Change to Sources tab"
         <th scope="row" class="col-xs-3 col-sm-3 col-md-2">지표 정의 </th>
         <td>
           
-            <p>총 온실가스(GHG) 배출량은 CO2 환산 단위로 측정되는 직접적 GHG 배출량의 총합으로 계산됨. 6대 온실가스인 이산화탄소(CO2), 메탄(CH4), 아산화질소(N2O), 과불화화탄소(PFCs), 수소불화탄소(HFCs), 육불화화황(SF6)을 포함하며 각 기체가 가지는 지구온난화 지수(GWP)를 가중하여 CO2양으로 환산하여 온실가스 배출량을 산정함</p>
+            <p>이산화탄소(CO2) 환산 단위로 측정되는 직접적 온실가스(GHG) 배출량의 총합 온실가스는 이산화탄소(CO2), 메탄(CH4), 아산화질소(N2O), 과불화탄소(PFCs), 수소불화탄소(HFCs), 육불화황(SF6)을 포함하며, 각 기체가 가지는 지구온난화 지수(GWP)를 가중하여 CO2 양으로 환산하여 온실가스 배출량을 산정</p>
 
           
         </td>
@@ -729,8 +729,8 @@ data-event-label="Change to Sources tab"
 		  data-copyright=""
          data-footnote="" data-showdata="true" data-graphtype="line"
 		 data-charttitle="온실가스별 배출량" 
-		 data-geographicalarea="전국" 
-	data-country="전국"
+		 data-geographicalarea="전" 
+	data-country="전"
     data-datasource=""
 		 data-measurementunit="백만tCO2eq"
          data-geocoderegex="" data-showmap="false" data-startvalues="">
@@ -1207,7 +1207,7 @@ data-event-label="Change to Map tab"
 <script src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.3/dist/html2canvas.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/file-saver@2.0.2/dist/FileSaver.min.js"></script>
-<script src='/sdg-indicators/assets/js/sdg.js?v=20210331003602'></script><script src="/sdg-indicators/assets/js/custom.js?v=20210331003602"></script><script>
+<script src='/sdg-indicators/assets/js/sdg.js?v=20210331014250'></script><script src="/sdg-indicators/assets/js/custom.js?v=20210331014250"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();

@@ -151,7 +151,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-indicators/assets/css/default.css?v=20210331003602">
+        <link rel="stylesheet" href="/sdg-indicators/assets/css/default.css?v=20210331014250">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -341,10 +341,10 @@ var translations = {
 
 		<a href="/sdg-indicators/12">
 		<span class="hidden-sm hidden-md hidden-lg">목표 12: </span>
-		지속가능한 소비와 생산 양식 보장  : 음식물쓰레기 감축, 식품공급단계에서의 식량 손실 최소화
+		지속가능한 소비와 생산 양식 보장  : 2030년까지 소매 및 소비자 수준에서 1인당 식품폐기물을 1/2로 감소하고 식품 생산 및 유통과정에서 발생하는 식품 손실량 감소
 		</a>
 	</h1>
-	<h2>지표 12.3.1: 식량손실지수 및 식량폐기지수</h2>
+	<h2>지표 12.3.1: 도시규모별 음식물류 폐기물 발생량 원단위</h2>
 </div>
 </div>
 </div>
@@ -443,7 +443,7 @@ data-event-label="Change to Sources tab"
         <th scope="row" class="col-xs-3 col-sm-3 col-md-2">지표명 </th>
         <td>
           
-            <p>식량손실지수 및 식량폐기지수</p>
+            <p>도시규모별 음식물류 폐기물 발생량 원단위</p>
 
           
         </td>
@@ -457,7 +457,7 @@ data-event-label="Change to Sources tab"
         <th scope="row" class="col-xs-3 col-sm-3 col-md-2">지표 정의 </th>
         <td>
           
-            <p>식량손실지수는 직․간접적으로 폐기, 소각 또는 기타 방식으로 수확 및 도축 후 생산/공급망을 빠져나가는 모든 작물 및 가축 식용상품의 양을 나타냄. 이는 저장, 운송 및 가공 중에 발생하는 손실과 수입 수량에 대해서도 해당됨. 식량폐기지수는 페기과정(level 1)과 공급망(level 2)에서 발생하는 음식물 쓰레기로 구분되어 측정됨. 폐기과정 에서의 식량폐기지수는 전체 폐기물 중 음식물 쓰레기에 대한 지역 계수를 기반으로 한 글로벌 모델을 통해 추정되며, 공급망에서의 식량폐기지수는 공급과정에서 발생하는 음식물 쓰레기에 대한 국가 데이터를 통해 수집됨</p>
+            <p>하루에 1인당 발생시키는 음식물류 폐기물의 양</p>
 
           
         </td>
@@ -730,8 +730,8 @@ data-event-label="Change to Sources tab"
 		  data-copyright=""
          data-footnote="" data-showdata="true" data-graphtype="line"
 		 data-charttitle="도시규모별 음식물류 폐기물 발생량 원단위" 
-		 data-geographicalarea="전국" 
-	data-country="전국"
+		 data-geographicalarea="전" 
+	data-country="전"
     data-datasource=""
 		 data-measurementunit="g/일/인"
          data-geocoderegex="" data-showmap="false" data-startvalues="">
@@ -1016,7 +1016,7 @@ data-event-label="Change to Map tab"
 <script src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.3/dist/html2canvas.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/file-saver@2.0.2/dist/FileSaver.min.js"></script>
-<script src='/sdg-indicators/assets/js/sdg.js?v=20210331003602'></script><script src="/sdg-indicators/assets/js/custom.js?v=20210331003602"></script><script>
+<script src='/sdg-indicators/assets/js/sdg.js?v=20210331014250'></script><script src="/sdg-indicators/assets/js/custom.js?v=20210331014250"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
