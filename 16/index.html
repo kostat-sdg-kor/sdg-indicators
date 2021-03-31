@@ -137,7 +137,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-indicators/assets/css/default.css?v=20210331023237">
+        <link rel="stylesheet" href="/sdg-indicators/assets/css/default.css?v=20210331050021">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -171,9 +171,10 @@ var translations = {
       <img src="/sdg-indicators/assets/img/SDG_logo.png" alt="지속가능발전목표 - 17 Goals to Transform our World" />
     </a>
 
-  <div class='hidden visible-xs float-right'>
-    <ul id='accessibility-nav' class='contrast-switcher'></ul><div class="language-toggle-mobile">
-      <a class="language-toggle-button" onclick="$(this).next('.language-toggle').toggle(); return false;">
+ # <div class='hidden visible-xs float-right'>
+ #  <ul id='accessibility-nav' class='contrast-switcher'></ul>
+ ##   <div class="language-toggle-mobile">
+ #     <a class="language-toggle-button" onclick="$(this).next('.language-toggle').toggle(); return false;">
 	<i class="fa fa-globe"></i>
 	<span class="language-toggle-text">한국어</span>
 	<i class="language-toggle fa fa-chevron-down"></i>
@@ -184,7 +185,8 @@ var translations = {
 	<li><a href="javascript:moveEN();">English</a></li>
 </ul>
 
-    </div></div>
+ #   </div>
+ ## </div>
 
     <nav class="navbar navbar-default" id="main-nav">
 
@@ -309,7 +311,7 @@ var translations = {
               이용가능
             </span>
           </span>
-          인구 10만 명당 고의에 의한 살인범죄 피해자수의 성 및 연령별 현황
+          살인범죄 피해자 수(성별, 연령별)
           
         </a>
       </div>
@@ -332,7 +334,7 @@ var translations = {
               현재이용불가
             </span>
           </span>
-          인구 1십만 명당 분쟁관련 사망자수의 성, 연령 및 사유별 현황
+          인구 1십만 명당 분쟁관련 사망자수(성, 연령 및 사유별)
           
         </a>
       </div>
@@ -355,7 +357,7 @@ var translations = {
               이용가능
             </span>
           </span>
-          지난 12개월간 (a) 신체적, (b) 정서적, (c) 성적 폭력에 노출된 인구비율
+          폭력범죄 유형별 범죄피해율
           
         </a>
       </div>
@@ -378,7 +380,7 @@ var translations = {
               이용가능
             </span>
           </span>
-          살고 있는 동네를 홀로 걸을 때 안전하다고 느끼는 인구 비율
+          일반적 범죄 두려움(밤에 혼자 동네 골목길)
           
         </a>
       </div>
@@ -440,7 +442,7 @@ var translations = {
               현재이용불가
             </span>
           </span>
-          인구 1십만 명당 인신매매 피해자수의 성, 연령, 착취형태별 현황
+          인구 1십만 명당 인신매매 피해자수(성, 연령 및 착취형태별)
           
         </a>
       </div>
@@ -463,7 +465,7 @@ var translations = {
               현재이용불가
             </span>
           </span>
-          18-29세 성인 중 18세 이전에 성폭력을 당한 적이 있는 인구비율
+          18-29세 인구 중 18세 이전에 성폭력을 당한 적이 있는 인구 비율
           
         </a>
       </div>
@@ -502,7 +504,7 @@ var translations = {
               이용가능
             </span>
           </span>
-          지난 12개월간 관할 당국 혹은 기타 공식적인 분쟁해결수단에 피해신고를 한 폭력범죄피해자 비율
+          범죄피해 신고율
           
         </a>
       </div>
@@ -548,7 +550,7 @@ var translations = {
               현재이용불가
             </span>
           </span>
-          지난 2년간 분쟁을 경험한 인구비율, 공식 혹은 비공식 절차를 이용하여 분쟁해결 한 인구비율
+          지난 2년간 분쟁을 경험한 인구비율, 공식 혹은 비공식 분쟁해결기구를 이용한 인구 비율(기구 유형별)
           
         </a>
       </div>
@@ -587,7 +589,7 @@ var translations = {
               현재이용불가
             </span>
           </span>
-          국내외 불법금융거래의 총 가액 (현 미국달러화 기준)
+          국내외 불법금융거래의 총 가액(현 미국달러화 기준)
           
         </a>
       </div>
@@ -1095,7 +1097,7 @@ var translations = {
 <script src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.3/dist/html2canvas.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/file-saver@2.0.2/dist/FileSaver.min.js"></script>
-<script src='/sdg-indicators/assets/js/sdg.js?v=20210331023237'></script><script src="/sdg-indicators/assets/js/custom.js?v=20210331023237"></script><script>
+<script src='/sdg-indicators/assets/js/sdg.js?v=20210331050021'></script><script src="/sdg-indicators/assets/js/custom.js?v=20210331050021"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();

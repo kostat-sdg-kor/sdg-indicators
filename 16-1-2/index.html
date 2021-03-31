@@ -151,7 +151,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-indicators/assets/css/default.css?v=20210331023237">
+        <link rel="stylesheet" href="/sdg-indicators/assets/css/default.css?v=20210331050021">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -186,9 +186,10 @@ var translations = {
       <img src="/sdg-indicators/assets/img/SDG_logo.png" alt="지속가능발전목표 - 17 Goals to Transform our World" />
     </a>
 
-  <div class='hidden visible-xs float-right'>
-    <ul id='accessibility-nav' class='contrast-switcher'></ul><div class="language-toggle-mobile">
-      <a class="language-toggle-button" onclick="$(this).next('.language-toggle').toggle(); return false;">
+ # <div class='hidden visible-xs float-right'>
+ #  <ul id='accessibility-nav' class='contrast-switcher'></ul>
+ ##   <div class="language-toggle-mobile">
+ #     <a class="language-toggle-button" onclick="$(this).next('.language-toggle').toggle(); return false;">
 	<i class="fa fa-globe"></i>
 	<span class="language-toggle-text">한국어</span>
 	<i class="language-toggle fa fa-chevron-down"></i>
@@ -199,7 +200,8 @@ var translations = {
 	<li><a href="javascript:moveEN();">English</a></li>
 </ul>
 
-    </div></div>
+ #   </div>
+ ## </div>
 
     <nav class="navbar navbar-default" id="main-nav">
 
@@ -341,10 +343,10 @@ var translations = {
 
 		<a href="/sdg-indicators/16">
 		<span class="hidden-sm hidden-md hidden-lg">목표 16: </span>
-		지속가능발전을 위한 평화롭고 포용적인 사회 증진, 모두에게 정의 보장과 모든 수준에서 효과적이며 책임성 있고 포용적인 제도 구축  : 폭력으로 인한 사망률 감소
+		지속가능발전을 위한 평화롭고 포용적인 사회 증진, 모두에게 정의 보장과 모든 수준에서 효과적이며 책임성 있고 포용적인 제도 구축  : 모든 지역에서 일어나는 모든 형태의 폭력과 관련 사망률을 상당 수준으로 감소
 		</a>
 	</h1>
-	<h2>지표 16.1.2: 인구 1십만 명당 분쟁관련 사망자수의 성, 연령 및 사유별 현황</h2>
+	<h2>지표 16.1.2: 인구 1십만 명당 분쟁관련 사망자수(성, 연령 및 사유별)</h2>
 </div>
 </div>
 </div>
@@ -442,7 +444,7 @@ data-event-label="Change to Sources tab"
         <th scope="row" class="col-xs-3 col-sm-3 col-md-2">지표명 </th>
         <td>
           
-            <p>인구 1십만 명당 분쟁관련 사망자수의 성, 연령 및 사유별 현황</p>
+            <p>인구 1십만 명당 분쟁관련 사망자수(성, 연령 및 사유별)</p>
 
           
         </td>
@@ -456,7 +458,7 @@ data-event-label="Change to Sources tab"
         <th scope="row" class="col-xs-3 col-sm-3 col-md-2">지표 정의 </th>
         <td>
           
-            
+            <p>분쟁관련 사망자의 총 수를 총 인구로 나눈 것으로, 인구 1십만 명당으로 표시됨. 분쟁관련 사망은 분쟁으로 인한 직접적인 사망과 간접적인 사망으로 구분할 수 있음.  직접적인 사망은 분쟁 당사자들 간의 전쟁으로 발생한 직접적인 죽음을 의미하는데, 가령 전통적인 전쟁이나 폭격 등이 포함됨. 간접적인 사망은 분쟁으로 인한 경제 악화, 의약품 부족, 농업 능력 감소로 인한 식량, 식수, 위생, 건강 및 안전한 작업 환경에 대한 접근성 부족으로 인해 초래되는 사망을 의미함</p>
 
           
         </td>
@@ -842,7 +844,7 @@ data-event-label="Change to Sources tab"
 <script src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.3/dist/html2canvas.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/file-saver@2.0.2/dist/FileSaver.min.js"></script>
-<script src='/sdg-indicators/assets/js/sdg.js?v=20210331023237'></script><script src="/sdg-indicators/assets/js/custom.js?v=20210331023237"></script><script>
+<script src='/sdg-indicators/assets/js/sdg.js?v=20210331050021'></script><script src="/sdg-indicators/assets/js/custom.js?v=20210331050021"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();

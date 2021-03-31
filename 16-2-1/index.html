@@ -151,7 +151,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-indicators/assets/css/default.css?v=20210331023237">
+        <link rel="stylesheet" href="/sdg-indicators/assets/css/default.css?v=20210331050021">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -186,9 +186,10 @@ var translations = {
       <img src="/sdg-indicators/assets/img/SDG_logo.png" alt="지속가능발전목표 - 17 Goals to Transform our World" />
     </a>
 
-  <div class='hidden visible-xs float-right'>
-    <ul id='accessibility-nav' class='contrast-switcher'></ul><div class="language-toggle-mobile">
-      <a class="language-toggle-button" onclick="$(this).next('.language-toggle').toggle(); return false;">
+ # <div class='hidden visible-xs float-right'>
+ #  <ul id='accessibility-nav' class='contrast-switcher'></ul>
+ ##   <div class="language-toggle-mobile">
+ #     <a class="language-toggle-button" onclick="$(this).next('.language-toggle').toggle(); return false;">
 	<i class="fa fa-globe"></i>
 	<span class="language-toggle-text">한국어</span>
 	<i class="language-toggle fa fa-chevron-down"></i>
@@ -199,7 +200,8 @@ var translations = {
 	<li><a href="javascript:moveEN();">English</a></li>
 </ul>
 
-    </div></div>
+ #   </div>
+ ## </div>
 
     <nav class="navbar navbar-default" id="main-nav">
 
@@ -341,7 +343,7 @@ var translations = {
 
 		<a href="/sdg-indicators/16">
 		<span class="hidden-sm hidden-md hidden-lg">목표 16: </span>
-		지속가능발전을 위한 평화롭고 포용적인 사회 증진, 모두에게 정의 보장과 모든 수준에서 효과적이며 책임성 있고 포용적인 제도 구축  : 아동에 대한 모든 형태의 폭력 종식
+		지속가능발전을 위한 평화롭고 포용적인 사회 증진, 모두에게 정의 보장과 모든 수준에서 효과적이며 책임성 있고 포용적인 제도 구축  : 아동에 대한 학대, 착취, 인신매매 및 모든 형태의 폭력과 고문 종식
 		</a>
 	</h1>
 	<h2>지표 16.2.1: 지난 1개월간 보호자로부터 체벌이나 심리적 위협을 경험한 적이 있는 1-17세 아동 비율</h2>
@@ -456,7 +458,7 @@ data-event-label="Change to Sources tab"
         <th scope="row" class="col-xs-3 col-sm-3 col-md-2">지표 정의 </th>
         <td>
           
-            
+            <p>지난 1개월간 보호자로부터 신체적 체벌, 심리적 위협을 경험한 1~14세 아동의 비율 지표로 대체 측정됨. 복수집단지표조사(Multiple Indicator Cluster Surveys)의 정의에 따르면 정서적인 폭력은 어린이를 대상으로 소리를 지르거나 모욕적으로 어린이를 지칭하는 경우를 뜻하며, 육체적 체벌은 어린이에게 고의적으로 육체적인 고통 또는 가벼운 통증을 주는 고의적인 행위를 뜻함. 가령 어린이에게 부상을 입히지는 않지만 어린이를 흔들거나, 이들의 특정 신체 부위를 손이나 도구를 사용하여 때리는 행위들이 육체적인 폭력에 해당됨</p>
 
           
         </td>
@@ -842,7 +844,7 @@ data-event-label="Change to Sources tab"
 <script src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.3/dist/html2canvas.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/file-saver@2.0.2/dist/FileSaver.min.js"></script>
-<script src='/sdg-indicators/assets/js/sdg.js?v=20210331023237'></script><script src="/sdg-indicators/assets/js/custom.js?v=20210331023237"></script><script>
+<script src='/sdg-indicators/assets/js/sdg.js?v=20210331050021'></script><script src="/sdg-indicators/assets/js/custom.js?v=20210331050021"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();

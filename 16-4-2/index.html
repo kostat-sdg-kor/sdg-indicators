@@ -151,7 +151,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-indicators/assets/css/default.css?v=20210331023237">
+        <link rel="stylesheet" href="/sdg-indicators/assets/css/default.css?v=20210331050021">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -186,9 +186,10 @@ var translations = {
       <img src="/sdg-indicators/assets/img/SDG_logo.png" alt="지속가능발전목표 - 17 Goals to Transform our World" />
     </a>
 
-  <div class='hidden visible-xs float-right'>
-    <ul id='accessibility-nav' class='contrast-switcher'></ul><div class="language-toggle-mobile">
-      <a class="language-toggle-button" onclick="$(this).next('.language-toggle').toggle(); return false;">
+ # <div class='hidden visible-xs float-right'>
+ #  <ul id='accessibility-nav' class='contrast-switcher'></ul>
+ ##   <div class="language-toggle-mobile">
+ #     <a class="language-toggle-button" onclick="$(this).next('.language-toggle').toggle(); return false;">
 	<i class="fa fa-globe"></i>
 	<span class="language-toggle-text">한국어</span>
 	<i class="language-toggle fa fa-chevron-down"></i>
@@ -199,7 +200,8 @@ var translations = {
 	<li><a href="javascript:moveEN();">English</a></li>
 </ul>
 
-    </div></div>
+ #   </div>
+ ## </div>
 
     <nav class="navbar navbar-default" id="main-nav">
 
@@ -341,7 +343,7 @@ var translations = {
 
 		<a href="/sdg-indicators/16">
 		<span class="hidden-sm hidden-md hidden-lg">목표 16: </span>
-		지속가능발전을 위한 평화롭고 포용적인 사회 증진, 모두에게 정의 보장과 모든 수준에서 효과적이며 책임성 있고 포용적인 제도 구축  : 불법 자금 및 무기거래 감소, 모든 형태의 조직범죄를 퇴치
+		지속가능발전을 위한 평화롭고 포용적인 사회 증진, 모두에게 정의 보장과 모든 수준에서 효과적이며 책임성 있고 포용적인 제도 구축  : 2030년까지 불법 자금 및 무기 거래를 상당 수준으로 감소, 은닉재산 회수 및 환수를 강화하며, 모든 형태의 조직화된 범죄를 방지
 		</a>
 	</h1>
 	<h2>지표 16.4.2: 압수, 적발, 회수된 무기 중 국제법제에 따라 유관당국에 의해 불법성이 추적, 확인된 비율</h2>
@@ -456,7 +458,7 @@ data-event-label="Change to Sources tab"
         <th scope="row" class="col-xs-3 col-sm-3 col-md-2">지표 정의 </th>
         <td>
           
-            
+            <p>무기는 소형 무기 및 경무기를 지칭하며, 총알 또는 발사체를 방출하거나 발사하도록 설계 혹은 변형 가능한 휴대용 무기로 정의됨. 압수된 무기란 해당 무기와 관련된 형사 범죄 또는 행정 위반 혐의와 관련하여 일시적이든 아니든 관계 당국에 의해 정해진 기간 동안 물질적으로 빼앗긴 무기를 의미함. 적발된 무기란 의도적이나 계획된 조사와 관련 없이 당국에 의해 압수된 무기를 의미하며, 무기의 분실 또는 도난 신고 여부에 관계없이 어떠한 이에게도 소유권이 없음. 회수된 무기는 계획된 조사와 관련이 없이 당국에 넘겨진 무기로, 자발적인 회수 캠페인과, 군축 및 동원 해제 과정에서 시민에 의해 주도적으로 발생한 무기를 지칭함</p>
 
           
         </td>
@@ -842,7 +844,7 @@ data-event-label="Change to Sources tab"
 <script src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.3/dist/html2canvas.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/file-saver@2.0.2/dist/FileSaver.min.js"></script>
-<script src='/sdg-indicators/assets/js/sdg.js?v=20210331023237'></script><script src="/sdg-indicators/assets/js/custom.js?v=20210331023237"></script><script>
+<script src='/sdg-indicators/assets/js/sdg.js?v=20210331050021'></script><script src="/sdg-indicators/assets/js/custom.js?v=20210331050021"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
