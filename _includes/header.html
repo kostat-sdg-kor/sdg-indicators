@@ -36,12 +36,12 @@
       </ul>
 
       <ul class="nav navbar-nav menu-target contrast-switcher" id="menu">
-      <!--  {%- if site.menu -%}
+        {%- if site.menu -%}
           {%- assign current_path_no_slash = page.url | remove: '/' -%}
            {%- for item in site.menu -%}
           {%- assign item_path_no_slash = item.path | remove: '/' -%}
            <li class="nav-link {% if current_path_no_slash == item_path_no_slash %}active{% endif %}">
-            <a href="{{ site.baseurl }}{{ baseurl_folder }}{{ item.path }}">{{ item.translation_key | t }}</a>
+           <!-- <a href="{{ site.baseurl }}{{ baseurl_folder }}{{ item.path }}">{{ item.translation_key | t }}</a> -->
           </li>
           {%- endfor -%}
         {%- endif -%}
@@ -50,7 +50,7 @@
           {% include components/language-toggle.html %}
         </li>
         {%- endif -%}
-        -->
+        
       </ul>
 
       {% include search.html %}
