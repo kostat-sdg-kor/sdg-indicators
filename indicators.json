@@ -732,7 +732,7 @@
       "title": "모두를 위한 지속적이고 포용적이며 지속가능한 경제성장, 완전하고 생산적인 고용과 양질의 일자리 증진",
       "indicators": [{
           "id": "8-2-1",
-          "title": "취업자 1인당 실질 GDP의 연 성장률",
+          "title": "실질 GDP 성장률",
           "description": "",
           "keywords": "GDP",
           "href": "/sdg-indicators/8-2-1",
@@ -746,49 +746,49 @@
           "status": "notapplicable"
         },{
           "id": "8-9-1",
-          "title": "전체 GDP 및 성장률에 관광분야가 직접적으로 기여하는 GDP 비율",
+          "title": "전체 국내총생산(GDP) 및 성장률에 관광분야가 직접적으로 기여하는 국내총생산(GDP) 비율",
           "description": "",
           "keywords": "관광, GDP, Tourism",
           "href": "/sdg-indicators/8-9-1",
           "status": "notapplicable"
         },{
           "id": "8-8-1",
-          "title": "노동자 십만 명당 치명적 및 비치명적 산업 재해 건수(성별 및 이주 상태별)",
+          "title": "재해 사고사망만인율",
           "description": "",
           "keywords": "",
           "href": "/sdg-indicators/8-8-1",
           "status": "complete"
         },{
           "id": "8-10-2",
-          "title": "은행이나 기타 금융기관, 혹은 모바일 금융서비스 제공자의 계좌를 보유하고 있는 (15세 이상) 성인인구 비율",
+          "title": "은행 및 기타 금융기관, 혹은 모바일 금융서비스 계좌 보유 (15세 이상) 성인인구 비율",
           "description": "",
           "keywords": "",
           "href": "/sdg-indicators/8-10-2",
           "status": "complete"
         },{
           "id": "8-4-2",
-          "title": "총 및 1인당 물질소비량, GDP 대비 물질소비량",
+          "title": "국내물질소비량, 1인당 국내물질소비량, GDP당 국내물질소비량",
           "description": "",
           "keywords": "GDP, Population",
           "href": "/sdg-indicators/8-4-2",
           "status": "complete"
         },{
           "id": "8-3-1",
-          "title": "전체 고용 부문의 비공식 고용률 (부문별, 성별)",
+          "title": "총 고용 중 비공식 고용 비율(부문 및 성별)",
           "description": "",
           "keywords": "노동, 노동력, Labour Force",
           "href": "/sdg-indicators/8-3-1",
           "status": "notapplicable"
         },{
           "id": "8-1-1",
-          "title": "1인당 실질 GDP의 연 성장률",
+          "title": "실질 GDP 성장률",
           "description": "",
           "keywords": "GDP, Population",
           "href": "/sdg-indicators/8-1-1",
           "status": "complete"
         },{
           "id": "8-a-1",
-          "title": "무역원조(Aid for Trade) 약정 및 지불",
+          "title": "무역원조 약정 및 지불",
           "description": "",
           "keywords": "ODA",
           "href": "/sdg-indicators/8-a-1",
@@ -809,14 +809,14 @@
           "status": "notapplicable"
         },{
           "id": "8-5-2",
-          "title": "실업률 (성, 연령, 장애인별)",
+          "title": "실업률",
           "description": "",
           "keywords": "Labour Force",
           "href": "/sdg-indicators/8-5-2",
           "status": "complete"
         },{
           "id": "8-5-1",
-          "title": "근로자의 평균 시간당 임금 (성, 연령, 직업 및 장애별)",
+          "title": "근로자의 평균 시간당 임금",
           "description": "",
           "keywords": "Employment, Earnings",
           "href": "/sdg-indicators/8-5-1",
@@ -837,7 +837,7 @@
           "status": "complete"
         },{
           "id": "8-b-1",
-          "title": "청년층 고용에 대한 국가 계획 개발 및 운영여부 – 별도 계획 혹은 국가 계획의 일부 인지 여부",
+          "title": "별도 계획 혹은 국가 계획의 일부로서 청년층 고용에 대한 국가 계획 개발 운영 여부",
           "description": "",
           "keywords": "규제, 정책, 교육, 고용, Non-statistical, legislation, policy, Education, Employment, skills",
           "href": "/sdg-indicators/8-b-1",
@@ -857,7 +857,7 @@
           "status": "complete"
         },{
           "id": "9-1-2",
-          "title": "승객 및 화물 운송량(운송수단별)",
+          "title": "운송수단별 승객 및 화물량",
           "description": "",
           "keywords": "",
           "href": "/sdg-indicators/9-1-2",
@@ -871,14 +871,14 @@
           "status": "complete"
         },{
           "id": "9-1-1",
-          "title": "사계절 도로(all-season road) 2km 반경 내 거주하는 농촌인구비율",
+          "title": "사계절 도로(all-season road) 2km 반경 내 거주하는 시골 인구 비율",
           "description": "",
           "keywords": "Geography Accelerator Project",
           "href": "/sdg-indicators/9-1-1",
           "status": "notapplicable"
         },{
           "id": "9-4-1",
-          "title": "부가가치 단위당 이산화탄소 배출",
+          "title": "GDP 단위당 이산화탄소 배출량",
           "description": "",
           "keywords": "GDP",
           "href": "/sdg-indicators/9-4-1",
@@ -906,28 +906,28 @@
           "status": "complete"
         },{
           "id": "9-a-1",
-          "title": "인프라분야에 대한 국제사회의 총공적지원(ODA+기타공적자금)",
+          "title": "인프라 분야에 대한 국제사회의 총 공적지원(ODA와 기타 공적지원)",
           "description": "",
           "keywords": "공적개발원조, ODA",
           "href": "/sdg-indicators/9-a-1",
           "status": "notapplicable"
         },{
           "id": "9-5-2",
-          "title": "거주자(inhabitants) 백만 명당 (전일제) 연구자 수",
+          "title": "인구 1만 명당 상근상당 연구원 수",
           "description": "",
           "keywords": "Labour Force, Population",
           "href": "/sdg-indicators/9-5-2",
           "status": "complete"
         },{
           "id": "9-3-1",
-          "title": "총 산업부가가치 중 소규모(small-scale) 산업 비율",
+          "title": "총 산업 부가가치 중 소규모 산업 비율",
           "description": "",
           "keywords": "GDP",
           "href": "/sdg-indicators/9-3-1",
           "status": "complete"
         },{
           "id": "9-2-1",
-          "title": "GDP 대비 및 1인 당 제조업 부가가치 비율",
+          "title": "GDP 대비 제조업 부가가치 비율",
           "description": "",
           "keywords": "GDP, Population",
           "href": "/sdg-indicators/9-2-1",
@@ -940,14 +940,14 @@
       "title": "국내 및 국가 간 불평등 감소",
       "indicators": [{
           "id": "10-7-1",
-          "title": "이주국가에서 얻은 월소득 대비 이주노동자가 부담하는 고용비용의 비율",
+          "title": "직장(사업체) 구할 때 취업소개료 지불 유무 및 수준",
           "description": "",
           "keywords": "",
           "href": "/sdg-indicators/10-7-1",
           "status": "complete"
         },{
           "id": "10-4-2",
-          "title": "재정 정책의 재분배 효과",
+          "title": "시장소득 지니계수",
           "description": "",
           "keywords": "",
           "href": "/sdg-indicators/10-4-2",
@@ -961,7 +961,7 @@
           "status": "notapplicable"
         },{
           "id": "10-7-4",
-          "title": "출신국별 난민 인구 비율",
+          "title": "국적별 난민 신청자 및 인정자 현황",
           "description": "",
           "keywords": "",
           "href": "/sdg-indicators/10-7-4",
@@ -975,7 +975,7 @@
           "status": "complete"
         },{
           "id": "10-3-1",
-          "title": "국제인권법 차별금지기준으로 지난 12개월 동안 차별 또는 괴롭힘을 당했다고 느꼈음을 보고한 인구의 비율",
+          "title": "지난 1년간 차별을 경험한 이유별 응답 비율",
           "description": "",
           "keywords": "범죄, Crime",
           "href": "/sdg-indicators/10-3-1",
@@ -989,7 +989,7 @@
           "status": "complete"
         },{
           "id": "10-7-2",
-          "title": "질서 있고 안전하고 정규적이고 책임 있는 이주와 이동성을 촉진하는 이주정책을 가진 국가의 수",
+          "title": "질서 있고 안전하고 정적이고 책임 있는 이주와 이동성을 촉진하는 이주정책을 가진 국가의 수",
           "description": "",
           "keywords": "규제, 정책, Non-statistical, legislation, policy",
           "href": "/sdg-indicators/10-7-2",
@@ -1024,7 +1024,7 @@
           "status": "notapplicable"
         },{
           "id": "10-2-1",
-          "title": "중위소득 50% 미만 인구의 성, 연령 및 장애별 비율",
+          "title": "중위소득 50% 이하 인구의 상대적 빈곤율",
           "description": "",
           "keywords": "poverty",
           "href": "/sdg-indicators/10-2-1",
@@ -1044,14 +1044,14 @@
       "title": "포용적이고 안전하며 회복력 있고 지속가능한 도시와 지 조성",
       "indicators": [{
           "id": "11-6-1",
-          "title": "지자체에서 수거되고 관리되는 고형 폐기물 비율",
+          "title": "폐기물 처리 현황",
           "description": "",
           "keywords": "",
           "href": "/sdg-indicators/11-6-1",
           "status": "complete"
         },{
           "id": "11-7-2",
-          "title": "지난 12개월 동안 신체적 혹은 성적 괴롭힘을 당한 인구의 성, 연령, 장애, 발생장소별 비율",
+          "title": "폭력범죄 유형별 범죄피해건수",
           "description": "",
           "keywords": "범죄, Crime",
           "href": "/sdg-indicators/11-7-2",
@@ -1065,21 +1065,21 @@
           "status": "notapplicable"
         },{
           "id": "11-b-2",
-          "title": "국가의 재난위험감축전략에 따라 지자체 차원에서 재난위험감축전략을 갖추고 있는 비율",
+          "title": "국가의 재난위험감축전략에 따라 지자체 차원에서 전략을 갖추고 있는 비율",
           "description": "",
           "keywords": "",
           "href": "/sdg-indicators/11-b-2",
           "status": "complete"
         },{
           "id": "11-2-1",
-          "title": "대중교통에 편리하게 접근할 수 있는 인구비율(연령, 성 및 장애별)",
+          "title": "행정구역, 시설, 시간대, 교통수단별 접근 가능 인구 비율",
           "description": "",
           "keywords": "",
           "href": "/sdg-indicators/11-2-1",
           "status": "complete"
         },{
           "id": "11-5-2",
-          "title": "중요 기반시설 피해 및 기본적인 서비스의 중단 등 재난으로 인한 GDP 대비 직접적인 경제적 손실",
+          "title": "중요 기반시설 피해 및 기본적인 서비스의 중단 등 재난으로 인한 글로벌 GDP 대비 직접적인 경제적 손실",
           "description": "",
           "keywords": "",
           "href": "/sdg-indicators/11-5-2",
@@ -1100,7 +1100,7 @@
           "status": "notapplicable"
         },{
           "id": "11-3-1",
-          "title": "인구성장률 대비 토지소모 비율",
+          "title": "인구증가율 대비 토지소모율 비",
           "description": "",
           "keywords": "experimental",
           "href": "/sdg-indicators/11-3-1",
@@ -1114,7 +1114,7 @@
           "status": "complete"
         },{
           "id": "11-6-2",
-          "title": "도시 미세먼지의 연평균수준 (인구수에 따른 가중)",
+          "title": "연도별 도시별 대기오염도(미세먼지, 초미세먼지)",
           "description": "",
           "keywords": "",
           "href": "/sdg-indicators/11-6-2",
@@ -1128,14 +1128,14 @@
           "status": "notapplicable"
         },{
           "id": "11-7-1",
-          "title": "도시에서 공공목적의 용도를 위해 개방된 공용 공간이 차지하는 평균비율 (연령, 성 및 장애별)",
+          "title": "시도별 공간시설 면적 비율",
           "description": "",
           "keywords": "Public; Open Space; Habitat; Environment; Cities",
           "href": "/sdg-indicators/11-7-1",
           "status": "complete"
         },{
           "id": "11-1-1",
-          "title": "빈민가, 임시거처 또는 최소한의 요건을 갖추지 못한 주거시설에 거주하는 도시인구비율",
+          "title": "최저주거기준 미달가구 비율",
           "description": "",
           "keywords": "",
           "href": "/sdg-indicators/11-1-1",
