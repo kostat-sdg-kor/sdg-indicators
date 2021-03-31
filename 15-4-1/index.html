@@ -151,7 +151,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-indicators/assets/css/default.css?v=20210331014250">
+        <link rel="stylesheet" href="/sdg-indicators/assets/css/default.css?v=20210331023237">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -341,10 +341,10 @@ var translations = {
 
 		<a href="/sdg-indicators/15">
 		<span class="hidden-sm hidden-md hidden-lg">목표 15: </span>
-		육상 생태계의 보호, 복원 및 지속가능한 이용 증진, 산림의 지속가능한 관리, 사막화 방지, 토지황폐화 중지와 회복, 생물다양성 손실 중지  : 생물다양성을 포함한 산지 생태계 보전
+		육상 생태계의 보호, 복원 및 지속가능한 이용 증진, 산림의 지속가능한 관리, 사막화 방지, 토지황폐화 중지와 회복, 생물다양성 손실 중지  : 2030년까지 지속가능발전에 필수적인 이익을 주는 산림생태계의 수용력을 증진하기 위해, 생물다양성을 포함한 산림 생태계 보존을 보장
 		</a>
 	</h1>
-	<h2>지표 15.4.1: 산림생물다양성 관련 중요 보호지역 면적</h2>
+	<h2>지표 15.4.1: 산악생물다양성 중요 지역 중 보호지역으로 지정된 면적 비율</h2>
 </div>
 </div>
 </div>
@@ -442,7 +442,7 @@ data-event-label="Change to Sources tab"
         <th scope="row" class="col-xs-3 col-sm-3 col-md-2">지표명 </th>
         <td>
           
-            <p>산림생물다양성 관련 중요 보호지역 면적</p>
+            <p>산악생물다양성 중요 지역 중 보호지역으로 지정된 면적 비율</p>
 
           
         </td>
@@ -456,7 +456,8 @@ data-event-label="Change to Sources tab"
         <th scope="row" class="col-xs-3 col-sm-3 col-md-2">지표 정의 </th>
         <td>
           
-            
+            <p>세계자연보전연맹(IUCN, International Union for Conservation of Nature)이 지정한 중요지역 중 산악생물다양성을 위해 보호지역으로 설정된 지역의 비중 중요지역은 장기간에 걸친 생태계 서비스와 문화적인 가치가 연계된 지역으로, 자연 보호를 달성하기 위하여 법적 혹은 다른 방법들을 통해 명확하게 정의되며 확실한 목적 하에 관리되는 지리적인 장소임 항목 Ⅰa: 엄정 자연보호지역(Strict Nature Reserve), 항목 Ⅰb: 야생지 보호지역(Wilderness Area), 항목 Ⅱ: 국립공원(National Park), 항목 Ⅲ: 자연기념물(Natural monument or feature), 항목 Ⅳ: 서식지/종 관리지역(Habitat/Species Management Area) 항목 V: 경관 보호지역(Protected Landscape/Seascape) 항목 Ⅵ: 자원보호지역(Managed Resource Protected Area)
+지정된 상태란 보호 구역이 국내법이나 일반적인 관습(예를 들어 행정부의 법령 등)에 따라 상응하는 권한이 생길 때 공식적으로 지정 문서에 승인된 상태를 지칭함</p>
 
           
         </td>
@@ -729,10 +730,10 @@ data-event-label="Change to Sources tab"
 		  data-copyright=""
          data-footnote="" data-showdata="true" data-graphtype="line"
 		 data-charttitle="생태계 보호 지역에서 생물 다양성 지역의 평균 비율" 
-		 data-geographicalarea="전국" 
-	data-country="전국"
+		 data-geographicalarea="전체" 
+	data-country="전체"
     data-datasource=""
-		 data-measurementunit="퍼센트 (%)"
+		 data-measurementunit="퍼센트(%)"
          data-geocoderegex="" data-showmap="false" data-startvalues="">
 		 
 
@@ -1219,7 +1220,7 @@ data-event-label="Change to Map tab"
 <script src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.3/dist/html2canvas.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/file-saver@2.0.2/dist/FileSaver.min.js"></script>
-<script src='/sdg-indicators/assets/js/sdg.js?v=20210331014250'></script><script src="/sdg-indicators/assets/js/custom.js?v=20210331014250"></script><script>
+<script src='/sdg-indicators/assets/js/sdg.js?v=20210331023237'></script><script src="/sdg-indicators/assets/js/custom.js?v=20210331023237"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();

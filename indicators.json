@@ -1390,28 +1390,28 @@
           "status": "complete"
         },{
           "id": "15-1-1",
-          "title": "총 육지면적중 산림 면적의 비율",
+          "title": "연도별 임상별 산림면적비율(%)",
           "description": "",
           "keywords": "",
           "href": "/sdg-indicators/15-1-1",
           "status": "complete"
         },{
           "id": "15-1-2",
-          "title": "육상 및 담수 생물다양성을 위한 보호지역 지정 비율 (생태계 유형별)",
+          "title": "육상 및 담수 생물다양성 중요 지역 중 보호지역으로 지정된 면적 비율(생태계 유형별)",
           "description": "",
           "keywords": "",
           "href": "/sdg-indicators/15-1-2",
           "status": "complete"
         },{
           "id": "15-c-1",
-          "title": "불법적으로 거래되거나 밀렵된 야생생물의 거래 비율",
+          "title": "불법 거래 혹은 밀렵된 야생생물 비율",
           "description": "",
           "keywords": "교육, CITES, UNODC",
           "href": "/sdg-indicators/15-c-1",
           "status": "notapplicable"
         },{
           "id": "15-9-1",
-          "title": "(a) 생물다양성 증진을 위한 아이치목표 타겟2에 따라 국가 차원의 목표를 수립한 국가의 수와 그 목표에 따른 보고 진전도 (b) 환경경제계정* 구현을 위한 국가 회계 및 보고 시스템과 생태다양성의 통합",
+          "title": "(a) 생물다양성 증진을 위한 아이치목표 타겟2에 따라 국가 차원의 목표를 수립한 국가의 수와 그 목표에 따른 보고 진전도 (b) 환경경제계정 구현을 위한 국가 회계 및 보고 시스템과 생태다양성의 통합",
           "description": "",
           "keywords": "규제, 정책, Non-statistical, legislation, policy",
           "href": "/sdg-indicators/15-9-1",
@@ -1439,7 +1439,7 @@
           "status": "notapplicable"
         },{
           "id": "15-4-2",
-          "title": "산림피복 지수",
+          "title": "산악녹색피복지수",
           "description": "",
           "keywords": "Mountain; Green cover; Index; Environment; Geography; FAO",
           "href": "/sdg-indicators/15-4-2",
@@ -1453,14 +1453,14 @@
           "status": "complete"
         },{
           "id": "15-7-1",
-          "title": "불법적으로 거래되거나 밀렵된 야생생물의 거래 비율",
+          "title": "불법 거래 혹은 밀렵된 야생생물 비율",
           "description": "",
           "keywords": "도시, CITES, UNODC",
           "href": "/sdg-indicators/15-7-1",
           "status": "notapplicable"
         },{
           "id": "15-4-1",
-          "title": "산림생물다양성 관련 중요 보호지역 면적",
+          "title": "산악생물다양성 중요 지역 중 보호지역으로 지정된 면적 비율",
           "description": "",
           "keywords": "",
           "href": "/sdg-indicators/15-4-1",
@@ -1476,7 +1476,7 @@
           "id": "15-6-1",
           "title": "공정하고 공평한 혜택 분배를 보장하기 위해 입법적, 행정적 그리고 정책적 프레임워크를 채택한 국가의 수",
           "description": "",
-          "keywords": "Non-statistical, legislation, policy",
+          "keywords": "legislation, policy",
           "href": "/sdg-indicators/15-6-1",
           "status": "complete"
         }]
