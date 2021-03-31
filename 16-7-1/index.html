@@ -151,7 +151,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-indicators/assets/css/default.css?v=20210331054236">
+        <link rel="stylesheet" href="/sdg-indicators/assets/css/default.css?v=20210331075324">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -350,10 +350,10 @@ var translations = {
 
 		<a href="/sdg-indicators/16">
 		<span class="hidden-sm hidden-md hidden-lg">목표 16: </span>
-		지속가능발전을 위한 평화롭고 포용적인 사회 증진, 모두에게 정의 보장과 모든 수준에서 효과적이며 책임성 있고 포용적인 제도 구축  : 포용적이고 참여적이며 대표성 있는 의사결정 보장
+		지속가능발전을 위한 평화롭고 포용적인 사회 증진, 모두에게 정의 보장과 모든 수준에서 효과적이며 책임성 있고 포용적인 제도 구축  : 모든 수준에서 의사결정이 대응적, 포용적, 참여적이며 대표성을 갖출 수 있도록 보장
 		</a>
 	</h1>
-	<h2>지표 16.7.1: 국가전체 대비 공공기관(국가 및 지방 입법부, 행정부, 사법부) 내 성별, 연령, 장애여부 등 인구집단별 보직분포 비율</h2>
+	<h2>지표 16.7.1: 공무원 현원(성별)</h2>
 </div>
 </div>
 </div>
@@ -451,7 +451,7 @@ data-event-label="Change to Sources tab"
         <th scope="row" class="col-xs-3 col-sm-3 col-md-2">지표명 </th>
         <td>
           
-            <p>국가전체 대비 공공기관(국가 및 지방 입법부, 행정부, 사법부) 내 성별, 연령, 장애여부 등 인구집단별 보직분포 비율</p>
+            <p>공무원 현원(성별)</p>
 
           
         </td>
@@ -465,7 +465,7 @@ data-event-label="Change to Sources tab"
         <th scope="row" class="col-xs-3 col-sm-3 col-md-2">지표 정의 </th>
         <td>
           
-            <p>공공기관(국가 및 지방 입법부, 행정부, 사법부)내 주요 의사 결정 직위에 있는 종사자가 성별, 연령, 장애여부와 같은 인구집단의 다양성을 반영하고 있는지를 측정</p>
+            <p>매년 말(12.31.일) 기준 공무원 현원 규모 * 공무원 현원: 지방자치단체 공무원을 대상으로 하며, 일반직(임기제, 전문경력관 등 포함), 특정직, 정무직, 별정직을 포함한다. 일반임기제공무원을 제외한 시간선택제임기제 공무원과 한시임기제공무원은 지방공무원 현원에 포함하지 않음. 별도정원(교육, 파견, 휴직인원) 미포함, 기간제근로자, 무기계약직 미포함</p>
 
           
         </td>
@@ -613,8 +613,8 @@ data-event-label="Change to Sources tab"
             
 
             
-              <a href="https://unstats.un.org/sdgs/metadata/files/Metadata-16-07-01A.pdf" target="_blank">
-                https://unstats.un.org/sdgs/metadata/files/Metadata-16-07-01A.pdf <span class="visuallyhidden">새 창에서 열기</span>
+              <a href="https://unstats.un.org/sdgs/metadata/files/Metadata-16-07-01a.pdf https://unstats.un.org/sdgs/metadata/files/Metadata-16-07-01b.pdf https://unstats.un.org/sdgs/metadata/files/Metadata-16-07-01c.pdf" target="_blank">
+                https://unstats.un.org/sdgs/metadata/files/Metadata-16-07-01a.pdf https://unstats.un.org/sdgs/metadata/files/Metadata-16-07-01b.pdf https://unstats.un.org/sdgs/metadata/files/Metadata-16-07-01c.pdf <span class="visuallyhidden">새 창에서 열기</span>
               </a>
             
 
@@ -738,10 +738,10 @@ data-event-label="Change to Sources tab"
 		  data-copyright=""
          data-footnote="" data-showdata="true" data-graphtype="line"
 		 data-charttitle="공무원 현원" 
-		 data-geographicalarea="전국" 
-	data-country="전국"
+		 data-geographicalarea="전체" 
+	data-country="전체"
     data-datasource=""
-		 data-measurementunit="퍼센트(%)"
+		 data-measurementunit="명"
          data-geocoderegex="" data-showmap="false" data-startvalues="">
 		 
 
@@ -980,7 +980,7 @@ data-event-label="Change to Map tab"
 <script src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.3/dist/html2canvas.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/file-saver@2.0.2/dist/FileSaver.min.js"></script>
-<script src='/sdg-indicators/assets/js/sdg.js?v=20210331054236'></script><script src="/sdg-indicators/assets/js/custom.js?v=20210331054236"></script><script>
+<script src='/sdg-indicators/assets/js/sdg.js?v=20210331075324'></script><script src="/sdg-indicators/assets/js/custom.js?v=20210331075324"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
