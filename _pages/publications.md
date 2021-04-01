@@ -367,7 +367,7 @@ layout: page
       
          
       <tr class="content"><!-- 2 -->
-         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/15.pdf">SDGs in the ROK Progress Report 2019</a></td>
+         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/15.pdf">SDGs in the ROK Progress Report 2021</a></td>
          <td class="report1">통계청 통계개발원</td>
          <td>2021</td>
       </tr>
