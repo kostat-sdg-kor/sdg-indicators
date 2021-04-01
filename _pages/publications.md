@@ -294,23 +294,23 @@ layout: page
 <div class="top_div">
    <div class="item">
       <div>
-         <a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/1.pdf">
-            <img src="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/1.png" alt="1"/>
+         <a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/16.pdf">
+            <img src="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/16.png" alt="1"/>
          </a>
       </div>
       <div>
-         <p> (통계개발원) 글로벌 렌즈로 본 한국의 SDGs 데이터와 이행현황 2019<br></p>
+         <p> (통계개발원) 한국의 SDGs 이행보고서 2021<br></p>
       </div>
    </div>
    
    <div class="item">
       <div>
-         <a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/2.pdf">
-             <img src="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/2.png" alt="2"/>    
+         <a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/17.pdf">
+             <img src="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/17.png" alt="2"/>    
           </a>
       </div>
       <div>
-         <p>(Statistics Research Institute) SDGs in the ROK Progress Report  2019<br></p>
+         <p>(Statistics Research Institute) SDGs in the Republic of Korea: Progress Report 2021<br></p>
       </div>
    </div>
    
