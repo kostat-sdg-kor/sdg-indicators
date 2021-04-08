@@ -306,7 +306,7 @@ layout: page
    <div class="item">
       <div>
          <a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/17.pdf">
-             <img src="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/17.png" alt="2"/>    
+             <img src="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/17.png" alt="2"/> 
           </a>
       </div>
       <div>
@@ -317,7 +317,7 @@ layout: page
    <div class="item">
       <div>
          <a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/15.pdf">
-             <img src="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/2.png" alt="2"/>    
+             <img src="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/2.png" alt="3"/>    
           </a>
       </div>
       <div>
@@ -328,7 +328,7 @@ layout: page
    <div class="item">
       <div>
          <a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/1.pdf">
-            <img src="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/1.png" alt="1"/>
+            <img src="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/1.png" alt="4"/>
          </a>
       </div>
       <div>
@@ -340,6 +340,7 @@ layout: page
    <div class="search_div">
       <input type="text" class="srh_input" name="search_input" placeholder="제목검색"/>
       <input type="button" class="srh_btn" name="search_button" value="검색" onclick="search();"/>
+   
    </div>
 </div>
 
@@ -357,16 +358,17 @@ layout: page
          <th>발간년도</th>
       </tr>
 
+
       <tr class="content"><!-- 1 -->
          <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/16.pdf">한국의 SDGs 이행보고서 2021</a></td>
          <td class="report1">통계청 통계개발원</td>
-         <td>2020</td>
+         <td>2021</td>
       </tr>
       
       <tr class="content"><!-- 2 -->
          <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/17.pdf">SDGs in the ROK Progress Report 2021</a></td>
          <td class="report1">통계청 통계개발원</td>
-         <td>2020</td>
+         <td>2021</td>
       </tr>
       
       <tr class="content"><!-- 3 -->
