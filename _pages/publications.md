@@ -324,7 +324,6 @@ layout: page
          <p>SDGs 지표 톺아보기<br></p>
       </div>
    </div>
-   
    <div class="item">
       <div>
          <a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/1.pdf">
@@ -335,12 +334,13 @@ layout: page
          <p> 한국의 SDGs 데이터와 이행현황<br></p>
       </div>
    </div>
-   
+</div>
 <div class="search_form">
    <div class="search_div">
       <input type="text" class="srh_input" name="search_input" placeholder="제목검색"/>
       <input type="button" class="srh_btn" name="search_button" value="검색" onclick="search();"/>
    
+
    </div>
 </div>
 
@@ -357,7 +357,6 @@ layout: page
          <th>기관</th>
          <th>발간년도</th>
       </tr>
-
 
       <tr class="content"><!-- 1 -->
          <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/16.pdf">한국의 SDGs 이행보고서 2021</a></td>
@@ -382,7 +381,6 @@ layout: page
          <td class="report1">통계청 통계개발원</td>
          <td>2020</td>
       </tr>
-
       <tr class="content"><!-- 5 -->
          <td class="title"><a href="https://unstats.un.org/sdgs/report/2020/The-Sustainable-Development-Goals-Report-2020.pdf">The Sustainable Development Goals Report 2020</a></td>
          <td class="report3">United Nations</td>
@@ -393,8 +391,7 @@ layout: page
          <td class="title"><a href="https://www.unescap.org/sites/default/files/publications/ESCAP_Asia_and_the_Pacific_SDG_Progress_Report_2020.pdf">Asia and the Pacific SDG Progress Report 2020</a></td>
          <td class="report3">UN ESCAP</td>
          <td>2020</td>
-      </tr>
-      
+      </tr>      
       
       <tr class="content"><!-- 7 -->
          <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/1.pdf">한국의 SDGs 데이터와 이행현황</a></td>
@@ -402,13 +399,11 @@ layout: page
          <td>2019</td>
       </tr>
 
-
       <tr class="content"><!-- 8 -->
          <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/2.pdf">SDGs in the ROK Progress Report 2019</a></td>
          <td class="report1">통계청 통계개발원</td>
          <td>2019</td>
       </tr>
-
 
       <tr class="content"><!-- 9 -->
          <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/1572586046142_K-SDGs_report.pdf">2019 국가 지속가능발전목표(K-SDGs) 수립보고서</a></td>
@@ -452,6 +447,7 @@ layout: page
          <td>2019</td>
       </tr>
 
+
       <tr class="content"><!-- 16 -->
          <td class="title"><a href="http://know.nifos.go.kr/book/search/DetailView.ax?&cid=173483">지속가능발전목표(SDGs) 이행을 위한 자발적 국가평가(VNR) 분석 : SDG 15(육상생태계)를 중심으로</a></td>
          <td class="report2">국립산림과학원</td>
@@ -469,7 +465,6 @@ layout: page
          <td class="report2">경제인문사회연구회</td>
          <td>2019</td>
       </tr>    
-
 
       <tr class="content"><!-- 19 -->
          <td class="title"><a href="https://unstats.un.org/sdgs/report/2019/The-Sustainable-Development-Goals-Report-2019.pdf">The Sustainable Development Goals Report 2019</a></td>
@@ -531,11 +526,13 @@ layout: page
          <td>2018</td>
       </tr>
 
+
       <tr class="content"><!-- 29 -->
          <td class="title"><a href="http://www.klri.re.kr/viewer/skin/doc.html?fn=12%ED%98%B8_%EC%A7%80%EC%86%8D%EA%B0%80%EB%8A%A5%EB%B0%9C%EC%A0%84%EB%AA%A9%ED%91%9C%20%EC%8B%A4%ED%98%84%EC%9D%84%20%EC%9C%84%ED%95%9C%20%ED%8A%B9%EC%88%98%EA%B5%90%EC%9C%A1%EB%B2%95%EC%A0%9C%20%EA%B0%9C%EC%84%A0%EB%B0%A9%EC%95%88.pdf&rs=/doc_convert/FILE_000000000026098Y6ZtM">지속가능발전목표(SDGs) 실현을 위한 특수교육법제 개선방안</a></td>
          <td class="report2">한국청소년정책연구원</td>
          <td>2018</td>
       </tr>
+
 
       <tr class="content"><!-- 30 -->
          <td class="title"><a href="http://www.klri.re.kr/viewer/skin/doc.html?fn=7%ED%98%B8_%EC%A7%80%EC%86%8D%EA%B0%80%EB%8A%A5%EB%B0%9C%EC%A0%84%EB%AA%A9%ED%91%9C%EB%82%B4%205%EB%B2%88%20%EC%84%B1%ED%8F%89%EB%93%B1%20%EB%8F%85%EC%9E%90%EB%AA%A9%ED%91%9C%EC%9D%98%20%EC%A0%A0%EB%8D%94%EC%A0%81%20%EA%B4%80%EC%A0%90%EC%9D%98%20%ED%95%B4%EC%84%9D%EA%B3%BC%20%EA%B5%AD%EB%82%B4%20%EC%9D%B4%ED%96%89%20%EB%B0%A9%EC%95%88.pdf&rs=/doc_convert/FILE_000000000026105HIulh">지속가능발전목표(SDGs) 내 5번 성평등 독자목표의 젠더적 관점의 해석과 국내 이행 방안</a></td>
@@ -549,19 +546,18 @@ layout: page
          <td>2018</td>
       </tr>
 
-
       <tr class="content"><!-- 32 -->
          <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/50.pdf">지속가능발전목표(SDGs) 내 성평등 관련 지표의 국내이행 현황 및 정책과제</a></td>
          <td class="report2">한국여성정책연구원</td>
          <td>2018</td>
       </tr>
 
-
       <tr class="content"><!-- 33 -->
          <td class="title"><a href="http://www.klri.re.kr/viewer/skin/doc.html?fn=CC18-17-11.pdf&rs=/doc_convert/FILE_000000000026677uDqF9">기후변화와 지속가능발전 법제연구: 산업 - 산업분야 지속가능발전목표(SDGs) 국내이행의 이해와 촉진 -</a></td>
          <td class="report2">한국법제연구원</td>
          <td>2018</td>
       </tr>
+
 
       <tr class="content"><!-- 34 -->
          <td class="title"><a href="http://www.klri.re.kr/viewer/skin/doc.html?fn=CC18-17-8.pdf&rs=/doc_convert/FILE_000000000026672JvqEw">기후변화와 지속가능발전 법제연구 : 보건·복지 - 보건의료기본법 상의 기후변화에 따른 국민건강영향평가 -</a></td>
@@ -580,7 +576,6 @@ layout: page
          <td class="report2">한국법제연구원</td>
          <td>2018</td>
       </tr>
-
 
       <tr class="content"><!-- 37 -->
          <td class="title"><a href="https://www.unesco.or.kr/assets/data/report/m8xCs1z3ObBt4D81Dax9c2KyIXMHnB_1543384964_2.pdf">우리의 지속가능한 생물다양성</a></td>
@@ -648,6 +643,7 @@ layout: page
          <td>2017</td>
       </tr>
 
+
       <tr class="content"><!-- 48 -->
          <td class="title"><a href="https://www.unesco.or.kr/assets/data/report/xNoBXzg8AvKzsQ1zmRL4MCN39Ji3JV__2.pdf">우리의 지속가능한 도시(SDG 11)</a></td>
          <td class="report2">유네스코한국위원회</td>
@@ -660,12 +656,12 @@ layout: page
          <td>2017</td>
       </tr>     
 
+
       <tr class="content"><!-- 50 -->
          <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/84.pdf">SDGs 통계 거버넌스 연구</a></td>
          <td class="report1">통계청 통계개발원</td>
          <td>2017</td>
       </tr>
-
 
       <tr class="content"><!-- 51 -->
          <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/87.pdf">통계청 주요 지표체계 간 조정 및 서비스 방안 연구</a></td>
@@ -678,7 +674,6 @@ layout: page
          <td class="report1">통계청 통계개발원</td>
          <td>2017</td>
       </tr>
-
 
       <tr class="content"><!-- 53 -->
          <td class="title"><a href="https://unstats.un.org/sdgs/files/report/2017/TheSustainableDevelopmentGoalsReport2017.pdf">The Sustainable Development Goals Report 2017</a></td>
@@ -704,6 +699,7 @@ layout: page
          <td>2017</td>
       </tr>
 
+
       <tr class="content"><!-- 57 -->
          <td class="title"><a href="http://lib.koica.go.kr/search/media/img/CAT000000039786?metsno=000000015736&fileid=M000000015736_FILE000001">알기쉬운 지속가능발전목표 SDGs</a></td>
          <td class="report2">국제개발협력시민사회포럼, 한국국제협력단(KOICA)</td>
@@ -722,7 +718,6 @@ layout: page
          <td>2016</td>
       </tr>
    
-
       <tr class="content"><!-- 60  -->
          <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/45.pdf">여성과 ICT : 지속가능발전목표 5 (양성평등과 여성권익향상)의 이행</a></td>
          <td class="report2">정보통신정책연구원</td>
@@ -734,6 +729,7 @@ layout: page
          <td class="report2">한국법제연구원</td>
          <td>2016</td>
       </tr>
+
 
       <tr class="content"><!-- 62 -->
          <td class="title"><a href="https://library.kei.re.kr:444/dmme/img/001/005/014/%eb%ac%bc%eb%b6%84%ec%95%bc%ea%b5%ad%ec%a0%9c%eb%8f%99%ed%96%a5%ea%b3%bc%ed%9a%a8%ec%9c%a8%ec%a0%81%eb%8c%80%ec%9d%91%eb%b0%a9%ec%95%88%ec%97%b0%ea%b5%ac_%ea%b9%80%ed%98%b8%ec%a0%95.pdf">물 분야 국제동향과 효율적 대응방안 연구</a></td>
@@ -752,7 +748,6 @@ layout: page
          <td class="report2">산업연구원(KIET)</td>
          <td>2016</td>
       </tr>     
-
 
       <tr class="content"><!-- 65 -->
          <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/85.pdf">지속가능발전목표(SDGs) 데이터 세분화와 항목 표준화 연구</a></td>
@@ -784,6 +779,7 @@ layout: page
          <td>2015</td>
       </tr>
 
+
       <tr class="content"><!-- 70 -->
          <td class="title"><a href="https://library.kei.re.kr:444/dmme/img/001/012/004/%ea%b8%b0%ec%b4%882015_08_%ec%9e%84%ed%98%9c%ec%88%99.pdf">자원순환분야 지속가능발전목표(SDGs) 이행 기반 마련을 위한 기초연구</a></td>
          <td class="report2">한국환경정책평가연구원</td>
@@ -802,7 +798,6 @@ layout: page
          <td>2014</td>
       </tr>
    
-
       <tr class="content"><!-- 73 -->
          <td class="title"><a href="https://library.kei.re.kr:444/dmme/img/001/009/005/%ea%b8%b0%eb%b3%b82014_21_%ec%a1%b0%ec%9d%84%ec%83%9d.pdf">SDGs 관점의 물인권 지원을 위한 한국의 ODA 전략방향 연구</a></td>
          <td class="report2">한국환경정책평가연구원</td>
