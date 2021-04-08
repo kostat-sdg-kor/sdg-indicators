@@ -317,7 +317,7 @@ layout: page
    <div class="item">
       <div>
          <a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/15.pdf">
-             <img src="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/2.png" alt="3"/>    
+             <img src="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/15.png" alt="3"/>    
           </a>
       </div>
       <div>
