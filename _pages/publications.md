@@ -317,21 +317,21 @@ layout: page
    <div class="item">
       <div>
          <a href="https://unstats.un.org/sdgs/report/2020/The-Sustainable-Development-Goals-Report-2020.pdf">
-             <img src="https://github.com/kostat-sdg-kor/sdg-indicators/blob/develop/public/report/3_2020.PNG" alt="3"/>    
+             <img src="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/3_2020.PNG" alt="3"/>    
           </a>
       </div>
       <div>
-         <p>The sustainable development goals report 2020<br></p>
+         <p>The SDGs report 2020<br></p>
       </div>
    </div>
    <div class="item">
       <div>
          <a href="https://www.unescap.org/sites/default/files/publications/ESCAP_Asia_and_the_Pacific_SDG_Progress_Report_2020.pdf">
-            <img src="https://github.com/kostat-sdg-kor/sdg-indicators/blob/develop/public/report/4.png" alt="4"/>
+            <img src="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/4.png" alt="4"/>
          </a>
       </div>
       <div>
-         <p>Asia and the pacific SDG progress report 2020<br></p>
+         <p>Asia and pacific SDG progress report<br></p>
       </div>
    </div>
 </div>
