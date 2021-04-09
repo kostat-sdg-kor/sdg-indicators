@@ -316,22 +316,22 @@ layout: page
    
    <div class="item">
       <div>
-         <a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/15.pdf">
-             <img src="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/15.png" alt="3"/>    
+         <a href="https://unstats.un.org/sdgs/report/2020/The-Sustainable-Development-Goals-Report-2020.pdf">
+             <img src="https://github.com/kostat-sdg-kor/sdg-indicators/blob/develop/public/report/3_2020.PNG" alt="3"/>    
           </a>
       </div>
       <div>
-         <p>SDGs 지표 톺아보기<br></p>
+         <p>The sustainable development goals report 2020<br></p>
       </div>
    </div>
    <div class="item">
       <div>
-         <a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/1.pdf">
-            <img src="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/1.png" alt="4"/>
+         <a href="https://www.unescap.org/sites/default/files/publications/ESCAP_Asia_and_the_Pacific_SDG_Progress_Report_2020.pdf">
+            <img src="https://github.com/kostat-sdg-kor/sdg-indicators/blob/develop/public/report/4.png" alt="4"/>
          </a>
       </div>
       <div>
-         <p> 한국의 SDGs 데이터와 이행현황<br></p>
+         <p>Asia and the pacific SDG progress report 2020<br></p>
       </div>
    </div>
 </div>
